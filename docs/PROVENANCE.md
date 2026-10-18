@@ -9,3 +9,5 @@ The full original launch command and archived multimodal weights were not retain
 Raw or processed signal caches, trained checkpoints, manuscript source, private keys, and personal machine configuration are not part of this repository. The public ChineseEEG dataset must be obtained from its provider. No repository-wide redistribution license has yet been designated; upstream data and model terms still apply.
 
 README graphics were prepared with code. The architecture illustration contains author-arranged explanatory components prepared with AI assistance, as disclosed in the manuscript; data plots use saved numerical results. The release does not claim publication acceptance.
+
+README animations are rendered with Pillow drawing primitives by `scripts/build_readme_animations.py`. They show conceptual message flow, without encoding recorded signals, fitted weights, or experimental scores. Static alternatives are included.

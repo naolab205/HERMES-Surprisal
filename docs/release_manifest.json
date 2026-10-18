@@ -8,8 +8,8 @@
     "sha256": "7b377a65c00548a6a1a8f9d6575db6b9555eaaae99a55cf2644ae3ebd1f24076"
   },
   "README.md": {
-    "bytes": 8408,
-    "sha256": "b709e2eb4bdcfb9b62db2327f4a1790834836831e9a3a24f91af53548097f626"
+    "bytes": 8535,
+    "sha256": "c467691e6c466c247616b7a093f923f02afb5baeb5f6da767ca90d3a5e096f18"
   },
   "analysis/book_stratified_item_correlations.csv": {
     "bytes": 809,
@@ -220,8 +220,8 @@
     "sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
   },
   "docs/PROVENANCE.md": {
-    "bytes": 1807,
-    "sha256": "2be0eebc490d766c628abda878bdebe6e9b6a8ae359d1249d05b1adf32bb1f2e"
+    "bytes": 2055,
+    "sha256": "df3d4621b9d8b3bd2b9334d6c6ba11b4fd03582bb4c9d4601ed3b89df0884dcf"
   },
   "docs/REPRODUCIBILITY.md": {
     "bytes": 5002,
@@ -2646,5 +2646,25 @@
   "tests/test_overlap_demixer.py": {
     "bytes": 4170,
     "sha256": "6741da511f577caefd30cb27333981f31f641238855d48741f31a6e2138401c8"
+  },
+  "scripts/build_readme_animations.py": {
+    "bytes": 6062,
+    "sha256": "5de0e494639b7049cd6a5ebc54b10f04fdb4dfd6b3623ffb8ca52e9af809a71c"
+  },
+  "docs/assets/hero_animated.gif": {
+    "bytes": 308981,
+    "sha256": "4f182a53da543e3ccadf78eec66ac0a3eed5c61942f637c587a703e4bca2fbf6"
+  },
+  "docs/assets/hero_animated_still.png": {
+    "bytes": 102666,
+    "sha256": "ec161c1079764708ee10ef4b53d91b5668484176e64687edbefde0c19728b3b1"
+  },
+  "docs/assets/architecture_animated.gif": {
+    "bytes": 127620,
+    "sha256": "511dd16188f6fd4ed68b34cabd7e6fb7e735d58d2c1c50c716af108d90e69e61"
+  },
+  "docs/assets/architecture_animated_still.png": {
+    "bytes": 57198,
+    "sha256": "d558176d45650a94c99cb02a96e454993c65ca3334b22bcd85826e44b4142fac"
   }
 }

@@ -1,13 +1,12 @@
 <div align="center">
-  <img src="docs/assets/banner.svg" width="100%" alt="HERMES: hierarchical EEG and eye representations for row-level surprisal" />
+  <img src="docs/assets/hero_animated.gif" width="100%" alt="HERMES: hierarchical EEG and eye representations for row-level surprisal" />
 
   <p><strong>Hierarchical EEG–Eye Representations for Model-Estimated Surprisal</strong></p>
-  <p>A physiological prediction model with explicit evidence and reproducibility boundaries.</p>
 
   <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&amp;logoColor=white" /></a>
   <a href="https://pytorch.org/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-model-EE4C2C?logo=pytorch&amp;logoColor=white" /></a>
   <a href="https://openneuro.org/datasets/ds004952"><img alt="Dataset" src="https://img.shields.io/badge/Data-ChineseEEG-168B88" /></a>
-  <a href="docs/REPRODUCIBILITY.md"><img alt="Evidence" src="https://img.shields.io/badge/Evidence-archived%20%2B%20controls-6750A4" /></a>
+  <a href="docs/REPRODUCIBILITY.md"><img alt="Reproducibility" src="https://img.shields.io/badge/Code-reproducibility%20guide-6750A4" /></a>
 
   <p><a href="#the-model">Model</a> · <a href="#results-and-interpretation">Results</a> · <a href="#quick-start">Quick start</a> · <a href="docs/REPRODUCIBILITY.md">Reproducibility</a> · <a href="docs/PROVENANCE.md">Provenance</a></p>
 </div>
@@ -20,7 +19,7 @@ The model name refers to the existing `MM_mid` implementation. It does not defin
 
 ## The model
 
-<p align="center"><img src="docs/assets/architecture.svg" width="100%" alt="Separate EEG and eye window encoders, residual fusion, cross-slot integration, masked pooling, and row regression" /></p>
+<p align="center"><img src="docs/assets/architecture_animated.gif" width="100%" alt="Separate EEG and eye window encoders, residual fusion, cross-slot integration, masked pooling, and row regression" /></p>
 
 | Stage | Operation |
 | :-- | :-- |
@@ -29,6 +28,8 @@ The model name refers to the existing `MM_mid` implementation. It does not defin
 | Local encoding | Separate temporal encoders; concatenated temporal mean/max summaries project to 96 dimensions |
 | Fusion | A zero-initialized linear eye residual is added to the EEG embedding |
 | Row integration | A cross-slot sequence block, masked mean pooling, and a regression head predict the row score |
+
+The animations illustrate the computation flow; moving elements are schematic and do not show recorded waveforms or measured activations. [Static architecture](docs/assets/architecture_animated_still.png).
 
 The primary architecture is in [`src/foundation/hiernet.py`](src/foundation/hiernet.py). The training entry is [`scripts/run_charbag_cv.py`](scripts/run_charbag_cv.py). Optional research modules are included for traceability and are **not** components of the primary model unless their flags are enabled.
 
