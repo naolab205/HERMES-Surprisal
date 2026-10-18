@@ -2,6 +2,8 @@
 
 These are measured training-data summaries associated with manuscript Figures 5 and 7. They are separate from the conceptual README flow animations.
 
+For a longer and faster display with all ten available readers, see the [0–2000-ms, 39-frame extension](extended/README.md). Its available-book cohort is documented separately from the balanced nine-reader analysis below.
+
 ## Animation S1 · Group high-minus-low contrast
 
 ![Animation S1: group high-minus-low scalp voltage](topography/group_contrast.gif)

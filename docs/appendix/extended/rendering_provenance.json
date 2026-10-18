@@ -1,0 +1,37 @@
+{
+  "source_sha256": "0bb49edf41c2d23b45a2adc4b3466541bd9bb88eaf3d9a0dbd293ec97723b23d",
+  "subjects": [
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-13",
+    "sub-14",
+    "sub-15"
+  ],
+  "n_readers": 10,
+  "n_frames": 39,
+  "window_width_ms": 100,
+  "window_step_ms": 50,
+  "display_frame_ms": 100,
+  "animation_duration_ms": 3900,
+  "time_extent_ms": [
+    0,
+    2000
+  ],
+  "temporal_interpolation": false,
+  "group_color_limits_uv": [
+    -2.44,
+    2.44
+  ],
+  "reader_color_limits_uv": [
+    -15.33,
+    15.33
+  ],
+  "shared_across_readers_and_time": true,
+  "mne_version": "1.12.1",
+  "cohort_difference": "Available-book average for sub-15; do not equate to the balanced nine-reader main analysis."
+}

@@ -1,0 +1,3423 @@
+{
+  "data": "ChineseEEG ds004952 author-filtered 0.5\u201330Hz continuous recordings",
+  "subjects": [
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-13",
+    "sub-14",
+    "sub-15"
+  ],
+  "n_readers": 10,
+  "n_recordings": 19,
+  "counts": [
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "n_low": 1206,
+      "n_high": 1199
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "n_low": 228,
+      "n_high": 212
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "n_low": 1175,
+      "n_high": 1162
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "n_low": 677,
+      "n_high": 698
+    }
+  ],
+  "windows_ms": [
+    [
+      0,
+      100
+    ],
+    [
+      50,
+      150
+    ],
+    [
+      100,
+      200
+    ],
+    [
+      150,
+      250
+    ],
+    [
+      200,
+      300
+    ],
+    [
+      250,
+      350
+    ],
+    [
+      300,
+      400
+    ],
+    [
+      350,
+      450
+    ],
+    [
+      400,
+      500
+    ],
+    [
+      450,
+      550
+    ],
+    [
+      500,
+      600
+    ],
+    [
+      550,
+      650
+    ],
+    [
+      600,
+      700
+    ],
+    [
+      650,
+      750
+    ],
+    [
+      700,
+      800
+    ],
+    [
+      750,
+      850
+    ],
+    [
+      800,
+      900
+    ],
+    [
+      850,
+      950
+    ],
+    [
+      900,
+      1000
+    ],
+    [
+      950,
+      1050
+    ],
+    [
+      1000,
+      1100
+    ],
+    [
+      1050,
+      1150
+    ],
+    [
+      1100,
+      1200
+    ],
+    [
+      1150,
+      1250
+    ],
+    [
+      1200,
+      1300
+    ],
+    [
+      1250,
+      1350
+    ],
+    [
+      1300,
+      1400
+    ],
+    [
+      1350,
+      1450
+    ],
+    [
+      1400,
+      1500
+    ],
+    [
+      1450,
+      1550
+    ],
+    [
+      1500,
+      1600
+    ],
+    [
+      1550,
+      1650
+    ],
+    [
+      1600,
+      1700
+    ],
+    [
+      1650,
+      1750
+    ],
+    [
+      1700,
+      1800
+    ],
+    [
+      1750,
+      1850
+    ],
+    [
+      1800,
+      1900
+    ],
+    [
+      1850,
+      1950
+    ],
+    [
+      1900,
+      2000
+    ]
+  ],
+  "sample_rate_hz": 128,
+  "source_epoch_samples": [
+    -13,
+    256
+  ],
+  "window_width_ms": 100,
+  "window_step_ms": 50,
+  "temporal_interpolation": false,
+  "reader_sd_ddof": 1,
+  "scope": "Setting0 training blocks2\u20136; ten complete slots; observed ROWS onset; only rows and recordings with full -100..2000ms coverage; no crossing target row end.",
+  "book_averaging": "Equal available books within reader, then equal ten readers. sub-15 contributes GarnettDream only; this ten-reader extension differs from the balanced nine-reader main analysis.",
+  "thresholds": {
+    "GarnettDream": [
+      2.905264177105644,
+      3.701070266267793
+    ],
+    "LittlePrince": [
+      2.409686825285205,
+      3.0753023387332044
+    ]
+  },
+  "baseline": "13 pre-row samples; quantize to original float16 cache precision before float32 baseline subtraction",
+  "nine_reader_main_contrast_max_abs_difference_uv": 7.843335894953951e-05,
+  "numeric_reduction_note": "Original summary used float32 joint reductions; extended sample-wise accumulation uses float64. Condition counts and published three-decimal group RMS are identical; max absolute reader-map difference must remain below 0.0001 \u00b5V.",
+  "manifest_sha256": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8",
+  "labels_sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f",
+  "sources": [
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "81446ef82e8f767d4711681ad1f8f2bccab5cb9651e060be8d771689028cd0fc",
+      "eeg_sha256": "b2558f5d1622c0d5c5c38c6c9212a4bd4201042693a8f4f81dd1c39d1a2a4770",
+      "events_sha256": "b7f628e80404171adddfeb4ef04cb41e54b65b64f8d4ebf2e6ac4a3c230e6e39",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "0e953ebd3eed6f9b8b2793174de0593cd68a8f617e176c88c2eed73aa9b17eab",
+      "eeg_sha256": "c12ed6d37e643f2e6632c3881f03413693f057559764c7c6813f5fca140adbfa",
+      "events_sha256": "b0a7fa3439373cc2a097cc6f1c591e5b56a17f39f234861725516d03c02bd82d",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "d181f92c756e98e590d7f13bcd8ffe5312859e1bc9e6526a87b3ab981c010acd",
+      "eeg_sha256": "17cc54272c1dbab454f3592e3bbbc1e713af2e228697bceb843e304c13881692",
+      "events_sha256": "45acfe05b28f6852d813571690f73fbabcaaf980c17aa6aaaf4f0e3c49fe1f03",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "3da4a5effcc353eed0e8dc04a11913a9c3bdd081636289c574bf2cdf901528bc",
+      "eeg_sha256": "bc26a578bbbd58572d6e3cdf9993b0bf19426a903272098fd7d7c52f32ecadf0",
+      "events_sha256": "943405801e691f25b805b21fd46a7445c08a5be93fdaf0f867923fa576dd1294",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "c0af3e77161e314e33d7ac033dfa0e6157da8a58f25abcdf152d21f022484fda",
+      "eeg_sha256": "e2e1076805a31296299cc18dab91c6e83e7c6caac0c3090f8dcb49505b44f921",
+      "events_sha256": "734fe6287d3eda56eaacb4a324829be314e04c704b5d24be526a8a76c868c423",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "96ba9e393f1493dd53488e997afa18c600f1bc7f9550bd816bf6737874805408",
+      "eeg_sha256": "446712777802174f318405410903ac1a68d4a5e78d254d4621a8265a316012bd",
+      "events_sha256": "f1b5ecad0f381d7f27cc86f5bbf49ff1bdfc1f11f82333fb1484f7d98fc8994c",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "03c972495c2dbcba4e28a1ae7e7e1a5519803584de6aa624f602d20c1e9adad0",
+      "eeg_sha256": "21453aa63da01f15cf830ccd96896c9c57006160e0273884ad56c1e6f1ec9971",
+      "events_sha256": "8d67869f58fd9545ed130b71456851cece057e7e7fcb705a597164dea831b78f",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "d02061912503afbfbd0361f6351dd5812b57d82d4748e9f25c82ca97c4f055ad",
+      "eeg_sha256": "37b04321399958199002887a73dabd7fb0778a2a88f016d49c47884b7ac9f5b6",
+      "events_sha256": "747d3a7eb129885beb61507c0eb6ccd45d1cf4e0692f1a3586345bb3eab1aa4b",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "4e5b6e1079d6448135acccf729cca35c46f7661a0edd0fc59e528b53b52024a5",
+      "eeg_sha256": "f62e5457de99e2dbadaced01bf9e2bf98fb5e22d354410479bc028fdad2aa621",
+      "events_sha256": "36132e359dc3eb1270c2fe6fbef0d793d290121102f109ec012ee30bab8ffccf",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "a0b81b196f2de3976f6e5c195202b00f8a99982f9abfe5091fb0723aca62216e",
+      "eeg_sha256": "c92942fbfebcb8421861bcd3af2304d4a78b74c6bf332fa7b04d452362993a32",
+      "events_sha256": "aec4407a2f47cb978263cd320bed2213090192fdca97115915af5ff6316b414a",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "9077210e8bbad1d220c072a361114d32681298f37569059d45b3e299dcf3eaff",
+      "eeg_sha256": "719ad91fe9a85ef164d350289b0ac605109510d00db21cea94275f7aebed0b4d",
+      "events_sha256": "de5c116a57cef58813a8a05e1e9143a86e79d2a0f007bb0badab38ab4e350092",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "af697cc8154791ac4faa079d2c71d11c6183f4f5e648229210101fad5703f872",
+      "eeg_sha256": "0e6b0c20911da5c96a2349015b64fcddddff67c7ffb048790e1d2d42812a70c8",
+      "events_sha256": "c0866f46cc97a52a6dba4a49ac8a4a9151481e3f38287c160c0ff7673fa49ef4",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "fc43901a5c9bb8a2441acc504b600107990ae5a8fceb98c954cc6ba48f182cd8",
+      "eeg_sha256": "6e10b6ed2252b154530c951926e76251f5158ec5e3557198a98bcb863a37dfd8",
+      "events_sha256": "153004d4ee53b8f34943b2b99e548015a257f79c8dbd4d53be0cec689ac319b9",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "c557ef5077b29733dc0890f082835f3c14ca5bb98c83717997333310b29c702d",
+      "eeg_sha256": "444084673b525898dae7644616f52341bfbabfc795995596abdc367888f9928d",
+      "events_sha256": "c96dcbf52a5888beab1d8c1fab5b3542d7c9649ed4edff6d50281fa99ef5ced4",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "83dd5d55d5c7cb6057fe5d7c614bf8586c89b80bc7ab08a1230ff8156c0d5f07",
+      "eeg_sha256": "49d89f1705307d8c52f9322cc3cfa3c289cc190c16a8549acdee13209afa0233",
+      "events_sha256": "47bc8f15ef5ee5942edf13d9569585755197a989dd61c87f28e8819b56bb146c",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "768f0c1482f6cabe16a6abc458031b621b30080ba9f52e66c714d84aef81fad5",
+      "eeg_sha256": "8da0d7497e9958bdbd2d1924b7b0c3ecbc52c798bd587a8448079461bf4b317c",
+      "events_sha256": "40fce8f5cf75e86b7ea9431de0dde43d3aa9cb5c3f8601390d8970075eb16e6c",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "4c1712117001df79a790de948b3eb4e189b3b82887d137518ab1f0e20f634645",
+      "eeg_sha256": "ecd9597a22735b188563cb5847b6ec8d6cc05017075156536f0a4076188fbb0b",
+      "events_sha256": "0b465cc422cb892a62ee2bf3baa1b2af642ee88a33f49d5519d1eb9c01587ee8",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "e0f8058724f6a687cc2d44e3286fbd03ad47a022a150f84a8c3054be034bf248",
+      "eeg_sha256": "37ab4f0723e6a95bc197de34eeae243d43e8e027caf65a2af51a0d0b5aba1d19",
+      "events_sha256": "d3e8c815ae4214e01fc1fd26f444ee21fcd7e31b4e9863a87d9e67b9edac50e2",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "4ae37e70981b3d502e793b7fd67102fa2de3cbc3e1a0a00ee44436287045585b",
+      "eeg_sha256": "d86fdec1a874350657ac974b5a5f8a6fdfe21c13c40855b7330b30f0a627a5ad",
+      "events_sha256": "e01a87b4ffc93b7c37adc10d576e4c11271f264f19a699e7f2b003b4e0e7cba1",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "ff7a1bf2db161a93ba5cb54d8522047850d0c5644af0e8e719e55b28f032bfec",
+      "eeg_sha256": "e083b55a84f02ff10fd61bcf4466bf13bb773c842ff42a77d34f505a58864958",
+      "events_sha256": "a8fd9fba1b2537c728fa42ef7118f5664a27e6c608c768124ef48111565b328f",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "d600552b89bc33bd763aa2f1e37320edb58063af46f12b376e787ae529c7f59a",
+      "eeg_sha256": "b89bb358878b5f007fc97c7b6faff9145f680bdf07dfbb61fed16761a721f698",
+      "events_sha256": "3560938a46325520e9521d84a7b69d26bde235cc4d1f80b51aa9c5b5547bc5b4",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "125dfad5652cddce47f9cb71d8ca9b56de403cb408d3fadb4975764f76e665be",
+      "eeg_sha256": "8c02014120027e74503aab83f085ca183a4bdac941a0363a4262f1ff7c300198",
+      "events_sha256": "78baab653da8f41cf6fd78d9e7d2b3c6c5e64284b106063584cf6d2333aeee63",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "718f5b9c67718b32ee1665ca5c25760c6ad18927053db425735bbc195f47f355",
+      "eeg_sha256": "ba98226c6852f7b722267fc31ce3d7807e0af86d8c6af9e660cd52e9100924f2",
+      "events_sha256": "e54907e90108adbb5dd9cc66e74df3b1c34908913aa842c320574f879be928b9",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "8d41616a65becfb2c51e282019cd66dcab16fd03023e00b45934b86faaa48ea8",
+      "eeg_sha256": "06add935375eb1ce3f5b3c8f126adee74e1ccda5f23d4d4b9d6e5245afe4064a",
+      "events_sha256": "cf139e3bce8ec52f0e3a6cd50e8fcfb004a3949ee7a900f33fb18133d86e9b46",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "df479a0ccf81020a3c30e92d324c68a7fd41b993e3a1eb88808479ce48bff927",
+      "eeg_sha256": "e4ebca6c9220d7ef2e89a7c5db2cdae77009665163acaf8194132dab0ac959a4",
+      "events_sha256": "ece1c54e6ae4761ff582f2225fa227d6426284706fe5fff1dff454ee0491a36d",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "902026018d4f02ba8aae109aca47cdebdb5b6b6ca03797189b42a3e245147fff",
+      "eeg_sha256": "68e13a401747a690a298cf21ac3cbd3818c6b90f3b739b7478e182cb34a039eb",
+      "events_sha256": "48b9d6624c97fd8772887991e9aafaa5d67b945dd72af20c8db58802c71b86a2",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "b55c684989141b56c59b9e573d3afde13da4f4eb6b086639d8f7f4927d417d9b",
+      "eeg_sha256": "ead693c624ad98f8130d3d9ae756aeec7a35c6c5fed89722cafe0f43ab35c319",
+      "events_sha256": "63c5196ab8e8a7069e938da3729934ccc5fa70565029e16a054629b4ba629757",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "d3e6f0f34db68886d39a16e04e6beaa44c08444c06d66f64a6e367569c1a0b0e",
+      "eeg_sha256": "b165984aae8109c045c57c948a14a81ccbdc2da8e28fe0ccab61d8acea87cb2a",
+      "events_sha256": "5a58d1f1feb5559134dab8d6cca6a3deb088f217048ed256dc5af857aa5478a3",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "caebbd5a06ed451924fd2c748355e24adfb6339fc8cedb3138956d8af6f76729",
+      "eeg_sha256": "669b17499debae2d1c4d9e84fb7f10bc3bdb0b3b7bd7c2b4b2fec9d6cfe95b55",
+      "events_sha256": "fc508297f67923f2795eee2bcf680c8dcdb9c7d8f295a5200d6c0aafbea8d5f7",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "1f2a505947b92e541b07735095dc6a095820380b75181018fef72c7275660d6c",
+      "eeg_sha256": "d99eb01e7b8b26b84ff4288e5fd0510aeeb2361ea719713c54ff4ef0eb64d2fe",
+      "events_sha256": "c7d49aac9f23e9140951f9d471ef5d69a119c0572b7639fc05fed6a1bc914b7f",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "6ac6e106da1070d3b65db3c0970afea9712f48c36bcaebc7848fff467487872f",
+      "eeg_sha256": "ed4737792a19cc1e772fd3a83e2417c4f948bf21b4afec7c4ad2728a214fd5b6",
+      "events_sha256": "07ccb38fa44c57b9eda6c7cafe9d3123d578b7e5e64af368468c050ea66a51f1",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "25d371a7a88acca4f78f2684a19383ac53069a5a9cdf69934538f7468b52649c",
+      "eeg_sha256": "45550ce951cdfd51b94882ba6cb2ff1bd916dbcff0e6a215e01ec45a01706d82",
+      "events_sha256": "d5837662aaad466c7c30515189fbc8ab333ac67b922b5256180655e24d51485f",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "036f7f9b1626c2342148a083cc9493b4935966176d968529758f62cf38c921f3",
+      "eeg_sha256": "1424f1b02e37160956aaf7dcf427d304afefaa1726f146abc16283dba2666906",
+      "events_sha256": "987d93f759f54266cdd274a32207bcfbcdfe9ffe777a755a6a5f9c477ea68fd3",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "971e2012b2919b96ed5a38f6315cda13fc9402a193d0a69dd59fa8ced7af91af",
+      "eeg_sha256": "5c44792418029e06bd29a37e00abd3dba4ca2ef4fcbe744644ae98137d744ee2",
+      "events_sha256": "fc3527e9bcf75b46dd07d839b20a8407d8ff86436e03ff203d72e4a1acaace00",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "40c37c12e3dbe42344a2aa96bd8430e4b46b7496f49631b27c942d5191e042f8",
+      "eeg_sha256": "830a330ed008eea65a4d3b51f05467439b7baa0c2b453251575b25ac4b585268",
+      "events_sha256": "86316f74bcf7e28dc400a84998125d045eafec233124d20fca9070aa046bc887",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "a56144389a5e0dc0044e8235f05f5d70fda261053d245ab93bcaaa730692f927",
+      "eeg_sha256": "c65acd8cb32889d205ffb4def7ebb4564054155fea814cb6a9821dd3a8788e12",
+      "events_sha256": "a7854ae4d27b903c3771f3ca721313c26ab2ee44bd30e2924148bb4f9ad40e56",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "41ef09663d465c0651a59f8a9d9ae51faac5d4b484cb0bfc5bad6b11d80b9db2",
+      "eeg_sha256": "48a6a2b80b6fc8be7005b38f4a8242c2b0f99d706629c59c647d8d612aa2f893",
+      "events_sha256": "6ee51e139032bfcdeb1317637548aa86a8970d61642f6b2aea84772dfe2a4174",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "d0c94c5fac1a9172a2a6d4127d03979c7b2310bd663ecae4f6ecd159ac738032",
+      "eeg_sha256": "9c3f4e078c31285ce6f4e2e532143025bfed266af326e46dc087a695babf9f77",
+      "events_sha256": "9e0e94cdb6baa6f88c969d0c1fb40a69ad0cb92af655e86a8356f034583f62b5",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "1908371f00e833253943123b967fcad6b96d2c2e145fe080040744aa7a789ed9",
+      "eeg_sha256": "da99c4a4db38a1dbad0563489d611a194d8d68d4bb65413c94b6f6487d2c1978",
+      "events_sha256": "d0fb74b88721972342713f3626b9afc6f817666e4bb3968d440d6700988eb589",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "cba7d09a9aa5d8a630eb2cf0aa86fc6ddc1acf9d0ac171a7d2907203d8ef12d4",
+      "eeg_sha256": "3c8ff858cb654a5de001a1990e52b2d2b22e3df255731d82dccdfc8863c80c25",
+      "events_sha256": "6ffd0148359f0dfd8f8bde5a9caf8a6e3fe52af3bd5454713433a2583116de22",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "94dc0b51a6e22ecf5f703a62ec5d1601f66688a59ba2759d317e97447b940c96",
+      "eeg_sha256": "49c55a3793d92521793aacb6c3313d0c1ccddaa94b8a6ff82faeac6a34265ba0",
+      "events_sha256": "8eebdaf4e1b3ba1cdb6470cfbc39f6191f2a6944e1021bd38974b1cc6f182fbf",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "cbd15b1014096f6877593ad8d34c905b78906187a06165cec533dcc2f223ff54",
+      "eeg_sha256": "dcf5be8964eb78a912022b3338d37f2bf84c0a30939a31fb4b199f80c39ca58f",
+      "events_sha256": "59b1dd838cea9ec10b416db3c9e225fb72d24594d330f3158c5d3c76b898f9bc",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "29f41c2198ac0b405dccdba15fa4e95f3919c96efad2c489bc75fd2bccfabf56",
+      "eeg_sha256": "c1335d112012a7a3eebc21d96fc1dfdf6706d8c8dacdf03e6e7175ed007882c4",
+      "events_sha256": "00afa34f066727b26fd208f4ad3b215a03e78536f724ef9fafa157ae3152210f",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "0761f81142830d43d9db689ef3c15b0f855c546015f7a1f6a31aaf912df2f4fa",
+      "eeg_sha256": "f1893c113959fec222e8bd51032c4cabcf7b91bca2bd18dfa708b01721d6b749",
+      "events_sha256": "97d2712c6416c38edd09d714ca83b46747f26761878c6b7bbf2c049b07893685",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "e3deadb86e8f4e3a65e7c6b61fb75a1fcf25739befab982f695ca38764666bea",
+      "eeg_sha256": "05509899813171372bfdfea25418926aa036688c29ccc04b07c3adfac6533423",
+      "events_sha256": "56e287fcb4c3f100e0c17a96b03af3ebb5387302d250db55dbd3d429472cb38f",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "cd5eb3f00715fdc44fda96beabbd4e55e575bf6deae7928f1c40d0f581f400f9",
+      "eeg_sha256": "8acbcb5df9bae719a2d6b738258ddc43a5db04701bbf534d58f55edcc48f189a",
+      "events_sha256": "8afcb56efe2b3e8874810728b57a2bcdbfd5f982796a7c86e71a0b26e11608a3",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "7789381d289d8a0773499a5d0b1f37f891d5ec2a6d85556583fd61bff33f1ba7",
+      "eeg_sha256": "867cb7297f2f3bc8204d95e9d5fe28daec7fc2ec4333228708ec4ad51272837b",
+      "events_sha256": "f6afdf19b8eb23f792268d8961b19d2693231565e9944fe0d2b006168b892326",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "f8e6fd998ff4d5cbbcb0bfdb41a6bc1e891298168e139a16fee58d55bc22c29a",
+      "eeg_sha256": "b00e2f416e408d31080d96ae1858882480e43f54c6a78d9c2725e67c0644b660",
+      "events_sha256": "34d7258668d07409531327f41420c1faaa392f0c07034a17695f1f4c0948f39d",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "abeaaad87e6787b3e0ca07c30eb779f94f20f9153e59516f17f3f65a9d778e27",
+      "eeg_sha256": "01591aac6fe32f09feee8a71c851192481b213b7824250c01a55bafbae95d73e",
+      "events_sha256": "fe97545d4c2bae15036d16f8db342fd97e9d8b91aa10ac3fb6f3ec4021e12566",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "421ffe16418b997a029add56844c7f14899dc65e4c95713c9aec8cb8ead00767",
+      "eeg_sha256": "87fcbeb2ac603732020736df8c5fd400c9c37dbd55d43d14d349847fde3bc1ae",
+      "events_sha256": "cadbdf298f141cad5d4e4aaf04a9a6f9b54a82fb2c14875d8440b6c7ecab095f",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "1d2f2b27307b43e05d260b507e24f91f1b881a440a4e51252c3b81b7b0f4f708",
+      "eeg_sha256": "6f31f54724161b9111d98c194f389a93dd6dc250d8a523119282a02b59f0ad84",
+      "events_sha256": "42af2f73778519b95d5f1c72eb3f0d64971da8af81216cc4566860066fc0d919",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "f8703c9312ffef6ef046079eb74ec8005d34ede76d4c1eeab800e6c25cc0834a",
+      "eeg_sha256": "797a597a8c3de0a3800f5b50f25aa1a536933dc3b764130c41985d1de7678aef",
+      "events_sha256": "165935a47f63e587571939aaa671ddfb98093d497d43181a229ea27952b6a633",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "7dc0491090939e93eeae22ec424017d6566480c8dbb58efe200545b050038e98",
+      "eeg_sha256": "f94caaca10042cb57d4d3727692e301ffa9fad34cf6dadd9c76ed3670dcefee9",
+      "events_sha256": "3c924dc9df282aa819d87f893814e9e035bac19b658b29b4653ad5a27a8c028d",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "bcee29fc725bee0def353be980cbad45413e376abb8be2969aad34c81bc6342c",
+      "eeg_sha256": "ad40503884014bcc9b66645513e21b46560822d4e2c38a17b351872156453f4c",
+      "events_sha256": "799723243c423093e3cb7666a78bdcc002bc64c0ce8591a778ff47799abc9783",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "64c0603c3b97c19a3359bfb08669e48886b7dd9dae28ad8aa3e559085be9c25c",
+      "eeg_sha256": "1e8303cbfea0c8e9c320da4e93ad7a96ecb3f6f14e03a97fb3ac3e8112d68d47",
+      "events_sha256": "3b954cee3b5591523b92e2b6fc53e259b9b5947fd0cac3401d127e6de4042da2",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "8839dffeb54a70513eb1d713d3dbcac1dd777ec9e7eb9d372064351b6a3be63f",
+      "eeg_sha256": "eb8072d411ce3507bbfacf44d7ccbaa79ae601ebc3b96359bb9a3c1d2c89d944",
+      "events_sha256": "3c88ddfcecdeba50a738db517631f22d56bbf8260b6fb918bcde99d4be894bff",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-GarnettDream/eeg/sub-06_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "831a05df18288fffa809b31f00375210a28502111a4090f93d93bfe1be5d545e",
+      "eeg_sha256": "831052ba401842ced662d3f15850a48a1e6a2bfeb856213f0d26e86255b2a7fd",
+      "events_sha256": "48fd00f7da0efc744bf973ed2cfb0c66e146917b2dff880ca95e220ced59a986",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "6f71a036c46ee1efd98a8b09c942f19be09a401baea7e7ae1f47a84133c34abb",
+      "eeg_sha256": "8ca564ff06b004c404b53acaf84c93fbeb7ee59995a445bfacba63e89642d34d",
+      "events_sha256": "666e5bcd2c29b908a05a3bf3a2ead1f1da0f397b323a572517dcaa0d9e46c7b4",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "1e26ce57b2d8221dade250c79adece70ae2c38c8655699be764665d6078a9e6e",
+      "eeg_sha256": "b3b3e281cf1c94dd78c3cb82b5dc006301b9dbf8801264c336d9c79071e473cd",
+      "events_sha256": "5e9f6616bc0c33ee48ed391f9943c0bcf75d1f0ae595e7d32942fcc282253793",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "b403c8998b63d043deaa8467efd8f03de4e5b607280feed091478cc3b50b0993",
+      "eeg_sha256": "78e4e665b6899a8606bad9f2203fac6e78852ed569eb606bf6986c28786ff9b4",
+      "events_sha256": "f7117f3a2e4680e1617054d8c5855e1d9c95f8099302458a7be3a18fe846f97a",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "4723fce2e5d382bae63140eba9abad740d6c18b96e6624c3fc078883488772b9",
+      "eeg_sha256": "aa92ce0ca2930d036cc7492b99a669c04ff05faf3b82dcd036127bfa8f2816e4",
+      "events_sha256": "08e545de82826644a969cbe69e5f9a4bc638474369c9b46b0627a94133bfdd4d",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "7cd22e6e93c63a8da663ef57a926eb70116ed273f441336c16af34bae1a4b73f",
+      "eeg_sha256": "7ce70c3ce66ff9879ca0898f5b8fabb09f0ad9c55b6971edadeb7f82d1a3f10e",
+      "events_sha256": "16fb35cdaa30e4c4e98c7af7feb7ee730f8358e5eff33534233a83b736ed9200",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "16aea415f6837698fc29d87aa1d7314ba07f86a1562d9bd41fd6039b5f59f1ec",
+      "eeg_sha256": "fc6b68de8f2b602519b320e85f4b89d8b503ce3030a25006033cf250002a4d21",
+      "events_sha256": "e5d03f6de52e52fc27e71b29b653e8c135072538e696778ee627f781d6d9868a",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "674fb7be9f3d74eaee528aab377d058742b55b96283b73393f9c7365e1c340e2",
+      "eeg_sha256": "84759e65791c8fc46bf2dce2af3e55ba26d2713ca253fcebc0a820b037d114e0",
+      "events_sha256": "90a81be448bf0fc963e22a67da0917fe7d212ef8b3db3cea0fdbdd39f58a6ae9",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "1ca5257ac6b18f193989fa4dab13dcff133029efe61f6ef54c6f8be3b136643e",
+      "eeg_sha256": "1af0af45d074a6e2da37ebf30d9c04c0d90db96725179a10d45cb1214c0093ce",
+      "events_sha256": "325f5d4726611249f17e78a983c1de5003aefc2501787b72e3088531cdb74359",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "11e7078ab2293a94117aa11aea8228ec4393ae519fc8f8900cdc1451b5d0018a",
+      "eeg_sha256": "7ef1e272f085a38b4bd94cc3207937306059842bdf8edecd829ed3b884c68a46",
+      "events_sha256": "569bde9ce8098730ceff651c210196c1e63d5b0fa585b9e17b2cb3db96893a1e",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "fe8dfe95d5014439bce4e28476c85f95bcee8819e4ae01bff3e80ee7dd056c08",
+      "eeg_sha256": "21c649b8a8793d8867e15f657f08c3f7b226d8a1351def2d9d1d641c5377c297",
+      "events_sha256": "5435cd4d127061d1ddece8a8e2fc9840edde18a126e5e3ea8f1f471a8658c575",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "cedf1b3d1ec0658df7b9ace611b3bba41e7a4592fb9a343c830587b41cb9f542",
+      "eeg_sha256": "6fa13ae8cef35d9702e1995aca5251bf21e82025c92056ce2ed42d94e68bcd63",
+      "events_sha256": "8de2164fa81aeb1257cc32f55a2e497b7966c820ca4251153d9fa03650f6b8e9",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "9ac4dcc4bc6fabd4945ef700355a2262089e531f0ee6707ad0b5bc6fc8a2886b",
+      "eeg_sha256": "c2beb5ba76eed1f616b509a514a1decf388a15ed4ed98154aa0fbfe85afa9035",
+      "events_sha256": "45ffaeaea5e1c3bb8d7e3959df7af1f159f57d067286826896be7604f495b6da",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "b1808f86e362bed0845822250efc4b0d9e606ae3fb121e90c6f4562b1b73ce58",
+      "eeg_sha256": "2f0b88e6b861776dacec2dd1f65ec7b2e60289fcef8a8eed7a76bc0d46ceb9b0",
+      "events_sha256": "8b325609c310ac82e1f25964f856bd01ce53a77400806f2b753ea53b1cebdb1d",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "6de9c4c58722b4f0ce7b2ac3f768872a632abb6d910910f75fe317b6ec188923",
+      "eeg_sha256": "9b9cf679396f5718befe2844a37fd86051639b1873b07d3e26c6b4dacc4a2149",
+      "events_sha256": "78ed0ec303fa030ed706c6bc828281be1bd32559378df767513e6ffef9bbf2e0",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "22c4c4b7aa18891bd8bfdb440177e6866a748fd7a348509bfdf45d8d626c46a5",
+      "eeg_sha256": "9c256900a0db9bf86efbd2b777bb623539a4fd135d74f954cbc847698875d0cc",
+      "events_sha256": "ed349f7e1c22a250a5990894ffed96a9e332071d524cb03bcd5773947c54e296",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "ebaf4e444f05d3fa7d67011a8fccc3e6d162479982b4bd133563cc8462667475",
+      "eeg_sha256": "96ab4e3f60da474e6bd6aa3210a69ae2381a824c50358af9a08e7b3ccd947e6f",
+      "events_sha256": "7cb1d0b604cfbebe86edcc924e154ab617b7ee6ea088378274a3c86336460cdd",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "9a10a1f724220a334bf9fa2d5935db84a30f719ee0de6d2ac6fb040c592a1ada",
+      "eeg_sha256": "af17e9ddcb9c6c6e057c1d36e8578b496b0172345e662008b790f004c9219128",
+      "events_sha256": "2dfb0d7e74993db67642655b60beba5d786400298f07ff0362dfb8bb8cab3651",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "898e7cda446a38176021117b0e5334d29c9cc9b0bb1d16d8f4eccba31b7b0a83",
+      "eeg_sha256": "8d39e5ec63d7c21cc05243ae36cbb6a9e6997a1d24399392b3a574bfe5fc190d",
+      "events_sha256": "3076d87b7f995e8d737353bfeeb58568ac11c857cd91d8bf0eec8ccc8eaae590",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "0b4e8a22faff949e1914f389f51fc2fec0ecd801655a766251ca34b23a36b751",
+      "eeg_sha256": "81c41768378aa976f181156191ddc622dc9f44fdd2ee6fcef5d60a4eaf62dcae",
+      "events_sha256": "29f7f7926bc94f495a83f0fea1247c61e1bff6041f959420ce4d49c4d4bd2858",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-GarnettDream/eeg/sub-07_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "4415fe50a9eb51ff4abe60c095dd9cb61df79bdb0b32f2e53e58c36d6731c3d4",
+      "eeg_sha256": "fae188994d8715f06a1f21e018d82ec172078268b85c3575aa7b707685b133fb",
+      "events_sha256": "4c277a6474f57e39c89de41a07dc3a32fa7f7129dd2ea6776799120e9d20bc36",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "1bfbf763f8a2b9634789e6a4b957b8ae237f8efbb0199b644ce2ec5f07d42637",
+      "eeg_sha256": "27d0a35422ba7bff70b5cd90d0915e3c369a13c2b7f7e4bc7aa62228399d3130",
+      "events_sha256": "1c4db3d551509392a76c63866273c97b60cc8a087f1e10d15eac2a5b408061c0",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "1f1afd1a9b98a8036785aad3328b96a2ca8e4e6101e805d89bdb0937cd8c45df",
+      "eeg_sha256": "85b784560318a5ad4018366b31fa63a4deda51bb7e50107b55c9827827a0ea47",
+      "events_sha256": "d02935febb8f3dc316b8901c4614616dfe61ef24a60ac14666168e2ba43b2908",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "d8c9200fee33ec76ef70933107de0fc30808fc3b94c98374d7adb07b2173856e",
+      "eeg_sha256": "a4ed0c785ce10d51d3665b556fd021e12d657d64762608e4c7c831cbcee802d3",
+      "events_sha256": "d622b5ea5d1a9bc088905d4bcdcdda2714e104a8cebde65c32693680cb02ca27",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "f4e2ec4444c751d594f816289bdac1dfe8a0d5ffea5872b369c243c3743fa19e",
+      "eeg_sha256": "177b3683fb625163e8393fa86b007e7f69f64d16bc56816dba785e54a08738de",
+      "events_sha256": "63647913cfc0e122d4a0549c9e7dfa0ec7c36a4b7069f8cf9b73fbc44f44c634",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "798ba56ec50fcfe5a76fa96389695a7bec252ba73a68f06b90faeb8b89312a18",
+      "eeg_sha256": "d63fe8e5d0a1db0eb141bd7dac2fcaa36b0948bcc198e9783718d978339175a6",
+      "events_sha256": "c14fd4be4e07011d3b1e0f714c063a119bde341003dfdaad65488fe828e54997",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "cf4c4cfde0d15b1e317067cef1f8237c93e211ce8b45c4c1f64f7bebc4bfecdb",
+      "eeg_sha256": "a8bd89f206c3bcf3f4b4741d41af7b83020191552cdc470a2439c90dfa2887fa",
+      "events_sha256": "f426a4b083196334f81e49ca79888277e05b6b12c03deccd3a1a3efc1a81fc4b",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "d60d04c341a0da6f6888e27145d1c679ed21ccf92c73d073c8f33cd50409d1f9",
+      "eeg_sha256": "0ec0c5fbacd2a8f3bc29504ee99f1a7a9c562d4fe3fd9e9e1e7d1244d3bebe30",
+      "events_sha256": "41328d695d2e95636a898d9ede941a4c5de9b544b70145be26a0ea4555cd2785",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "1984b51815bc4124318bf628c54e0d8129396298d44d6ba00d9db7c556e0a0d5",
+      "eeg_sha256": "cae70deb355e3905222e42b9f5ad6c5e25754b78b74b47f91eaca7b607daf8b9",
+      "events_sha256": "44b11d994f2ffe5ca1c41d4194454e0358a7aaa56c1d39383f4425f3c7ab8554",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "6de8f2ab8054c4e8691a354a3d8936138937a3b621ac975fcd05748e6b7f0dda",
+      "eeg_sha256": "e4ca5cfb5ecba66f8e7088c525e45d42a6114bc7fdce1e32f81f440ae51d74f5",
+      "events_sha256": "e0cacf472ed4caef88f0c43461bd4d3ea1ce542c60d648f937f5834ac955de3d",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "4b949f4d69b3e7fcee7c986cb030494a3e68b08d83fee7b045426f84a01b5ace",
+      "eeg_sha256": "f3d61ddd2c6611900786beafb0e6eacefea4586ab82ddc5b628425dd820b4909",
+      "events_sha256": "65752c54143b2fbac9db43f278d3ad6e1b0ca1fadf44bc3864781e628e710253",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "5d2743b906c194418b10a370a793d4cd42094c4157a5376c614d98993866d0f7",
+      "eeg_sha256": "74979e452bfb80c184b5e96aca771917546a33d257a989963ac75136c0f66c14",
+      "events_sha256": "3e09c962f121473324a859fab046fa4a81dd3567209ffe46e014e069ec6c726b",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "43e00a6a55a5175ffc7e92c2d30bd592d8e19e7afcd9e66f2e84db6a0cb41671",
+      "eeg_sha256": "72e773e6b97cc8afe1f9061345b325ad78cbb08027b3bc83919d3a4b96035f47",
+      "events_sha256": "13a7f61ca31f838775ae40f390cb5af55f09b81b879d7cb2780580d1e032baf9",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "de1a57898fe4f5796f6ff5b90f95b51367eab432dd0334a4c565f55f4704c56b",
+      "eeg_sha256": "292b9af7f37a755bf05b7195bbcd73f9eef7014c7bb4be3b44fd9073d8d5dcf3",
+      "events_sha256": "b0d26f1d01840eb5bf5f016971f45a00a703e6eaeb9075c634fccfa60b830c1f",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "6357f0dbedac15a315d79e60c3c4794673e9a5c2c105474c7c2bc675c36aebc1",
+      "eeg_sha256": "d8149519c30a9c534e7171b8612375c06520fffd0b2824c2a1a2599f39c2a767",
+      "events_sha256": "1eb6f3d97ce2610928b8cad5a070a682e06ed6ba5c5f2a00b9388e124a2f4625",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "5b5ba5c12027622596c15079f856d3775a03cbbdef4c482320e3faad4f708531",
+      "eeg_sha256": "4fb9d35039e3363d6144e0f214850ee3286f0bbf3b6cb15b582a90adac8428d6",
+      "events_sha256": "4d36fd41bfb249fea2a5958a49fe0d416666b595c042c087f23c6345d0c4c163",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "9bd93de2ffb674fe1e9a16c94545685eebf3cb2e9dac955261e38edcf8134b7a",
+      "eeg_sha256": "d1126f5debc6e84adbb3a4d85a118241d653e2cfe3adcaf43c836c2ad12c0fc4",
+      "events_sha256": "f7ee6dfe5089d7c919d5b0d16a8343007815bda49c2d436f00f5cb203e5730e1",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "e34dac98abfc52cad5f0f0607ee791cd02f2aeb87b7f360da90f045237c860dd",
+      "eeg_sha256": "34c53fdc9d01745566a9973350b9bba6a8aba41f9d8e9b7b5b87723c037ce365",
+      "events_sha256": "454f31c116c4b0ce401ffea4a9614cae5fa139c0030174d3b82edcfb7212e753",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "a406dc9b836c804249277833363d9ad015e390a87a5d46caa6b2eca4b2c017cd",
+      "eeg_sha256": "f49552f227869a648d36bc28c47fd2271ff7f1910605bb8ff4ca72d7b30153ee",
+      "events_sha256": "2a5e6a7f90ce66e3250b36b4997c028416375a399c47c5c1ac709b89ffcb9b80",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "1d43fc0ace6f84bc842e8e5db56c57f251cbb364cc91806a9a6be9364166fde3",
+      "eeg_sha256": "d355212f21b2ac3510e6ac92a3e8bd43d33bf8851c718fa08a655b10e6b2eec7",
+      "events_sha256": "c1f87c22e044c2472d0a2817d51c0146caeff64ed48926a80707952b28167bd3",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "4ccfaef8d26141411c3d165ab0237ddea550205ba1f3f4aad9473056a76cd7af",
+      "eeg_sha256": "88901caf87af12b8df6623ec47ea3ac18eb6c0e03d2bfe073d5234d846ed812e",
+      "events_sha256": "8472dae2556a1784b689d9e2ec0c3645c790aab3593c9c92248b0d39438c6306",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "89fc35355b3cd5a8fb7fce7d57521c5191ec853150b48390b59d708171e6d2e2",
+      "eeg_sha256": "9477067cd7ce05a1ff390fed545febad86e6151911db20be04886aa2f9798793",
+      "events_sha256": "1388ab4affbd791e5f246128d56e546d29772f7b342c052b13c23654ce652a24",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "9c803292cb2999cc88318adeb044465b5209de73ffad6e534e2ccf223b28bf65",
+      "eeg_sha256": "69f934d5be323717a03127e4da8ce6f8829f5b245d6e5116f76f634fc39de518",
+      "events_sha256": "374371f8fb521888aaf0d0d9509ba1574ebef1457a197726c2e871990e21a252",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "312771ae43dcfa2b29ac97ef08da8dc8c6e6dc9ecb2363af4815b75e8c7f8c94",
+      "eeg_sha256": "9a6975b8845784a1b22ffccfda6a80df06403751748b77905d52dfda7d3fcf0e",
+      "events_sha256": "50ac9d6539a371720b1bf323c4bff715ce2ee9a6163cb9ee4ca24b5320fd19e2",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "59c153382764ec69a233155ee3b0b9faf97c87ab69bf163a9ebc8154d2a631ba",
+      "eeg_sha256": "decd4074fb7571d55e089900562f7d5b7fadac10236425213a152b2aab6e048c",
+      "events_sha256": "3325ba9b336783271081ba20430fe82cc891773b2b190871d8ae685ee0b6ea2e",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "f0b4e24d4032069d03d10dac1b50142563a116a668c173768556f9744d60a49c",
+      "eeg_sha256": "b50985dc7311ff647955c05345616711052db1068e7d808f1902215301a2b852",
+      "events_sha256": "f0156f68fdca1d4915b032f430dd6a7d3d04ddf13ba76d6eb92741f22e1e3c22",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "9a0f4159f7cf44b8d4cd44767203619152c579b46633bbbf4ff983cc50709abf",
+      "eeg_sha256": "4bb425b30d419aab7fd7b60cb62f03446126c26b7701f80c4296721b222292c3",
+      "events_sha256": "b3b7c8ca8de5daac44667fecf64ee3f15c717f59c4f71727e754da42e43bfc39",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-LittlePrince/eeg/sub-08_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "3d622c7267aed2f524eb2baf6197adc8cd37334fde20b26920ae862f9964a9bb",
+      "eeg_sha256": "328ed749dd666725955a2e9e6bdc67b690d854e349728b1c637115d3a68fd07a",
+      "events_sha256": "75f0a0a362d76a87cd383c044010cc6c7fed6d43c71e9b5fd3a07f31d51247b9",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "b35b7918737ae9967c45f44fe91737d3c5eb15ae631b66512e71f34c746ed200",
+      "eeg_sha256": "66b0adb43870efa4dec5329c63f8890eb2b09f7440c35137ce5f8c616227effe",
+      "events_sha256": "4cf9483d719e16e4bef2e357346d6bb1fc75a1606cb10e827ed070f5cccaa83c",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "f9b4962c347c108cdddc87a822c12c707a55c0242647575d5794a4f03c9f02f6",
+      "eeg_sha256": "fe8f7b0489a3ab80ed454be53c296460310574a07d0d85e10ed7f0f01300d08d",
+      "events_sha256": "874048268f925dd254c85e9a0ada96375912b6c9c7389ac8f064ff0979c1334b",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "9e3157f88ebaf4ec8bd5f88ad443f272297a3d06fd57dbb668d6715dd92c772c",
+      "eeg_sha256": "038e7406a3fa68b5afa6bd95027060753967d349502eb91b619175d3461dc673",
+      "events_sha256": "03b96f622fa010fb58ac80ca1332559e26aca6436e960005c5975a128f7e04f6",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "268a40fe2088f30e108dfbfa1bff798041af35295e66461775e4a02dbc0d4306",
+      "eeg_sha256": "04edfd1f6f1c15b611b607aa31e8eea3fc25f307209437cf534f9104c6e80d74",
+      "events_sha256": "93d7a2dec1a5b765f63ba6bc09408a588f8f3460f2b4a55c5a1c3e9a40b3190e",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "291928c42f88fa7cc8a37abdf46e76fd170905ad20ac3a828dc77dc9a4cb5988",
+      "eeg_sha256": "5622038de03214d1434f5fc7c1f3734a787e7699ffa7c2acef290c1368ea12b5",
+      "events_sha256": "7bc76038b90b681942ca8e5c7845211329fc408d309019ae52a6cb27e1577544",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "523fbf52db4e22dacb44d82c88e8c160a45bad92d93f56b413d55b309bd01638",
+      "eeg_sha256": "0641bb6752755868d7cbf5d852e73f9779d692aee86c0b45284a0db51c667585",
+      "events_sha256": "e396eac3b445fc53ff06b2940d1ab48c5f5e824b78a36b13e499c87e2a791048",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "1139b110fa402d81939981e5a24d1a83fc55e2c93b6a9f5249343bfa99573033",
+      "eeg_sha256": "80dcf39e681e222d844aece8bd77b19e4455e9f6b9298257e2743407905491be",
+      "events_sha256": "7acf9aa6eb2f2955dc0a579771474dfb006b2f00310bf69f29dce1e772f80169",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "564323694cde9ee87fb81395cafaf112263c47d38bde1a71f29bf73637904541",
+      "eeg_sha256": "1f5f159380b6634b65da0c555da6a1528aca50fdb2875430069ed85a18b89915",
+      "events_sha256": "578750840949967e75f4a4fc8c8eb7025fc4d0913f409dfe226b387f6fed3eed",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "134176a068366af5066ce0ef40fda36d7bdff7d42c48411c9a012a1187e39ef4",
+      "eeg_sha256": "da83ab3383aff03d0d3dc714a4f3823ac499bc22b64b0a90426ef837fb5861f4",
+      "events_sha256": "343f70545771dd5cc253fd8ee5c0a65d0a21227adecfafdceb9fc70272e0d084",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "d14ebc81eaeae76e3b3524a2a92a7a7259c0b0503d53c622d537a0e8eb419d76",
+      "eeg_sha256": "8a4b36ccbcfddcf2415fca0d40a0a2e1618575ea2de1c4e74a9acdb1dcb99c31",
+      "events_sha256": "a0cdb0d2a0c134f7e7c433c66c62b55db0210efd72e4abe73f0e2cec652be922",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "03cad31f5cebee71f676ae24bd59279334e74afb0890880f9b55ad73437d2b95",
+      "eeg_sha256": "fc3f0229b861f0338cc2488026a9f769384232db9604ce2a1a6feeb7dd5af6bd",
+      "events_sha256": "8ddee4c632fc73dd4795b6831f4bb75e2e57e3119d6986e9f6f765faa8ab1c4c",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "7fc83624bcfdf8ba66932239edb9fbd11b52053f77b4c448bd744f9e88972165",
+      "eeg_sha256": "ca113bde89f6826e5f3428247f0107f10f804a075f866bb190d4c3a180b8abfc",
+      "events_sha256": "6b4b1ee523b536029fa3816c1f8e00fa77f6df244a6a2f1bc58d22827d49baeb",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "8d98a5c2347ba35080f2e52eb5df79c4c2ff1f318b8da6899d293ec6bc981bc6",
+      "eeg_sha256": "85fa1e92b4d0f716c34f69dd3ceaed62e377fe24b89b5e74df116e14c3baa0bb",
+      "events_sha256": "cc9e71f84c57c6522ef5002f7cdff3f64a142f0c24ec1925f35c0c5149729a26",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "d9c7565efa81bbde374a9611f7133469edd372f9b0dfa36debde7414409ac895",
+      "eeg_sha256": "a92223bebd62d32fd5bdb9d006415e182adc07aa95151004370226d599ff88fd",
+      "events_sha256": "d832ac05ac54f769fd32f7a3bd808e70349ba457aa0333aa5329455547423d08",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-GarnettDream/eeg/sub-09_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "2dd16fc23f6fe51bf8792408edf1f0b237925aed84cc35d1c2fb8932ad36ae75",
+      "eeg_sha256": "ec05b48c2c6210aa478e52d6da5b8d41b96858c4d1208903d6fed70087ff8643",
+      "events_sha256": "8d9deb44140c9eaa508e39c25ee2cff7cc655eb4261c66f709fcc7035f0359ff",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-LittlePrince/eeg/sub-09_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "84386430467224ee2b63ba96ee07b398cd44d04446d4cd6268bb1d9a1c75e53c",
+      "eeg_sha256": "f619ce15fb366b91fb65d777a08fa3d75251c444bb28fe8c1994627d1a57708e",
+      "events_sha256": "3aa977ef77250e3d020b61a725c3f4e7fcff3082c08995caef2be15377d110d3",
+      "eligible_rows": 88,
+      "prefix_checked_row_indices": [
+        2,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-LittlePrince/eeg/sub-09_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "c932a7250f592dd31645b25252a6d0bfe06bf8ebe35724b107ff498b523b8274",
+      "eeg_sha256": "20499db7cb404e4182e173acf61ed9dc0a9af00aad3c15c5e760d546376434d5",
+      "events_sha256": "c04011db634b7418a291dab8b7eca6e34a64a7b4b467589a741336fab1ec5b81",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-LittlePrince/eeg/sub-09_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "877e577dbceded4c69c42b1564532855e2d0d6f000f291923ebf31643e10bab1",
+      "eeg_sha256": "d47cce4e2ffd8b027e2a6e2df50d889bff6db1e41f870b1ce55f81f322bc1c70",
+      "events_sha256": "99d9d5b220c77d7826dde77f1f58b164c76dcd445117cbb9ecdda64d7a1119f4",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-09/ses-LittlePrince/eeg/sub-09_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "29a2cbff22a72245622c84a873082a97559317a568f49d6492b9819bc924eef3",
+      "eeg_sha256": "6bc6d46c2de5ed7310f44c6dd1b61e39361488e97ce4bc7f1aa4096985ad1c72",
+      "events_sha256": "4a7d3c341139dc62ec7ca0700f815e753f3c63185d67940bec9e5b3036890357",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "b8b28a20ffebc8f612d803309860bf47dc8cfa76f527a44ad1fb2b8475b9ea14",
+      "eeg_sha256": "860422f221129be8c6b2f7b7c6c2d9184d305c7e76c6c98aa588d6ee267912f7",
+      "events_sha256": "e04c1696bab6507fb74853e31a0da0762f0c78989869d2e6298c3e4841993a29",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "f5c45498e1b5fb7d293fc19044374d0a3e86a265a6eb96199e4902b5020e574e",
+      "eeg_sha256": "3753f62fb419dc68b7f9af8cf87214e8010ce64e5cb2908636a0bd7e8ed8d9b6",
+      "events_sha256": "3520ca9faadd8c8c53e4b59c5bcb8a1c201590f32216aa5671bb84c92652de7d",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "4d75b2898f67c9b6690cac2009f1e8599554528d816e1190ee0653e6ccde4398",
+      "eeg_sha256": "5a7b2bc7ccd7c643e7b14790c2ed2ae8ac0898b935a23d76a7251c60814fb70d",
+      "events_sha256": "1d87dfb86d2f0a49321f131bdea4c837302f7b7d9f89f392ac7d76bd19d5c783",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "6cc8f135a3a0f71bd71ac7fe575a748d623f57669a5f441d596531a3e40d111e",
+      "eeg_sha256": "b08b1b4b864fc3a663dfef74ddb18de36e597d6219566c35cfec722a6caa06ff",
+      "events_sha256": "be4865f5cd560e91b7179931ed28ae76509cb1a4976e3ecaf6d49fec4c58e664",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "375dd45c576f121ba0d5ea52ee07c8fc9d3625b079d3aad0ac122cc172e07758",
+      "eeg_sha256": "6bc5c6c8b98f35ee2c9fa391a7e9e4968752f3847be5eca636f41a84c7db3993",
+      "events_sha256": "7130720341643e582e6887853ded18e5e4097f419ed79455c4addca59481dba6",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "f12a60493009f86214c9218f3e646d69b3ff165d4ccbb6ca688f4596c4a9bf46",
+      "eeg_sha256": "9cd2fa01567e65f1200fa300aa92cec86b22b55e3ceb5825cbaa8315aaf14b2d",
+      "events_sha256": "494ecd8514a4b0c894edb6958206c97ec73ada2cebc429c53fd6e7a8d1c60f4e",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "8496df8243509495742991f530557a54c44d227976f8ae6ca81671d542305efb",
+      "eeg_sha256": "78cb4c8a045f10eceb1ab063e64811cc2ca082fa6e2dbabf0628e2ad11cf76fd",
+      "events_sha256": "f25288fd4b77f3a4484eec36baeb06e5dd4862e13dce752b2a4bf7b3153653e6",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "3d78f823a78554de0e5a65da939fd5b5784ac18599b9555688098916f6d7a124",
+      "eeg_sha256": "c55fe66ae7e1f2355b32d94fb11caad0fc6399820e1cedf5d615544e04804dfc",
+      "events_sha256": "a8e6fce00d924da42202672807aee1599c3090f98b1b2bf7c74c1eb4fa322cc6",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "4ee13729f79133a65ab3aa4dce4c19f4f69d037978d279f065b2fa63c797ccae",
+      "eeg_sha256": "7dae8e018c297a08f035125b98b43b8abf152ba8f577abc770387ce43f4ad185",
+      "events_sha256": "669dc3aab5c79e1860737724eff1fa9766c61a024a62554a34995e603fc8edfb",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "53871d61c04029ecd7321c8a64028faa963116938e369bae583d9049264b0cd2",
+      "eeg_sha256": "d158be347d27b33d476bcb9f36aa3a93c92568fdaf713343e8c2e224e489c77c",
+      "events_sha256": "20220913dfff088ead4a20c7dbeb5e63c82e6fc5901bd78252297164589916ac",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "f448fcf737721fe398ee7644dfa91762609dbe11ae8bfe971351ff1a2b9dfae8",
+      "eeg_sha256": "0189f64ee6771a72e04a593d19cd7e6c1e462f0aff3a1ee318f68a981ceea32a",
+      "events_sha256": "0e55289c954edd2173f095fd8dad49d4958e73e1256870b78ec9cb370c944164",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "9587cb2998381e2fe2ec6492084762d75e8484ffc3b35e7e40b546cbb96a9902",
+      "eeg_sha256": "4fbc738dc84dfb49c851ff7dba89f7af440a27380069a6d78d8d39e49578f167",
+      "events_sha256": "8f2f3f5e4fa94553048dc9c6e2e484dca7b19f86d504d5eba3cb95c5b78dd2d0",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "a905f063146b77ef34cf961b74d4b7373e075d1994951671a157a2e6f3d27c8f",
+      "eeg_sha256": "e0eba7bbd3f706c1752883642f00e2d9db7f98e87f84a974973a2fedb32b5d49",
+      "events_sha256": "fb7132920dad5d691c479fa72fc840aced13f0e81a599e4ab337d5c8287f08c8",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "f8a205144fdbc8e7e26a0e3bcc2698cd0b55c44a4133b759a37f658e14dc9dad",
+      "eeg_sha256": "4d66af9da15336d3f6238741c455b865efdb143781f3db1484491033fd7ae42c",
+      "events_sha256": "37a7409bb071048f063bf2038a222e95a85fcb7264cbe6b226a2361b87982ab6",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-GarnettDream/eeg/sub-10_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "8d3d89d37af47c46925806f28092b1c21f10e3b95f3e2ec6db3ef58027b66140",
+      "eeg_sha256": "5489dcd861228ca65f6f49802ec7a78e15d9908636ab8efdf695dfe5a22278d3",
+      "events_sha256": "20d8e601482444eba09469623117210a3b88fbb4304b925ddc99011286443950",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "b9bf0b7d19229e90c458e13d9d333fec8a4dff51fc1ebcc4379f409826d7c67b",
+      "eeg_sha256": "7796948d63a2cb0f29bf6a8957ca789b18db6edda221a1c27817e57989ed1444",
+      "events_sha256": "88c4dc04851cba85c133e927c4b46835105b86edcd71a19abf42a9a7e42b07df",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "469b3573aa7badd11fcc49ef19e83af8c11125c968e130b43cb4d34edf6f3d96",
+      "eeg_sha256": "315a64a8c17c1f5463f729c2b54c5535f80513fea125eaee255d770b970beb91",
+      "events_sha256": "0e90cf6a4b60d102af6449dcb17d1e3de525cd8fad80b6de694d9155238c82d6",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "c018976e88205d681338a56703c45f262e8e7e419227021d49bc7b3e9a00f81b",
+      "eeg_sha256": "643e37210d37061a202b04bc368002f38474bf2f18d2e387c0b4de6da3451530",
+      "events_sha256": "cd6edfadb2d6895346f3d4b2be839cde01ce1e3c625b400440e6fe81d37ca017",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "c2283d58389f225fe88148b2f387b56e2cda340a3f719c416298b78080d7ac89",
+      "eeg_sha256": "681ab8a2a852192e8765ad9ce76ef3f3e7311e1d4f002e8ce61c57bc834f90a6",
+      "events_sha256": "f6a46b97288cf5bb57499a8d0fe7260e6ee7daab2ce34d875a6774c7fb47fc94",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "f76fd5ba72d9dc613b4ff8899f6bad4c5fb4c798bf49ccbcc9620317c2387cec",
+      "eeg_sha256": "c9192a2f1f7c7b0172de28207121ac339c7a8fe11ed5beb881fe87f14e9e1517",
+      "events_sha256": "409a9eaad0410d98964fc293c66e16053865b4f88250bd2966ca644d5b351818",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-10/ses-LittlePrince/eeg/sub-10_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "1e1c4cc2842e74ca431ba6f30df22d65171c937738b76a891920636e7a9992ab",
+      "eeg_sha256": "721bc7ea5e7c3dcdda15bbe3029f2ded531e0a13d38b69290c8246a5da775095",
+      "events_sha256": "bb6439b5a0c415e0678dbe9b6e6c5f8dbd3f1b71441c22626a88ce94d3018bbd",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "7ae0e64cd37932402c2a9c55bbbf3f0ed85827641dbe63c71abfd2a7fbc18f4f",
+      "eeg_sha256": "6b3bdd6b283daa38a0d9bf28c021714fe05f13266bb13dac2a90e41dd29a2747",
+      "events_sha256": "3c558c6be916e1347e32b7537f6bb9f400d6372bf535bb568885b2a563303420",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "c2a41d95ef61a5629e93e6bc39207fb3c2bbf347eb21506d648f20a3166cb87b",
+      "eeg_sha256": "bd6a7a58c9a2fff5b4ab2282618aebc1b42b8d90584b833915e60360d504012b",
+      "events_sha256": "a4b8963a0c22ea0793bf461f64659e34caf3c89d938dd0a40dbc332ebbd6ec09",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "bff1ac7b2ea4d7d1dcf8f79e8d157702fd5feed7a31d89ba71ae857ee5f36107",
+      "eeg_sha256": "aacdcda368c50a8a978218ae857d613623b537ffae27f21324e21a4d0c438cb5",
+      "events_sha256": "51b68581e2a2b6ff26f1b87eff92dc2ea9918b12ccd34b02f5b82119eb1ef571",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "c8c05bc9dafb130f37d9982ec6262bd9e0e2b61df82e0f1d2dbb8ce647236d4a",
+      "eeg_sha256": "143e9ead02f11204615a7d4e30e5b77d2c5ff9777ff14bb067b7ca9e202cea32",
+      "events_sha256": "9e10589f9d6ac4cfaa3b7cd24b96640d5894003a1c41ab3fe5aabf092f37b978",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "50b22da4cdcb98bfef0815ba9b9236b83865ad91f710336657a680a804d19b0f",
+      "eeg_sha256": "be9f1a94d86abd9339f55f91cdae33656e5287b9245fdb1376190a92a830a757",
+      "events_sha256": "b4b360bc7caaa65442d55e8e882d07591a4780a0263ae169b64f0ab3b7bfc0dd",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "f63ade842653d427e36d002056aa9d4a420caf24498893f494dbfd37f3f62d33",
+      "eeg_sha256": "50f7abb5cbe9ab97e98e97812cdb565a819565440e7df034694435a0b0a159cd",
+      "events_sha256": "30114b87dd4260acc061712cc249f072f9929d2ca69d4f3fd491ddc795fdc69a",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "87a5d266369503d70ae037aa00282804b5e297f6c3a69c57328f08e18d3096d7",
+      "eeg_sha256": "4853512f36c966ad6e6fc7ded32d5b6b0c06fa22821e86d6ed074e7f8daf7e2a",
+      "events_sha256": "733d9ce25027c804ef3566251de11b18a2a5eafbac2a86317c14419440b051a6",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "2fb49c6aa0e2cb65b2c7d337ef6e2af0ae2c99f46c240e628c110542354b05a6",
+      "eeg_sha256": "6fdddc95f6f7cb983ae542e6485de74a0d697ca7e93b84f21a9cbf6f77767c6f",
+      "events_sha256": "dca9fac878a6946fd54864f92be89b2ad6aaba035740322958cf800807cae4d1",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "bb2a0459c22f45e8f665cbfca5095d5addab2af8d245f33617e62273a4046af1",
+      "eeg_sha256": "20ac31f6867be313bc7085ec0b257aca33a0ec1077451fc5874d27548fd6ccc5",
+      "events_sha256": "b52fa1183736012c16fa087e8ac3ee41942725a3696e967cdb8fdb77700825e7",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "0de65cf513a720780d8a9d3ba6cd7e6ef2acb5000c1c0883433f5df4e10378d5",
+      "eeg_sha256": "29d863844ab32afe46408fec9d2a49b5f0d5f3b9cedd41572173ed3068b30852",
+      "events_sha256": "b92cb1f8ea58ddb8e8e3494be20275f2b770345bf29edb38b204bdcf7da77221",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "128fb7dd780542fb37b1833278fc43e7676e9f6e1307db7639783d3cc96f295e",
+      "eeg_sha256": "005f137a9cd8fd336abadebe0893aef89dbe2833d205eea5d82650279779b721",
+      "events_sha256": "498560c9c2b37128c4d3bdca815b72308cde778148f42f7ea15a4889224c3fe1",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "25b95ed3d3510373007816779d40928e71f06d5f04019e992e07095061247e65",
+      "eeg_sha256": "31fc300c43dad6b76c4d09c98cf57bf06f79f8e0971492f40a33e145b863e230",
+      "events_sha256": "5c0d8c83226a9d4732d5bee1dfdcde2ddf15e1c9ca227a551500f0d9539220d5",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "401a9e19aff0388fc46701450b516e94fc9b01eca17aedb24da2d74ca1ad1ad7",
+      "eeg_sha256": "7a8bbbd8b8ab5021f6d3d470ac6a3483ac6a4b6d8d7be7d1b236e4a2e8acd3ed",
+      "events_sha256": "f83777208673c42696a07bc7cc5c99213b2652421c77cbdff3bbaba5c50c4682",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "763573b6bd2cefcce7e8e4013ee8f2b5964d4cd09ba8d462fffa8699f750a269",
+      "eeg_sha256": "3367194c5a5c8b5604604829e860ce0036b6d1f195254a21011cb73184b8ecd8",
+      "events_sha256": "f2a1c0e1945b75ddb3606f374db3b38aec99bd678e7ff849ca646f4a822faecd",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-GarnettDream/eeg/sub-13_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "0e95a0d8ff71a7136a83912e20d99fe7137c983af260b55bb656275436a46305",
+      "eeg_sha256": "b1ed2e05a33183db2d851cbd9971b156f7486afa0b4b1a46ccfbb7011c672335",
+      "events_sha256": "7440ef60d9df10e7ab94f82294cc4b6c5c084449e3249e3e13f1f95b9f77c8d6",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "75766299caf1bb8404ab2a5624d653f3a6cb2be8bea9ed2c6ab6852ad90e99fb",
+      "eeg_sha256": "ce79c49d30822f7a941b35fc40411b1d8915a39f4ce6330c575ce6d5b6b43393",
+      "events_sha256": "48a755e5ebae530531aaf81b6d39159c30a81e960fab79db2c7819df6afe399a",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "70a7c889f56768536babe7050ebb22bbbe8bce3a6d075708a9586b0cc49dfde8",
+      "eeg_sha256": "ea391fa765ea9cea50540f9cf8db554a38d13d350ccb3b90eaff584b53055eb9",
+      "events_sha256": "50897559486533468841113d9fa8958639eb3983a55454c2ceec7f6eebfe8062",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "314912d5741718abb889dd2b7cc5ff3e9e61a3199106264ca6e98b71e88f2835",
+      "eeg_sha256": "3dcd83a697952b275333ce05cf70f740f13e76a9dd1622bfa0f299b733c72b0e",
+      "events_sha256": "f8198fb13a34c7f8442bf888fff8e69c4d561545474b24414c409968ee4ebf33",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "f1fb7e6d2eaae31a840858b695456b16a9dd3a57914f0a43bede1630e4a76bab",
+      "eeg_sha256": "d86f858a27e4088a70523377e2dc8879ba2d83d732da531f10ac8f439d728896",
+      "events_sha256": "485eb362aa46fcc76a8ae0b64d3a16ec346cee81988478df647028649e077140",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "bf587d70b1f818e330fe488d16262d2e91c60b8d82ebe38d97a26bba3e3864fc",
+      "eeg_sha256": "995b6cd06b134a76d70448f675ba6c49db695b56e0517a0609804259a969c85a",
+      "events_sha256": "3a1ee0ad82a47c903043ce619384a7637f524dbe27d674a97624ab3577ce0ffe",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-13/ses-LittlePrince/eeg/sub-13_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "c5e8c7dda3fd87d2c2c5644f47bef07365e845534d9d887c8b102d38aff422d8",
+      "eeg_sha256": "5b97c618dabaf45562cc4549e5f3e506583b1cc44b01a8317bffeb75d4e03174",
+      "events_sha256": "8c355a5c9f14265cec516fd39a240f970b962fc7dabdfbaf631e6ab62a1e188c",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "9cce1ec5d888bdbbea3885675b99c825d267e4ae02b69cc104585dc49f485d1a",
+      "eeg_sha256": "6804ac43830b91e029bfc57abaf99ad4d5e0b4bee9d014270b39de0aa437775f",
+      "events_sha256": "d590587a4bd1627ba87cf42a939feed65a8373529de115dbef3e94798adaebf5",
+      "eligible_rows": 190,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "137079a31ccd6eb4eb7c8e18a6d5051dfe8f4c6edfa258a8b7615cf988e3805d",
+      "eeg_sha256": "113bae106298d358f267cd78ba0491f4411a69891c55d1b85d1db4b800d698b2",
+      "events_sha256": "9dbc45f8bdd08af017c2cf1ab0d0c89277bd2661ff7e0c463fc4427420bba2bc",
+      "eligible_rows": 233,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "d0d255a051b869c3e813c85ea0e93f1dd839b92fa8626c1e087c1882b5b34710",
+      "eeg_sha256": "c05e4aa258ababfea0047d3036317d1682f7130560a2747cb80240904547c59f",
+      "events_sha256": "1c2bc6730db9ed7c2cff9a2e80021d2d463e25559a7b6837682f195483d7c242",
+      "eligible_rows": 71,
+      "prefix_checked_row_indices": [
+        1,
+        5,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "32deb1bb0cc3976d027977197b4544199c33947e3cb2cd69d288c1bbf1b9daf9",
+      "eeg_sha256": "ef1abe88279de132243177b03a86e17933c4b63ba15ee9e5527d97b06cfb3760",
+      "events_sha256": "85130441a03fc8e85e78e0690f32a74ce59ea8dfae88b99343029519c3530127",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "aaaf7389ac5adaae5d95f674d57a1f68b076a427257849d7821a0d7453c8b01c",
+      "eeg_sha256": "f5fc20e366172758261dd14b8a6a30a1541c8951c80525ba754471c66137f39a",
+      "events_sha256": "f9bc7306c2fac5acbac706c56970ec7e4e40134f73da9588e36af4e007e73485",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "595e6cd98cde7ff4ec340ca40c7ff90ae8af1ea90b64287e8f444ffb632746bf",
+      "eeg_sha256": "215501e5a1cadb177512ad681826c2d718baaf9a0986c3feb48025ea2a1f3bad",
+      "events_sha256": "3e9a75a972c0784bf42710e3e4aeac2189677a5ee1f0bb0c3fb90de07a193745",
+      "eligible_rows": 159,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 10,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-10_eeg.vhdr",
+      "vhdr_sha256": "31029e3fcfb4c63dacf8f76052376112e4d161da3719a295fa41b756b1daf949",
+      "eeg_sha256": "f2a3eaf6a9a002556406799e04e3e2308ecd82d89c929fdde0de64c44444a6d9",
+      "events_sha256": "309221dfadf7a56a5904787fbcb655dd7892f8d0343476c4e4414a4eb0ecfa80",
+      "eligible_rows": 261,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "508855b615199b7e77e63e72a94fc335b870025ec138cced67fccac744b418b2",
+      "eeg_sha256": "371fa01632d7486b2c31d7985ee457dae1a45739934a7c7d7f4e82e90ff503df",
+      "events_sha256": "31f18010cf461ea1f15542404834da9b6552bd835715551fc4df1c12e0d2576a",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 12,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-12_eeg.vhdr",
+      "vhdr_sha256": "a4fbc8978b083161df093af63f37b3d3cac4fb6d27be0015b8070b2773200eea",
+      "eeg_sha256": "f3d6ccde465e8a82024a5afb4ce666a5381b5a2d98859eb60f5e3d38deb32230",
+      "events_sha256": "0a874cf2ae1755ab6883aff576bc9416dda2c045c9c0e1163a47de94a6f5e3d9",
+      "eligible_rows": 102,
+      "prefix_checked_row_indices": [
+        277,
+        278,
+        280
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "541b5c332066ba3aec4cbeb08ceceed2dd5e4f8784082d288ed5de65e457464f",
+      "eeg_sha256": "9c8b609e239f8e5e668a0b872f02683bab847c030ca16bb2cfc7aaf13bf3b93b",
+      "events_sha256": "e7df3e2296d7ad3a0e9c32e1c87d19e51a6eae98f4ceea9b1c6cf1ce347a27f3",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "65619a6fbf4db583a32b60e9ffca446a1f291b2e1df7af9a42b907fd0e1d11ae",
+      "eeg_sha256": "bf1cef0bfc2c7b15d51150ca3e166d192eec52db424c3149c5e20c0b5e814b4b",
+      "events_sha256": "edf684d2aaefe51b9f8ab929c9b4e1787484da93e230872e691c81c2e6a1d3e8",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 16,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-16_eeg.vhdr",
+      "vhdr_sha256": "5b3e4ac81ef888c423b1517f9fe2418871443abaac0ad1ba79fc58fcce778497",
+      "eeg_sha256": "3c63f20ecd41269e40753a33d31f49d76c39775078d7d520bed20b51b1cb1b95",
+      "events_sha256": "dd32dc195d0366f55266c4d37971c2a7b496f21c2592d5dd989195b9881de192",
+      "eligible_rows": 189,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "361f1d5c8315dd39d512d3c40b0efe33bdcdc7dfa4f8e65fb8426e346be2211b",
+      "eeg_sha256": "f39d3aacf981df36ef2a71055543323a866ea77897f047ad44fce9019e9cd539",
+      "events_sha256": "42722587f844a6babaf79bc539b7dc9301877d46c5ca91d453a162b3757f9ce5",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-GarnettDream/eeg/sub-14_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "4b132598907b3ed3f393c37c0c5d50b887272c7f3e7dbacd77831bab9908dec4",
+      "eeg_sha256": "47108ba701bbef22d61277a4ad57321fa30976dd0d59de5f49de3b1a103d12f4",
+      "events_sha256": "0badd99b175789104fca7f8ba821bd250cffe2fc9fa322e1b3c36da49d5f6750",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 2,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-02_eeg.vhdr",
+      "vhdr_sha256": "c716bddec0900247eee0d590877584b0ac4f0cc57d97a9c0d1681c016cc7a14f",
+      "eeg_sha256": "6c886f17f8e77a3730dd0cbf19f82df7f9b8502de8b36ff4e5b807896d6c8932",
+      "events_sha256": "9c4b8eb2e7f69183a20d713c3842429db87dc21b2e98acc7e645a6a669001d06",
+      "eligible_rows": 150,
+      "prefix_checked_row_indices": [
+        1,
+        3,
+        7
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 3,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-03_eeg.vhdr",
+      "vhdr_sha256": "1af9127e3592e3dfbc0b0eb54eca96edfd32ad103b18b8bdc6268c78d8c6b99f",
+      "eeg_sha256": "39b2a00da6ad8b076bcc9824087c051692f712f4795a7d2f6c5cf95fb33d643d",
+      "events_sha256": "f426143e81682f27722adaa8b86c8bf2100fbc252f536000e4c01cbdc7e0d0b6",
+      "eligible_rows": 133,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "1397cf19f993aa0114866f92644e61abc3162d7a148b54ca3a671f1fba262b55",
+      "eeg_sha256": "07ede67a3ecb96ed0888f5f1b3ae071983f829d0cff6ff629c81f3ea9ea9d1ed",
+      "events_sha256": "bbbcc9b15458636256cb1e0caacab0e9167ec0d4b59ddfbb9063e4fb57b1e552",
+      "eligible_rows": 89,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "8b110047f43ad9aec5b7b9b4fcefa2c9eb90e5f552681f8d0d1b08e104c72991",
+      "eeg_sha256": "c6aa4d82668ab8220f9635aa0f0db126783467964d9a7f8e227c801a9f8a7138",
+      "events_sha256": "8b9b94fe978d54fd9813e6fa3281c2ef8a04800eadd5bc7edf5887d8331d2be1",
+      "eligible_rows": 27,
+      "prefix_checked_row_indices": [
+        116,
+        118,
+        124
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "a2bba98e93bd5fc009862000a578a32a2f030bbb4756fb2fc9801b95a84bd4e8",
+      "eeg_sha256": "d0ad926887ea329f933b305883daaf72aea05fc6b592435205b4c34c5a04e888",
+      "events_sha256": "fa6285dee289805a2ec546b656780a31882cd2d2ac836d6485f92aa58ec527e1",
+      "eligible_rows": 152,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "run": 7,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-14/ses-LittlePrince/eeg/sub-14_ses-LittlePrince_task-reading_run-07_eeg.vhdr",
+      "vhdr_sha256": "85ca4b19e83166a3569041fe82b639bf1dc1bad65cef455c754f41d21fa9dab8",
+      "eeg_sha256": "38738f140ac88eb22d3e9012db3fc020856e9378f1d5b140d6427ea43f8dfc3e",
+      "events_sha256": "f6af64b5e3561f7c5e54310f96f6e892c45d8dd6c665ced06b9e29dc87af233e",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        3
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 4,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-04_eeg.vhdr",
+      "vhdr_sha256": "33c51ccdc53f49981b9f4d03ebe0a0074e8d170d2a63ed180bfb8904ad837946",
+      "eeg_sha256": "9fbfeca334325016a3cb984ca11d76867ca7b26494c34a1ac662786a0272bc52",
+      "events_sha256": "8d69ba51e417029c71b5d2b5f7a38a84812b925aa5a6eab578f3f8c9c986ca25",
+      "eligible_rows": 70,
+      "prefix_checked_row_indices": [
+        5,
+        7,
+        9
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 5,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-05_eeg.vhdr",
+      "vhdr_sha256": "a82deddf75928646b887b323d486dffb898f814cee5c3e60f32ea2262128a5f1",
+      "eeg_sha256": "7cdccaf9edb47b739988ad6f3136f5c7ac342a9b0bc6ce203eb1bdded449c289",
+      "events_sha256": "6bfa5f46ad8b74dc72ee83b3300c4d2c447cd782ca19203ae53a4fd51727dc70",
+      "eligible_rows": 106,
+      "prefix_checked_row_indices": [
+        297,
+        298,
+        300
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 6,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-06_eeg.vhdr",
+      "vhdr_sha256": "40919a66733c6f4f3569c9a53ef8d3d650642bd73cad238c2909045f85049231",
+      "eeg_sha256": "d45e94b828dcf00b6877e7466e9bc312ce55a9bb6a8106870f18e1f3b0cd9ccb",
+      "events_sha256": "c6361192cd4efdfe9adb6a1afd64c23e45054de971b60e23ba5ef0a2f40ee954",
+      "eligible_rows": 186,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 9,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-09_eeg.vhdr",
+      "vhdr_sha256": "05906cbeb219e94bdc6c9c9c0e0d2b838a162a532e0f27cc05cbe2dd18664498",
+      "eeg_sha256": "97abdd7571167d927439a32d5932e75e4a150a7c9c3b407f3079ddfb83c858d1",
+      "events_sha256": "8892f3188a87a6231dcecb43a9317f377050cf661760899e8bf69d7ae71620b9",
+      "eligible_rows": 173,
+      "prefix_checked_row_indices": [
+        2,
+        3,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 11,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-11_eeg.vhdr",
+      "vhdr_sha256": "b0c60a54e4be6e11862ff2f9cb8e163609799faf131ed816a9e54995035ea036",
+      "eeg_sha256": "d4ac829da9776329a3eb18f7ba28cc2f8a83775e0fc925db86e369ef7205eaf1",
+      "events_sha256": "2877c302d9f4d312cc0058a02815a08ec79d4fb488c8e3c48467cf5850c80bd9",
+      "eligible_rows": 93,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 13,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-13_eeg.vhdr",
+      "vhdr_sha256": "6f5717fb4a1d7518b9d7cf805f062493f27db32ae0df6023de7483e716d55753",
+      "eeg_sha256": "101db0e89fa08594e41f7e38750c148b2334003564cbe009914aa931debbb181",
+      "events_sha256": "0f7660b7fba899d1a54d4c129dcbef0428986010f885363b26820d8256bccca0",
+      "eligible_rows": 176,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 14,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-14_eeg.vhdr",
+      "vhdr_sha256": "ed6928477a1daf4d204d34fee9c998281eb2a8d9589e13e409c895556a2cfe4e",
+      "eeg_sha256": "80cf1b2cc2c242988d17da3f5d483e794e5a33b1ed9e6f0b0dc88c7667f4563c",
+      "events_sha256": "8b34eb9d3eab59ce22d920e0b94d0e4a45cdb03060043d8d99ceac102b78bd1a",
+      "eligible_rows": 223,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 17,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-17_eeg.vhdr",
+      "vhdr_sha256": "e00dc13cb5a49d1f49819731200031057aa723fc90dd5a4b69bebf6aa1dd6269",
+      "eeg_sha256": "199e702a12d30b792559e604afd1327cff6310fa7ba69fcd37259effff964206",
+      "events_sha256": "338a1a5cfd4641ac9e35b202aa95eafbb83b8dfef6acf92188e7225abe7e66f2",
+      "eligible_rows": 243,
+      "prefix_checked_row_indices": [
+        1,
+        4,
+        5
+      ],
+      "exclusions": []
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "run": 18,
+      "source_file": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-15/ses-GarnettDream/eeg/sub-15_ses-GarnettDream_task-reading_run-18_eeg.vhdr",
+      "vhdr_sha256": "fa168744d39c9c30870a1a677373b2740f3eeecda01e392fb12b7aa234cf8b78",
+      "eeg_sha256": "617cc5c0b745c83108f0a6e17c0a285c899488aa9e8966baaa2229140a4a3e75",
+      "events_sha256": "783e5759c9fd1777673cbf8198ec3ba65a92d060aa15268776310322b0402edd",
+      "eligible_rows": 105,
+      "prefix_checked_row_indices": [
+        1,
+        2,
+        4
+      ],
+      "exclusions": []
+    }
+  ]
+}

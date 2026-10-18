@@ -59,14 +59,16 @@ See the [reproducibility guide](docs/REPRODUCIBILITY.md) and [research history](
 
 ## Scalp dynamics appendix
 
-Two data-based animations extend the manuscript's scalp and reader analyses: the group high-minus-low voltage over four row-onset intervals, and the between-reader dispersion of the same contrasts. They use actual saved EEG summaries with fixed color scales and no temporal interpolation.
+The extended animations cover **0–2000 ms**, with **100-ms means advanced by 50 ms**, shown at **100 ms per frame**. They use actual continuous-recording EEG summaries from **ten healthy readers**.
 
 <p align="center">
-<a href="docs/appendix/README.md"><img src="docs/appendix/topography/group_contrast.gif" width="48%" alt="Animation S1: group row-surprisal scalp contrast" /></a>
-<a href="docs/appendix/README.md"><img src="docs/appendix/topography/reader_dispersion.gif" width="48%" alt="Animation S2: between-reader SD of the same scalp contrast" /></a>
+<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/group_extended.gif" width="58%" alt="S3: extended 0–2000-ms group scalp contrast" /></a>
+</p>
+<p align="center">
+<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/readers_extended.gif" width="100%" alt="S4: ten healthy readers shown together with a shared voltage scale" /></a>
 </p>
 
-[Read the appendix, definitions, and interpretation](docs/appendix/README.md) · [Source arrays and provenance](docs/appendix/topography/provenance.json)
+[Extended animation definitions and provenance](docs/appendix/extended/README.md). Nine readers contribute both books; sub-15 contributes one available book. This extension is separate from the balanced nine-reader main analysis. The [original four-window animations S1/S2](docs/appendix/README.md) remain available and match the main manuscript figures.
 
 ## Quick start
 

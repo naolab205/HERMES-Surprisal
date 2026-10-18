@@ -8,8 +8,8 @@
     "sha256": "7b377a65c00548a6a1a8f9d6575db6b9555eaaae99a55cf2644ae3ebd1f24076"
   },
   "README.md": {
-    "bytes": 9443,
-    "sha256": "b86ad5cc1da445bc920c8ee9f2ee1949b215a60c199509689df08a27a54cbd02"
+    "bytes": 9598,
+    "sha256": "045fd0d226fb0a50a4d88d447bbb9d3acfac66f70349808ac672b569ac8d42ef"
   },
   "analysis/book_stratified_item_correlations.csv": {
     "bytes": 809,
@@ -220,8 +220,8 @@
     "sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
   },
   "docs/PROVENANCE.md": {
-    "bytes": 2427,
-    "sha256": "08971743e06ae890a2272cd53786a94dec858a046c9509a4e685ee2e286e363a"
+    "bytes": 2907,
+    "sha256": "2bed4e0ee59e857e324cf9084340878614ff3d5625e73c50921bd6190b6ecf37"
   },
   "docs/REPRODUCIBILITY.md": {
     "bytes": 5002,
@@ -2676,8 +2676,8 @@
     "sha256": "7e0d24c40e8e35145b22e4b9aabed7745e97c64d3412721c16d1365ce87349d9"
   },
   "docs/appendix/README.md": {
-    "bytes": 3125,
-    "sha256": "fd4af1e387f6f2abc537d6b949dbfcfb206862d2fd90235d814129ed0fe89381"
+    "bytes": 3350,
+    "sha256": "19cd667b8d78aab046dd08da20afc7afece461bf52656558fb9d2e15400461a8"
   },
   "docs/appendix/topography/group_contrast_frame_04.png": {
     "bytes": 193234,
@@ -2754,5 +2754,77 @@
   "docs/appendix/topography/provenance.json": {
     "bytes": 1782,
     "sha256": "c07068a120c53aae09f641005497eafb1ced9c62e2cd3c8509fd2a04b69a0e5a"
+  },
+  "scripts/extract_extended_scalp.py": {
+    "bytes": 11016,
+    "sha256": "a5ea7528e6871a1975a8eed2051bd6e6c20c7ebef3e8e1d72ca6fa61602c9e4e"
+  },
+  "scripts/build_extended_scalp_animations.py": {
+    "bytes": 6483,
+    "sha256": "f3441fd0c71f800ad3fc878d3f8fba088eb311305cf4eee2d26540254cf3c166"
+  },
+  "docs/appendix/extended/readers_extended_frame_19.png": {
+    "bytes": 324273,
+    "sha256": "5278272186fef364e6a2c32f90f1e0cf13eb7808f8b97b83528c190c34635d30"
+  },
+  "docs/appendix/extended/group_extended_frame_38.png": {
+    "bytes": 105433,
+    "sha256": "dd757a25c6acfbe2f38ed204621b1e7f4b42851beb598e015169c228263e41ef"
+  },
+  "docs/appendix/extended/readers_extended.gif": {
+    "bytes": 7259889,
+    "sha256": "279625b10bd9fc19a7e3f5f71f43f3adc3dabff790f1cc849724bbc9b2b21e4e"
+  },
+  "docs/appendix/extended/extended_source_arrays.npz": {
+    "bytes": 7737357,
+    "sha256": "0bb49edf41c2d23b45a2adc4b3466541bd9bb88eaf3d9a0dbd293ec97723b23d"
+  },
+  "docs/appendix/extended/group_extended.gif": {
+    "bytes": 2275288,
+    "sha256": "8cc515ded6eb71e8e67bed8de307c0cb47bdddfc0dc2ca685e27ab1c4b593d1b"
+  },
+  "docs/appendix/extended/group_extended_frame_19.png": {
+    "bytes": 111379,
+    "sha256": "e2db734e21d6c2ce24c5f49c6ab102f9aca8c2aa34da2f63936acc0688b79445"
+  },
+  "docs/appendix/extended/group_extended_poster.png": {
+    "bytes": 84182,
+    "sha256": "409afc519969c72109c8936c322927fb2e053d606af85ca3cbf4faeb71523192"
+  },
+  "docs/appendix/extended/group_extended_frame_00.png": {
+    "bytes": 84182,
+    "sha256": "409afc519969c72109c8936c322927fb2e053d606af85ca3cbf4faeb71523192"
+  },
+  "docs/appendix/extended/extended_extraction_provenance.json": {
+    "bytes": 130141,
+    "sha256": "77f34b1acd6c61ee41b6da5ab3e4e023bd5b0ded3d7c0f3a669272c438c21cca"
+  },
+  "docs/appendix/extended/numerical_precision_check.json": {
+    "bytes": 660,
+    "sha256": "a9b5b38eff7f2174f3e87bd32c2e25f9a3f9430391ed8d6f1260d2416f25f488"
+  },
+  "docs/appendix/extended/readers_extended_frame_00.png": {
+    "bytes": 266333,
+    "sha256": "db2d2a6249ae7917f4ff46839ae90985fe6321176481dca31d5529fab3436e9e"
+  },
+  "docs/appendix/extended/README.md": {
+    "bytes": 3668,
+    "sha256": "3115ba742289dee22a36c371243d979c415cc8c9065c034c142aa9985a2c047c"
+  },
+  "docs/appendix/extended/readers_extended_poster.png": {
+    "bytes": 266333,
+    "sha256": "db2d2a6249ae7917f4ff46839ae90985fe6321176481dca31d5529fab3436e9e"
+  },
+  "docs/appendix/extended/readers_extended_frame_38.png": {
+    "bytes": 324163,
+    "sha256": "26c27ffb43803fa25e95dfb8ec32a3d18364ee6ef38705134c8af8e57bbab1dc"
+  },
+  "docs/appendix/extended/extended_group_keyframes.pdf": {
+    "bytes": 155278,
+    "sha256": "2978b05a7f1e7bdc84af4e352773ab1b9729859dc3ffada15d4ebe1a8bd2da7d"
+  },
+  "docs/appendix/extended/rendering_provenance.json": {
+    "bytes": 773,
+    "sha256": "1fcbaec9f852d9b888667c0e2987af0c0ee310286864319f8322b5a56ab41dd5"
   }
 }

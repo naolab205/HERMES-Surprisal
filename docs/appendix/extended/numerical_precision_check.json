@@ -1,0 +1,9 @@
+{
+  "reader": "sub-05",
+  "float32_reproduction_max_difference_uv": 0.0,
+  "float32_vs_float64_reduction_max_difference_uv": 6.934497140242968e-05,
+  "initial_reader_map_absolute_tolerance_uv": 2e-05,
+  "initial_extended_map_difference_uv": 7.843335894953951e-05,
+  "documented_reader_map_tolerance_uv": 0.0001,
+  "explanation": "Independent recomputation from the same existing sub-05 cache reproduces the archived float32 reductions exactly. Float64 reduction alone changes reader contrasts by approximately 0.000069 \u00b5V. Extended extraction accumulates in float64; reader condition counts and published three-decimal group RMS must remain unchanged."
+}
