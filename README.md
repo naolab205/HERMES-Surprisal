@@ -29,7 +29,7 @@ The model name refers to the existing `MM_mid` implementation. It does not defin
 | Fusion | A zero-initialized linear eye residual is added to the EEG embedding |
 | Row integration | A cross-slot sequence block, masked mean pooling, and a regression head predict the row score |
 
-The animations illustrate the computation flow; moving elements are schematic and do not show recorded waveforms or measured activations. [Static architecture](docs/assets/architecture_animated_still.png).
+The animations illustrate the computation flow; moving elements are schematic and do not show recorded waveforms or measured activations. [Static architecture](docs/assets/architecture_animated_still.png). Regenerate both GIFs with `python scripts/build_readme_animations.py`.
 
 The primary architecture is in [`src/foundation/hiernet.py`](src/foundation/hiernet.py). The training entry is [`scripts/run_charbag_cv.py`](scripts/run_charbag_cv.py). Optional research modules are included for traceability and are **not** components of the primary model unless their flags are enabled.
 

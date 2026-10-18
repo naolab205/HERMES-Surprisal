@@ -8,3 +8,4 @@ mne
 openpyxl
 jieba
 transformers>=4.45
+Pillow>=9.2
