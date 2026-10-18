@@ -57,6 +57,17 @@ The matched controls provide context:
 
 See the [reproducibility guide](docs/REPRODUCIBILITY.md) and [research history](docs/research_history.md) for the evidence behind these statements, including failed candidates.
 
+## Scalp dynamics appendix
+
+Two data-based animations extend the manuscript's scalp and reader analyses: the group high-minus-low voltage over four row-onset intervals, and the between-reader dispersion of the same contrasts. They use actual saved EEG summaries with fixed color scales and no temporal interpolation.
+
+<p align="center">
+<a href="docs/appendix/README.md"><img src="docs/appendix/topography/group_contrast.gif" width="48%" alt="Animation S1: group row-surprisal scalp contrast" /></a>
+<a href="docs/appendix/README.md"><img src="docs/appendix/topography/reader_dispersion.gif" width="48%" alt="Animation S2: between-reader SD of the same scalp contrast" /></a>
+</p>
+
+[Read the appendix, definitions, and interpretation](docs/appendix/README.md) · [Source arrays and provenance](docs/appendix/topography/provenance.json)
+
 ## Quick start
 
 ### 1. Install

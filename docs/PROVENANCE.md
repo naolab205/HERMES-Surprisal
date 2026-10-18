@@ -11,3 +11,5 @@ Raw or processed signal caches, trained checkpoints, manuscript source, private 
 README graphics were prepared with code. The architecture illustration contains author-arranged explanatory components prepared with AI assistance, as disclosed in the manuscript; data plots use saved numerical results. The release does not claim publication acceptance.
 
 README animations are rendered with Pillow drawing primitives by `scripts/build_readme_animations.py`. They show conceptual message flow, without encoding recorded signals, fitted weights, or experimental scores. Static alternatives are included.
+
+The scalp appendix is different from the conceptual flow animations. It is rendered directly from the verified 2026-10-07 row-onset arrays, not the older character-window arrays. It adds the sensor-wise sample SD across reader-level signed contrasts, with exact definitions and input hashes in `docs/appendix/`. No model training or new held-out evaluation is performed.

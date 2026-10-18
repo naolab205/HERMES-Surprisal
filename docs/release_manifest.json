@@ -8,8 +8,8 @@
     "sha256": "7b377a65c00548a6a1a8f9d6575db6b9555eaaae99a55cf2644ae3ebd1f24076"
   },
   "README.md": {
-    "bytes": 8606,
-    "sha256": "ee3b24ab2f9f3f540466e2a7449b5f89885185668f89549b7650f578f414aac1"
+    "bytes": 9443,
+    "sha256": "b86ad5cc1da445bc920c8ee9f2ee1949b215a60c199509689df08a27a54cbd02"
   },
   "analysis/book_stratified_item_correlations.csv": {
     "bytes": 809,
@@ -220,8 +220,8 @@
     "sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
   },
   "docs/PROVENANCE.md": {
-    "bytes": 2055,
-    "sha256": "df3d4621b9d8b3bd2b9334d6c6ba11b4fd03582bb4c9d4601ed3b89df0884dcf"
+    "bytes": 2427,
+    "sha256": "08971743e06ae890a2272cd53786a94dec858a046c9509a4e685ee2e286e363a"
   },
   "docs/REPRODUCIBILITY.md": {
     "bytes": 5002,
@@ -2666,5 +2666,93 @@
   "docs/assets/architecture_animated_still.png": {
     "bytes": 57198,
     "sha256": "d558176d45650a94c99cb02a96e454993c65ca3334b22bcd85826e44b4142fac"
+  },
+  "scripts/build_topography_appendix.py": {
+    "bytes": 6744,
+    "sha256": "3055a08215d0d1a0cab6f4f26b52dd8f171eb0869617c0eccd7dd940f71084ba"
+  },
+  "analysis/verified_revision_20261007/electrodes.tsv": {
+    "bytes": 8302,
+    "sha256": "7e0d24c40e8e35145b22e4b9aabed7745e97c64d3412721c16d1365ce87349d9"
+  },
+  "docs/appendix/README.md": {
+    "bytes": 3125,
+    "sha256": "fd4af1e387f6f2abc537d6b949dbfcfb206862d2fd90235d814129ed0fe89381"
+  },
+  "docs/appendix/topography/group_contrast_frame_04.png": {
+    "bytes": 193234,
+    "sha256": "d2b6f093eb584238c2c24fabc60e834f48bb2b5b3d20e2eeb1222d507b17419c"
+  },
+  "docs/appendix/topography/group_contrast_frame_01.png": {
+    "bytes": 153698,
+    "sha256": "9fc7b42f5844c3ed8245a1f33e4571bc36bd67798ddc20fb32ba3b8801c4d18d"
+  },
+  "docs/appendix/topography/reader_dispersion_keyframes.png": {
+    "bytes": 481433,
+    "sha256": "90174a0e8fdccd4fb2eeb1527749ed8cf926052a2f1ae02100feaa7638bd9863"
+  },
+  "docs/appendix/topography/reader_dispersion_frame_03.png": {
+    "bytes": 181889,
+    "sha256": "b195a2b0b599d8202904ecae0b65a3c69e5a1a9004d3c9634891cc3951041e96"
+  },
+  "docs/appendix/topography/reader_dispersion_poster.png": {
+    "bytes": 91777,
+    "sha256": "ee3fff8685c3e827f93f3a02605a1c52e1f86de773eff784d33e960ee77a64f8"
+  },
+  "docs/appendix/topography/reader_dispersion.gif": {
+    "bytes": 238947,
+    "sha256": "35c43b0d43ded9476c9273d5720c52095b3527f8fc94d28486ccf55e0049c109"
+  },
+  "docs/appendix/topography/window_summary.csv": {
+    "bytes": 224,
+    "sha256": "30e724c1e5768eec6cd780516bcdaef957252400107951b218eb9b1e341734e3"
+  },
+  "docs/appendix/topography/group_contrast_keyframes.pdf": {
+    "bytes": 199032,
+    "sha256": "aaedf11861de9bcf3dfe646aa30e4441640cf7fb431fd927878ef98ec3c46afd"
+  },
+  "docs/appendix/topography/reader_dispersion_frame_04.png": {
+    "bytes": 187354,
+    "sha256": "58f803160fae884b20f9f92d2cc4d6c5667658a1c494896387f13506036f7de5"
+  },
+  "docs/appendix/topography/group_contrast_frame_02.png": {
+    "bytes": 171822,
+    "sha256": "37a1b849f35997c2e23a0c4bda49b0478d8774e7b4fabd82d2e1b32dfa428ca6"
+  },
+  "docs/appendix/topography/reader_dispersion_keyframes.pdf": {
+    "bytes": 215606,
+    "sha256": "da626385927d970a309dc6c2e8b86913a28b8e93b614b5ef8f707b2b626392ff"
+  },
+  "docs/appendix/topography/group_contrast_poster.png": {
+    "bytes": 87007,
+    "sha256": "5ded6f42a80fde66331dd1c6c2446a47e5a7f69bcb80c6c7b4bc314407e60689"
+  },
+  "docs/appendix/topography/animation_source_arrays.npz": {
+    "bytes": 24564,
+    "sha256": "17546c4954c4ef140ebb8a118ba37e164fb7a983dd961397ebffe5f3e0c36604"
+  },
+  "docs/appendix/topography/reader_dispersion_frame_02.png": {
+    "bytes": 183033,
+    "sha256": "8bf22f41ace1a6123b11c1a093c057c8cb0695cb210d4dbf8c558e99a17fe59b"
+  },
+  "docs/appendix/topography/group_contrast_keyframes.png": {
+    "bytes": 492646,
+    "sha256": "939538b41bb687309f4b31458eeb25769174eccb9c48243bb5b7a165c13f7c23"
+  },
+  "docs/appendix/topography/group_contrast_frame_03.png": {
+    "bytes": 185558,
+    "sha256": "69de228f1fbf3187679ac5e9d23590c73d73b7d3e8e6f890c34c5aa299dc5a53"
+  },
+  "docs/appendix/topography/group_contrast.gif": {
+    "bytes": 219520,
+    "sha256": "0987abd854d0060500be611501c751fcfcb82f3efa043ce7e5eb25091fadd5fe"
+  },
+  "docs/appendix/topography/reader_dispersion_frame_01.png": {
+    "bytes": 165792,
+    "sha256": "ab6bd672a43218bcacc2a343f3cb135485718b73741831eda993d3c3564d6876"
+  },
+  "docs/appendix/topography/provenance.json": {
+    "bytes": 1782,
+    "sha256": "c07068a120c53aae09f641005497eafb1ced9c62e2cd3c8509fd2a04b69a0e5a"
   }
 }
