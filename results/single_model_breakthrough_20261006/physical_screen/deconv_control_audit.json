@@ -1,0 +1,13 @@
+{
+  "schedule_parameters": 356937,
+  "generic_control_parameters": 356937,
+  "initial_output_max_difference": 0.0,
+  "real_shift_tokens": [
+    13,
+    13
+  ],
+  "control_shift_tokens": [
+    0,
+    0
+  ]
+}

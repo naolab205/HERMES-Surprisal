@@ -1,0 +1,38 @@
+[arm] deconv_control_f3 csd=True ea=False pooling=mean device=cuda:1
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:1
+  fold3 ep00 loss=1.6464 val_trial=+0.1783 val_item=+0.2893 (15s)
+  fold3 ep01 loss=1.5357 val_trial=+0.2346 val_item=+0.3233 (13s)
+  fold3 ep02 loss=1.4548 val_trial=+0.2734 val_item=+0.3356 (13s)
+  fold3 ep03 loss=1.4160 val_trial=+0.2955 val_item=+0.3500 (13s)
+  fold3 ep04 loss=1.3987 val_trial=+0.3036 val_item=+0.3599 (13s)
+  fold3 ep05 loss=1.3833 val_trial=+0.3013 val_item=+0.3674 (13s)
+  fold3 ep06 loss=1.3624 val_trial=+0.3120 val_item=+0.3761 (14s)
+  fold3 ep07 loss=1.3310 val_trial=+0.3279 val_item=+0.3585 (13s)
+  fold3 ep08 loss=1.3118 val_trial=+0.3307 val_item=+0.3567 (13s)
+  fold3 ep09 loss=1.2995 val_trial=+0.3435 val_item=+0.3719 (13s)
+  fold3 ep10 loss=1.2891 val_trial=+0.3398 val_item=+0.3665 (13s)
+  fold3 ep11 loss=1.2818 val_trial=+0.3513 val_item=+0.3802 (14s)
+  fold3 ep12 loss=1.2728 val_trial=+0.3520 val_item=+0.3862 (13s)
+  fold3 ep13 loss=1.2634 val_trial=+0.3416 val_item=+0.3821 (13s)
+  fold3 ep14 loss=1.2517 val_trial=+0.3407 val_item=+0.3811 (13s)
+  fold3 ep15 loss=1.2411 val_trial=+0.3488 val_item=+0.3902 (13s)
+  fold3 ep16 loss=1.2273 val_trial=+0.3460 val_item=+0.3906 (13s)
+  fold3 ep17 loss=1.2182 val_trial=+0.3448 val_item=+0.3931 (15s)
+  fold3 ep18 loss=1.2019 val_trial=+0.3356 val_item=+0.3876 (14s)
+[fold 3] {"trial_spearman": 0.35199419979093854, "item_spearman": 0.38617810197317654, "item_auc_hi_vs_lo": 0.7443646185762222, "n_items": 1576, "n_obs": 14935, "deconv_gate_magnitude": [], "fold": 3, "best_epoch": 12, "best_val_trial": 0.35199419979093854, "best_val_item": 0.38617810197317654, "selection_metric": "trial_spearman", "eval_split": "val"}
+{
+  "arm": "deconv_control_f3",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.35199419979093854,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.38617810197317654,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.7443646185762222,
+  "item_auc_hi_vs_lo_std": NaN
+}

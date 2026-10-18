@@ -1,0 +1,6 @@
+{
+  "change": "Corrected Eye encoder window documentation; no executable AST changes",
+  "training_source_sha256": "8e4188ea6b3d7f1c1655b56d162e95751552a9e238f5b0ba5deddff7e53bd28f",
+  "current_source_sha256": "54ee166f5523f769e3a35174591a16a6f3fc1e97e8df190dfb8173573c1a0124",
+  "executable_AST_equal": true
+}

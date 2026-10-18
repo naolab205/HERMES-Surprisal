@@ -1,0 +1,13 @@
+{
+  "arm": "ABL_win450",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.32101807719496606,
+  "trial_spearman_std": 0.019115514188200112,
+  "item_spearman_mean": 0.3916983356702497,
+  "item_spearman_std": 0.022237438608559118,
+  "item_auc_hi_vs_lo_mean": 0.7427721278384892,
+  "item_auc_hi_vs_lo_std": 0.014168669892159544
+}

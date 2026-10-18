@@ -1,0 +1,13 @@
+{
+  "arm": "ABL_win900",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.3528799606660122,
+  "trial_spearman_std": 0.021222455567165923,
+  "item_spearman_mean": 0.39991408709983295,
+  "item_spearman_std": 0.021924866608577304,
+  "item_auc_hi_vs_lo_mean": 0.7441145894006466,
+  "item_auc_hi_vs_lo_std": 0.015960422428892555
+}

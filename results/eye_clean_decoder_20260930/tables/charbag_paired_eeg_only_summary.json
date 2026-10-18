@@ -1,0 +1,13 @@
+{
+  "arm": "paired_eeg_only",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.3272504560898602,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.38845604255390404,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.7439432502871446,
+  "item_auc_hi_vs_lo_std": NaN
+}

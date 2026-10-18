@@ -1,0 +1,31 @@
+{
+  "status": "retrospective development; no untouched outer data",
+  "protocol": "two sentence-bound chunks per book/run, seven book-stratified blocks",
+  "context_purge_rows_each_side": 24,
+  "min_boundary_gap_character_tokens": 451,
+  "n_items_total": 11037,
+  "n_items_included": 9835,
+  "excluded_by_reason": {
+    "context_or_eeg_boundary": 1200,
+    "cross_block_duplicate_sentence": 2
+  },
+  "items_by_book_block": {
+    "GarnettDream|0": 1320,
+    "GarnettDream|1": 1155,
+    "GarnettDream|2": 1047,
+    "GarnettDream|3": 965,
+    "GarnettDream|4": 1135,
+    "GarnettDream|5": 1162,
+    "GarnettDream|6": 994,
+    "LittlePrince|0": 339,
+    "LittlePrince|1": 227,
+    "LittlePrince|2": 223,
+    "LittlePrince|3": 315,
+    "LittlePrince|4": 288,
+    "LittlePrince|5": 307,
+    "LittlePrince|6": 358
+  },
+  "cross_block_sentence_overlap": 0,
+  "cross_block_near_duplicate_families": 0,
+  "sha256": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8"
+}

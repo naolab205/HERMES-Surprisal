@@ -1,0 +1,13 @@
+{
+  "arm": "phys_shared",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.3012312946689022,
+  "trial_spearman_std": 0.03977224718628544,
+  "item_spearman_mean": 0.3448055880131706,
+  "item_spearman_std": 0.0444123246010206,
+  "item_auc_hi_vs_lo_mean": 0.7165001414772698,
+  "item_auc_hi_vs_lo_std": 0.027501704688633017
+}

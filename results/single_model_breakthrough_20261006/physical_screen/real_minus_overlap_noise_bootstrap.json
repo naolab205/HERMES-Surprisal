@@ -1,0 +1,30 @@
+[
+  {
+    "candidate": "real EEG aligned",
+    "control": "stationary noise aligned",
+    "fold": 0,
+    "observed_delta_item_rho": 0.008951131043733185,
+    "reader_textblock_bootstrap_95pct": [
+      -0.0030457353307318203,
+      0.021594114657633202
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "real EEG aligned",
+    "control": "stationary noise aligned",
+    "fold": 3,
+    "observed_delta_item_rho": 0.04527625858232026,
+    "reader_textblock_bootstrap_95pct": [
+      0.019975439195800592,
+      0.07316833838981895
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  }
+]

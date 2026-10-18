@@ -1,0 +1,25 @@
+{
+  "scope": "Retrospective validation settings 0 and 3, seed 2026",
+  "inputs": {
+    "model_code/results/support_consensus_20261006/complete_metrics.csv": "80d060631a81c9b0bc94756866752fefb4e1d5db261038a2703657af8bde0891",
+    "model_code/results/support_consensus_20261006/consensus_base/tables/charbag_consensus_base_predictions.csv": "7a8a967dd71571454b929276063b5b00436645a144e6ea986edd8dd15fc3dd47",
+    "model_code/results/support_consensus_20261006/consensus_source/tables/charbag_consensus_source_predictions.csv": "9d5b11eddb75b549c446d73219d6ebee9165ee0f635e985965ca468a07197cf8",
+    "model_code/results/support_consensus_20261006/consensus_generic/tables/charbag_consensus_generic_predictions.csv": "8cb0a3c8ae6a290af142a465879845b2b5c8b34ed6db96e4c9f88442ee5e24d4",
+    "model_code/results/support_consensus_20261006/unique_trajectory/tables/charbag_unique_trajectory_predictions.csv": "3100572b21541eef35d79edd5f55beaddef0379ffab1d9ef38b7ce51c8b99df8",
+    "model_code/results/single_model_breakthrough_20261006/complete_experiment_ledger.csv": "042319cf81ef0c7b2f7012433f176c444b2c786d1c953753e6f932b1a8ffd8b5",
+    "model_code/data_cache/char_epochs_fixed_grid_350ms_20261006/CACHE_AUDIT.json": "2aa789d695eb79a35e9b4ae96b6bd876d3b8621d04365e452a901f7ad6a28aee",
+    "model_code/results/response_mechanism_20261002/sentence_manifest.csv": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8",
+    "model_code/data_cache/surprisal_1829a99ad4.csv": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f",
+    "model_code/results/support_consensus_20261006/consensus_source/checkpoints/consensus_source_f0.pt": "be1f9210549a2b5cb45366485853fd68fb177660856606713b5ad478a3fbef46",
+    "model_code/results/support_consensus_20261006/consensus_source/checkpoints/consensus_source_f3.pt": "2fc538356799a192024b69ab6e30d7f57fd92d25a34aad8e0bc659d8692845bc",
+    "model_code/results/support_consensus_20261006/frozen_sign_ablation.json": "f48b072d584fdb087139921b1ee087bf5796362f6c3a6f95f88fd235d4d1ae55"
+  },
+  "figures": {
+    "fig03_reader_boxplots_20261007": "19 reader-book observations per arm and setting; dependent descriptive boxes, not independent replicates.",
+    "fig04_geometry_controls_20261007": "Earlier full-cohort audit; each panel compares paired real/noise input geometry. Neither panel is a gain comparison against the strict ten-slot cohort.",
+    "fig05_row_onset_topography_20261007": "Actual ROWS onset, first window only, fixed equal10 cohort; setting0 training blocks 2\u20136 only; nine readers with both books equal-weighted; baseline13 samples; unadjusted voltage, no CSD or model attribution.",
+    "fig07_reader_clustering_20261007": "Ward clustering from four standardized row-onset RMS features in setting0 training data, nine readers; post hoc, no statistical subtype or prediction claim.",
+    "fig06_prediction_distributions_20261007": "Validation item means only. Hexagon densities and within-book/setting empirical observed-tercile violin groups describe prediction overlap; not thresholds selected for classification.",
+    "fig08_gate_intervention_20261007": "288 dependent learned coefficients per setting. Frozen gate sign intervention, no retraining or prediction-rule reselection."
+  }
+}

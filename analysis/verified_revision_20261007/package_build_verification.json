@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "archive_extracted_to": "/tmp/kbs_20261007_package_verify",
+  "engine": "/tmp/tectonic --keep-logs main.tex",
+  "pages": 12,
+  "extracted_pdf_text_matches_workspace": true,
+  "archive_sha256": "97d2d51b287410df60ecdc8330f137a7f59c2ca43dac2c1018ab260ba9ffc020"
+}

@@ -1,0 +1,13 @@
+{
+  "arm": "overlap_demix_val",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.3360305048205101,
+  "trial_spearman_std": 0.01029391686529239,
+  "item_spearman_mean": 0.36597400862271096,
+  "item_spearman_std": 0.011330443743698954,
+  "item_auc_hi_vs_lo_mean": 0.7206920299127298,
+  "item_auc_hi_vs_lo_std": 0.02185591982823369
+}

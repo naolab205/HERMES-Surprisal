@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-07",
+  "pages": 12,
+  "abstract_words": 203,
+  "figures": 8,
+  "tables": 6,
+  "cited_references": 27,
+  "figure_prose_references": {
+    "fig:workflow": 1,
+    "fig:architecture": 1,
+    "fig:readerboxes": 1,
+    "fig:geometry": 1,
+    "fig:topos": 2,
+    "fig:predictions": 1,
+    "fig:readercluster": 1,
+    "fig:gates": 1
+  },
+  "original_template_matches": {
+    "cas-dc.cls": true,
+    "cas-common.sty": true,
+    "cas-model2-names.bst": true
+  },
+  "archive_sha256": "97d2d51b287410df60ecdc8330f137a7f59c2ca43dac2c1018ab260ba9ffc020",
+  "main_pdf_sha256": "2b663130341e313003626c85211d1114181b0020cd7177401c7f01290dc63051",
+  "archive_entries": 22,
+  "source_age": "Published ChineseEEG: 18\u201329, mean22.7; local README18\u201324/20.68 differs",
+  "evidence": "Two retrospective validation settings, one seed; candidate not promoted",
+  "pending_metadata": [
+    "Individual factual CRediT roles"
+  ],
+  "journal_guide": "Direct KBS guide currently returns403; supplied<=250words/<=20pages checked",
+  "ai_policy": "Current Elsevier explanatory-image policy checked; captions/general declaration disclose imagegen",
+  "layout": "Rendered PDF inspected; no premature forced breaks. CAS frontmatter retains one empty-box overfull warning; no visible clipping.",
+  "independent_archive_build": "Verify separately after packaging; see package_build_verification.json"
+}

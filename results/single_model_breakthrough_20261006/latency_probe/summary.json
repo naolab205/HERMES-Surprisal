@@ -1,0 +1,19 @@
+{
+  "scope": "training texts only, full held-training-block cross-fitting; all observed readers",
+  "mean_conditional_rho": [
+    {
+      "fold": 0,
+      "pooled_amplitude": 0.029301443481512278,
+      "scrambled_latency": -0.020304464616185923,
+      "signed_latency": 0.06994714314405698
+    },
+    {
+      "fold": 3,
+      "pooled_amplitude": -0.04099417371458959,
+      "scrambled_latency": 0.008915794665296396,
+      "signed_latency": -0.002133003034629302
+    }
+  ],
+  "latency_gate_passed": false,
+  "limitation": "linear CSD signed-window row-mean probe; does not exclude nonlinear latency or spatial mechanisms"
+}

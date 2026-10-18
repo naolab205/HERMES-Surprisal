@@ -1,0 +1,231 @@
+{
+  "status": "signal_level_feasibility_only",
+  "saccade_speed_threshold_normalized_per_second": 2.0,
+  "fixation_speed_threshold_normalized_per_second": 0.1,
+  "invalid_gap_length_samples": [
+    3,
+    40
+  ],
+  "recordings": [
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-04/ses-LittlePrince/eyetracking/sub-04_ses-LittlePrince_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 319.81709375,
+      "eye_valid_fraction": 0.9636178095259224,
+      "author_excluded_components": [
+        1,
+        3
+      ],
+      "n_gaze_saccade_frames": 3950,
+      "n_gaze_fixation_frames": 48950,
+      "n_blink_like_invalid_gaps": 420,
+      "n_ica_samples_saccade": 54911,
+      "n_ica_samples_fixation": 261384,
+      "n_ica_samples_invalid_gap": 33763,
+      "n_ica_samples_reference": 330986,
+      "top_saccade_components": [
+        15,
+        18,
+        10
+      ],
+      "top_invalid_gap_components": [
+        1,
+        15,
+        18
+      ]
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-04/ses-GarnettDream/eyetracking/sub-04_ses-GarnettDream_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 67.80921875,
+      "eye_valid_fraction": 0.9694945153934935,
+      "author_excluded_components": [
+        6,
+        7,
+        14
+      ],
+      "n_gaze_saccade_frames": 3391,
+      "n_gaze_fixation_frames": 70228,
+      "n_blink_like_invalid_gaps": 585,
+      "n_ica_samples_saccade": 50627,
+      "n_ica_samples_fixation": 385334,
+      "n_ica_samples_invalid_gap": 46901,
+      "n_ica_samples_reference": 465528,
+      "top_saccade_components": [
+        5,
+        18,
+        19
+      ],
+      "top_invalid_gap_components": [
+        18,
+        19,
+        14
+      ]
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-GarnettDream/eeg/sub-05_ses-GarnettDream_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-05/ses-GarnettDream/eyetracking/sub-05_ses-GarnettDream_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 38.52828125,
+      "eye_valid_fraction": 0.9539482504357153,
+      "author_excluded_components": [
+        4
+      ],
+      "n_gaze_saccade_frames": 3032,
+      "n_gaze_fixation_frames": 47625,
+      "n_blink_like_invalid_gaps": 432,
+      "n_ica_samples_saccade": 48150,
+      "n_ica_samples_fixation": 290861,
+      "n_ica_samples_invalid_gap": 34092,
+      "n_ica_samples_reference": 474992,
+      "top_saccade_components": [
+        3,
+        10,
+        13
+      ],
+      "top_invalid_gap_components": [
+        10,
+        1,
+        4
+      ]
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-05/ses-LittlePrince/eeg/sub-05_ses-LittlePrince_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-05/ses-LittlePrince/eyetracking/sub-05_ses-LittlePrince_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 120.30868749999999,
+      "eye_valid_fraction": 0.9578229574441217,
+      "author_excluded_components": [
+        10
+      ],
+      "n_gaze_saccade_frames": 1171,
+      "n_gaze_fixation_frames": 54815,
+      "n_blink_like_invalid_gaps": 245,
+      "n_ica_samples_saccade": 18930,
+      "n_ica_samples_fixation": 299651,
+      "n_ica_samples_invalid_gap": 19418,
+      "n_ica_samples_reference": 345573,
+      "top_saccade_components": [
+        1,
+        12,
+        14
+      ],
+      "top_invalid_gap_components": [
+        14,
+        18,
+        1
+      ]
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-06/ses-LittlePrince/eeg/sub-06_ses-LittlePrince_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-06/ses-LittlePrince/eyetracking/sub-06_ses-LittlePrince_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 119.69853125,
+      "eye_valid_fraction": 0.9607924825255751,
+      "author_excluded_components": [
+        4,
+        7,
+        13
+      ],
+      "n_gaze_saccade_frames": 5004,
+      "n_gaze_fixation_frames": 29485,
+      "n_blink_like_invalid_gaps": 362,
+      "n_ica_samples_saccade": 69508,
+      "n_ica_samples_fixation": 176380,
+      "n_ica_samples_invalid_gap": 28519,
+      "n_ica_samples_reference": 340675,
+      "top_saccade_components": [
+        18,
+        2,
+        19
+      ],
+      "top_invalid_gap_components": [
+        6,
+        8,
+        19
+      ]
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-07/ses-LittlePrince/eeg/sub-07_ses-LittlePrince_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-07/ses-LittlePrince/eyetracking/sub-07_ses-LittlePrince_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 115.61809375,
+      "eye_valid_fraction": 0.9593345656192237,
+      "author_excluded_components": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        19
+      ],
+      "n_gaze_saccade_frames": 1794,
+      "n_gaze_fixation_frames": 47343,
+      "n_blink_like_invalid_gaps": 541,
+      "n_ica_samples_saccade": 27375,
+      "n_ica_samples_fixation": 268536,
+      "n_ica_samples_invalid_gap": 43410,
+      "n_ica_samples_reference": 321430,
+      "top_saccade_components": [
+        12,
+        11,
+        14
+      ],
+      "top_invalid_gap_components": [
+        2,
+        12,
+        11
+      ]
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 1,
+      "ica_path": "/data/my/ds004952/derivatives/preproc/filtered_0.5_30/sub-08/ses-GarnettDream/eeg/sub-08_ses-GarnettDream_task-reading_run-01_ica_components.npy",
+      "eye_archive": "/data/my/ds004952/derivatives/eyetracking_data/sub-08/ses-GarnettDream/eyetracking/sub-08_ses-GarnettDream_task-reading_run-01_eyetracking.rar",
+      "eye_to_preproc_shift_seconds": 72.55606250000001,
+      "eye_valid_fraction": 0.854346482934227,
+      "author_excluded_components": [
+        2,
+        4
+      ],
+      "n_gaze_saccade_frames": 25322,
+      "n_gaze_fixation_frames": 12503,
+      "n_blink_like_invalid_gaps": 1731,
+      "n_ica_samples_saccade": 289662,
+      "n_ica_samples_fixation": 58810,
+      "n_ica_samples_invalid_gap": 121742,
+      "n_ica_samples_reference": 390338,
+      "top_saccade_components": [
+        7,
+        3,
+        11
+      ],
+      "top_invalid_gap_components": [
+        10,
+        4,
+        11
+      ]
+    }
+  ]
+}

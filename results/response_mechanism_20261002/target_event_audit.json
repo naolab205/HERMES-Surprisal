@@ -1,0 +1,38 @@
+{
+  "n_items": 11037,
+  "n_readings": 102499,
+  "row_label_granularity": "mean token negative log likelihood including punctuation",
+  "eeg_event_granularity": "one epoch per highlighted nonpunctuation character",
+  "readings_with_missing_display_slots": 19,
+  "fraction_readings_with_missing_slots": 0.00018536766212353292,
+  "punctuation_share_of_target_tokens": 0.10613630192777627,
+  "items_with_punctuation": 7964,
+  "soa_seconds_quantiles": {
+    "0.01": 0.39453125,
+    "0.25": 0.41015625,
+    "0.5": 0.4130859375,
+    "0.75": 0.426171875,
+    "0.99": 0.453515625
+  },
+  "surprisal_spearman_with_metadata_audit_only": {
+    "n_slots": 0.2961491810641194,
+    "expected_slots": 0.2962593631739677,
+    "n_char": 0.0468875698861229,
+    "punctuation": -0.29674249942194686,
+    "soa": -0.0324686830705885
+  },
+  "by_book": {
+    "GarnettDream": {
+      "n_items": 8642,
+      "y_mean": 3.17996979091774,
+      "y_std": 1.0144971255540784,
+      "soa_median": 0.412109375
+    },
+    "LittlePrince": {
+      "n_items": 2395,
+      "y_mean": 2.6653173518176656,
+      "y_std": 0.8487528010052731,
+      "soa_median": 0.42410714285714285
+    }
+  }
+}

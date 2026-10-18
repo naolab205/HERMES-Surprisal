@@ -1,0 +1,7 @@
+{
+  "scripts/run_charbag_cv.py": true,
+  "src/foundation/data.py": true,
+  "src/foundation/model.py": true,
+  "src/foundation/deconvnet.py": true,
+  "src/foundation/gpu_store.py": true
+}

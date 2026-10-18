@@ -1,0 +1,10 @@
+{
+  "within_run_row_splices": 102268,
+  "backward_clock_jumps_fraction": 0.9567900027379044,
+  "signed_gap_seconds_quantiles": {
+    "p1": -0.390625,
+    "p50": -0.35429687499998863,
+    "p99": 0.47226562500009095
+  },
+  "interpretation": "Negative gap means the retained lead-out already contains EEG after the next row starts, then concatenation repeats those times. Run-boundary splices are additional and not included in this statistic."
+}

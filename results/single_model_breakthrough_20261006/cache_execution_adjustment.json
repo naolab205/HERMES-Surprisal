@@ -1,0 +1,10 @@
+{
+  "reason": "Independent source reconstruction is slow with two workers; sufficient RAM for six. No scientific model configuration changes. Resume only fully verified recordings; incomplete per-record outputs rebuilt.",
+  "stopped_own_processes": [
+    4094578,
+    4094590,
+    4094591
+  ],
+  "workers_before": 2,
+  "workers_after": 6
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 2026,
+  "development_folds": [
+    0,
+    3
+  ],
+  "hashes": {
+    "scripts/probe_training_reader_teacher.py": "8ef475334074f5095cee817ac4b34e9c163d63c08477792bcf09a5977cd8ce59",
+    "results/response_mechanism_20261002/sentence_manifest.csv": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8",
+    "data_cache/surprisal_1829a99ad4.csv": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
+  }
+}

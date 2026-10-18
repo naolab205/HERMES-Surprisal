@@ -1,0 +1,79 @@
+[arm] item_selected_c csd=True ea=False pooling=mean device=cuda:2
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:2
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py:454: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  schedule.step()
+  fold2 ep00 loss=1.6038 val_trial=+0.3667 val_item=+0.3667 (15s)
+  fold2 ep01 loss=1.4727 val_trial=+0.3848 val_item=+0.3848 (15s)
+  fold2 ep02 loss=1.4394 val_trial=+0.3909 val_item=+0.3909 (15s)
+  fold2 ep03 loss=1.4189 val_trial=+0.4110 val_item=+0.4110 (15s)
+Traceback (most recent call last):
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 666, in <module>
+    if __name__ == "__main__":
+        ^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 633, in main
+    for fold in args.folds:
+                         ^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 410, in run_fold
+    out = (model(eeg, mask, group, batch.get("eye"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/hiernet.py", line 461, in forward
+    z = self.time_encoder(x)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/hiernet.py", line 138, in forward
+    h = _apply(self.block, h, None)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/hiernet.py", line 99, in _apply
+    return block(h, pad_mask)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/modern.py", line 178, in forward
+    x = block(x, pad_mask)
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/modern.py", line 157, in forward
+    x = x + self.drop_path(self.scale2 * self.drop(self.ffn(self.norm2(x))))
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/modern.py", line 136, in forward
+    return self.down(F.silu(self.gate(x)) * self.up(x))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1778, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1789, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

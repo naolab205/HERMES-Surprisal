@@ -1,0 +1,86 @@
+{
+  "scope": "retrospective seven-block development, folds 0 and 3 only",
+  "method": "four fixed EEG latency windows; nuisance-adjusted forward regression",
+  "n_permutations": 199,
+  "windows_samples": [
+    [
+      13,
+      39
+    ],
+    [
+      39,
+      64
+    ],
+    [
+      64,
+      115
+    ],
+    [
+      115,
+      167
+    ]
+  ],
+  "manifest_sha256": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8",
+  "positive_gate": false,
+  "folds": [
+    {
+      "fold": 0,
+      "n_train_readings": 62820,
+      "n_val_readings": 12967,
+      "n_val_items": 1382,
+      "max_delta_r2": 0.00028468845995892247,
+      "channel_index": 81,
+      "window_index": 1,
+      "window_samples": [
+        39,
+        64
+      ],
+      "fwer_permutation_p": 0.345,
+      "null_max_95pct": 0.00045384597938802584,
+      "positive_reader_slices": 6,
+      "n_reader_slices": 10,
+      "reader_delta_r2": {
+        "sub-04": -9.40234087500137e-05,
+        "sub-05": 0.00039797376042161904,
+        "sub-06": 0.0007052534667257538,
+        "sub-07": -0.0008114871945044861,
+        "sub-08": -0.0003794423112529597,
+        "sub-09": 0.0002164474874554497,
+        "sub-10": 0.00012153620159518198,
+        "sub-13": -0.0014758939770223845,
+        "sub-14": 0.00014989750904822067,
+        "sub-15": 0.0018405708974905007
+      }
+    },
+    {
+      "fold": 3,
+      "n_train_readings": 66395,
+      "n_val_readings": 13277,
+      "n_val_items": 1423,
+      "max_delta_r2": 0.00019252351091215614,
+      "channel_index": 55,
+      "window_index": 3,
+      "window_samples": [
+        115,
+        167
+      ],
+      "fwer_permutation_p": 0.85,
+      "null_max_95pct": 0.000478961089834067,
+      "positive_reader_slices": 7,
+      "n_reader_slices": 10,
+      "reader_delta_r2": {
+        "sub-04": -0.000489324371343931,
+        "sub-05": 0.00020443291469701965,
+        "sub-06": 0.00024027980307787217,
+        "sub-07": -0.000974175459663531,
+        "sub-08": 0.00033282609866011647,
+        "sub-09": 0.0005404822606045028,
+        "sub-10": -0.002868766411690801,
+        "sub-13": 0.00021044535815239288,
+        "sub-14": 0.0006442698529213121,
+        "sub-15": 0.00034815274691248494
+      }
+    }
+  ],
+  "interpretation": "Gate for architecture screening, not a causal proof or an unseen-test improvement"
+}

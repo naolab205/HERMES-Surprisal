@@ -1,0 +1,324 @@
+{
+  "endpoint": "frozen row-level language-model surprisal",
+  "contrast": "high minus low within-book tertiles; exactly 10 character slots per row",
+  "aggregation": "equal mean across character epochs within row, rows within subject-book, books within subject, then 9 subjects",
+  "baseline_ms": [
+    -100,
+    0
+  ],
+  "windows_ms": [
+    [
+      0,
+      100
+    ],
+    [
+      100,
+      200
+    ],
+    [
+      200,
+      300
+    ],
+    [
+      300,
+      400
+    ]
+  ],
+  "source_cache": "/data/2_readEEG/superisal_code/data_cache/char_epochs",
+  "cache_audit_sha256": "5c0e40122379e9c544b8f4feab2429c6af065d372fc5b1fc196e457699824b53",
+  "label_path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/surprisal_1829a99ad4.csv",
+  "label_sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f",
+  "electrodes_path": "/data/my/ds004952/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_space-CapTrak_electrodes.tsv",
+  "electrodes_sha256": "7e0d24c40e8e35145b22e4b9aabed7745e97c64d3412721c16d1365ce87349d9",
+  "subject_count": 9,
+  "thresholds_by_book": {
+    "GarnettDream": [
+      2.885754587178147,
+      3.6779684090591744
+    ],
+    "LittlePrince": [
+      2.41137066221034,
+      3.093277336204086
+    ]
+  },
+  "color_limit_uv": 0.2,
+  "group_rms_uv": [
+    0.0344,
+    0.05815,
+    0.05571,
+    0.03724
+  ],
+  "recordings": [
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8008661,
+      "contrast_rms_uv": [
+        0.09307,
+        0.08795,
+        0.15711,
+        0.06376
+      ]
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2284580,
+      "contrast_rms_uv": [
+        0.31286,
+        0.33405,
+        0.27829,
+        0.18534
+      ]
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8024235,
+      "contrast_rms_uv": [
+        0.2401,
+        0.35605,
+        0.42593,
+        0.27697
+      ]
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2287037,
+      "contrast_rms_uv": [
+        0.28071,
+        0.32535,
+        0.24754,
+        0.17032
+      ]
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8008950,
+      "contrast_rms_uv": [
+        0.20963,
+        0.23254,
+        0.21128,
+        0.15657
+      ]
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2281007,
+      "contrast_rms_uv": [
+        0.12363,
+        0.19952,
+        0.19253,
+        0.1134
+      ]
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "n_low_rows": 1942,
+      "n_high_rows": 1916,
+      "n_epochs": 72604,
+      "cache_bytes": 1319650432,
+      "meta_bytes": 7524473,
+      "contrast_rms_uv": [
+        0.04247,
+        0.05282,
+        0.11386,
+        0.06872
+      ]
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2284855,
+      "contrast_rms_uv": [
+        0.07461,
+        0.11475,
+        0.1225,
+        0.11731
+      ]
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8016311,
+      "contrast_rms_uv": [
+        0.10447,
+        0.13318,
+        0.10661,
+        0.09389
+      ]
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21549,
+      "cache_bytes": 391674752,
+      "meta_bytes": 2279918,
+      "contrast_rms_uv": [
+        0.18243,
+        0.28506,
+        0.32737,
+        0.26565
+      ]
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8015568,
+      "contrast_rms_uv": [
+        0.05507,
+        0.07533,
+        0.06128,
+        0.05646
+      ]
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "n_low_rows": 347,
+      "n_high_rows": 298,
+      "n_epochs": 11964,
+      "cache_bytes": 217457792,
+      "meta_bytes": 1271836,
+      "contrast_rms_uv": [
+        0.11138,
+        0.16199,
+        0.17888,
+        0.14103
+      ]
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8017622,
+      "contrast_rms_uv": [
+        0.0797,
+        0.08032,
+        0.08151,
+        0.07385
+      ]
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2285984,
+      "contrast_rms_uv": [
+        0.08432,
+        0.12004,
+        0.10899,
+        0.08369
+      ]
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "n_low_rows": 2046,
+      "n_high_rows": 2046,
+      "n_epochs": 77213,
+      "cache_bytes": 1403423616,
+      "meta_bytes": 8028563,
+      "contrast_rms_uv": [
+        0.07852,
+        0.11079,
+        0.08321,
+        0.08514
+      ]
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2279755,
+      "contrast_rms_uv": [
+        0.24323,
+        0.31906,
+        0.30334,
+        0.22492
+      ]
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "n_low_rows": 1955,
+      "n_high_rows": 1936,
+      "n_epochs": 73451,
+      "cache_bytes": 1335045504,
+      "meta_bytes": 7635992,
+      "contrast_rms_uv": [
+        0.05642,
+        0.18801,
+        0.2151,
+        0.08952
+      ]
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "n_low_rows": 576,
+      "n_high_rows": 576,
+      "n_epochs": 21550,
+      "cache_bytes": 391692928,
+      "meta_bytes": 2285900,
+      "contrast_rms_uv": [
+        0.07877,
+        0.12197,
+        0.11367,
+        0.11567
+      ]
+    }
+  ],
+  "interpretation": "descriptive sensor voltage; unadjusted; not MM_mid attribution or causal surprisal response"
+}

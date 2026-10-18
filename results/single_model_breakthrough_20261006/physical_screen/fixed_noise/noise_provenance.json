@@ -1,0 +1,17 @@
+{
+  "control": "independent stationary band-limited Gaussian streams per reading",
+  "noise_seed": 782026,
+  "sampling_hz": 128,
+  "band_hz": [
+    0.5,
+    30
+  ],
+  "population_sd_microvolt": 20,
+  "stream_length": 1024,
+  "n_readings": 102499,
+  "eeg_loaded_into_store": false,
+  "geometry": "rounded char_slot * period differences; same mask",
+  "period_s": 0.35,
+  "variable_clock": false,
+  "scale": "shared real-training-only CSD normalization, identical to real arm"
+}

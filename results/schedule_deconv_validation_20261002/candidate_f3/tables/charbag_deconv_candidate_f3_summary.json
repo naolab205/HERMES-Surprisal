@@ -1,0 +1,13 @@
+{
+  "arm": "deconv_candidate_f3",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.3598278978290825,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.39853273634210906,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.7480542444620804,
+  "item_auc_hi_vs_lo_std": NaN
+}

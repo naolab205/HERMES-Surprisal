@@ -1,0 +1,13 @@
+{
+  "arm": "BL_ctnet",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.2174473883245411,
+  "trial_spearman_std": 0.02320507567545239,
+  "item_spearman_mean": 0.331529577126725,
+  "item_spearman_std": 0.021506649570052258,
+  "item_auc_hi_vs_lo_mean": 0.7046434572340657,
+  "item_auc_hi_vs_lo_std": 0.015719543125806836
+}

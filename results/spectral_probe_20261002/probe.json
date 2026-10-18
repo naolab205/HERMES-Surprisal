@@ -1,0 +1,43 @@
+{
+  "design": {
+    "fold": 0,
+    "subjects": [
+      "sub-04",
+      "sub-05",
+      "sub-06"
+    ],
+    "n_train_readings": 5400,
+    "n_val_readings": 1800,
+    "bands_hz": [
+      [
+        4,
+        8
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        13,
+        30
+      ]
+    ],
+    "ridge_alpha": 1000.0,
+    "slots_per_row": 4
+  },
+  "spectral": {
+    "items": 600,
+    "item_rho": -0.07541048725135346,
+    "book_count_rho": 0.010427212190265548
+  },
+  "shuffled_target": {
+    "items": 600,
+    "item_rho": -0.09470709640860112,
+    "book_count_rho": -0.07664171124240567
+  },
+  "matched_neural_baseline": {
+    "items": 600,
+    "item_rho": 0.3637835105097514,
+    "book_count_rho": 0.07006262857645104
+  }
+}

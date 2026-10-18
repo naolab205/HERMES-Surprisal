@@ -1,0 +1,5 @@
+     window  item_spearman_mean  item_spearman_std  trial_spearman_mean  trial_spearman_std  item_auc_hi_vs_lo_mean  item_auc_hi_vs_lo_std
+  E800_G800            0.399347           0.022570             0.359367            0.019839                0.745076               0.017980
+ E1200_G800            0.401144           0.028855             0.358242            0.021121                0.745106               0.021626
+E1200_G1200            0.400150           0.021905             0.356636            0.018927                0.744838               0.015635
+COMPLETE:21folds,summary,paired-differences,report,andplots

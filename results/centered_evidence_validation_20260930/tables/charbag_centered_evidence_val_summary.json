@@ -1,0 +1,13 @@
+{
+  "arm": "centered_evidence_val",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.330151398828362,
+  "trial_spearman_std": 0.01662580627702495,
+  "item_spearman_mean": 0.3643530061963718,
+  "item_spearman_std": 0.02673694903662044,
+  "item_auc_hi_vs_lo_mean": 0.7188993799806492,
+  "item_auc_hi_vs_lo_std": 0.03071168321697385
+}

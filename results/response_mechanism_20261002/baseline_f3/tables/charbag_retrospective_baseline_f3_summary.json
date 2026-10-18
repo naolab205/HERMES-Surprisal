@@ -1,0 +1,13 @@
+{
+  "arm": "retrospective_baseline_f3",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.36248876737942015,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.4021363210323895,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.74691899977238,
+  "item_auc_hi_vs_lo_std": NaN
+}

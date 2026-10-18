@@ -1,0 +1,23 @@
+[
+  {
+    "arm": "local_row",
+    "executed_epochs": 41,
+    "sum_epoch_seconds_rounded": 558,
+    "scope": "epoch time only; cache and initialization excluded",
+    "gpu": "RTX 4090 49GiB"
+  },
+  {
+    "arm": "local_real",
+    "executed_epochs": 37,
+    "sum_epoch_seconds_rounded": 487,
+    "scope": "epoch time only; cache and initialization excluded",
+    "gpu": "RTX 4090 49GiB"
+  },
+  {
+    "arm": "local_shuffle",
+    "executed_epochs": 37,
+    "sum_epoch_seconds_rounded": 500,
+    "scope": "epoch time only; cache and initialization excluded",
+    "gpu": "RTX 4090 49GiB"
+  }
+]

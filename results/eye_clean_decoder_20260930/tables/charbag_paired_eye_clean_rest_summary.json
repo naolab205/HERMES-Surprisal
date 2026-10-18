@@ -1,0 +1,13 @@
+{
+  "arm": "paired_eye_clean_rest",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 6,
+  "trial_spearman_mean": 0.3558694856054892,
+  "trial_spearman_std": 0.021610449952603257,
+  "item_spearman_mean": 0.3965191670372363,
+  "item_spearman_std": 0.021882994728983182,
+  "item_auc_hi_vs_lo_mean": 0.7410753743788862,
+  "item_auc_hi_vs_lo_std": 0.01575584221154817
+}

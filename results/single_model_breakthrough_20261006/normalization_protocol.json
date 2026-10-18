@@ -1,0 +1,15 @@
+{
+  "registered_before_training": true,
+  "seed": 2026,
+  "folds": [
+    0,
+    3
+  ],
+  "source_hashes": {
+    "src/foundation/deconvnet.py": "4ea21a27f7a12bb2e035c5671aab79e6963a30571604feda8adcadb78d9802a1",
+    "scripts/run_charbag_cv.py": "986702cd604aa133c44d3afbb0b4416521bcb35c19cf9199e76c8cb9b0d44576",
+    "scripts/audit_slot_normalization.py": "941a8afb13946d9e0c750e0366ad127630e1c98e2bc4c0dcccfdef689090b8fd",
+    "results/response_mechanism_20261002/sentence_manifest.csv": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8",
+    "data_cache/surprisal_1829a99ad4.csv": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
+  }
+}

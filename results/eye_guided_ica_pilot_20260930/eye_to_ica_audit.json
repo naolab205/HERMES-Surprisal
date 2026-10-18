@@ -1,0 +1,165 @@
+{
+  "status": "time_blocked_signal_probe_only_no_surprisal_training",
+  "train_fraction": 0.6,
+  "ridge_alpha": 100.0,
+  "eye_frame_lags": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "mismatched_eye_shift_frames": 500,
+  "recordings": [
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "run": 1,
+      "n_train_eye_frames": 42666,
+      "n_test_eye_frames": 28445,
+      "train_end_eeg_seconds": 896.3091772500001,
+      "test_start_eeg_seconds": 896.3292682499999,
+      "author_excluded_components": [
+        1,
+        3
+      ],
+      "top_eye_predictable_components": [
+        3,
+        1,
+        8
+      ],
+      "max_test_r2": 0.2917090881674279,
+      "max_mismatched_test_r2": 0.0016000997882212875
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "run": 1,
+      "n_train_eye_frames": 59942,
+      "n_test_eye_frames": 39962,
+      "train_end_eeg_seconds": 1248.7545312500001,
+      "test_start_eeg_seconds": 1248.77451225,
+      "author_excluded_components": [
+        6,
+        7,
+        14
+      ],
+      "top_eye_predictable_components": [
+        7,
+        14,
+        19
+      ],
+      "max_test_r2": 0.23717376622948794,
+      "max_mismatched_test_r2": 0.00032785615937358514
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "run": 1,
+      "n_train_eye_frames": 59544,
+      "n_test_eye_frames": 39697,
+      "train_end_eeg_seconds": 1239.82698175,
+      "test_start_eeg_seconds": 1239.84707375,
+      "author_excluded_components": [
+        4
+      ],
+      "top_eye_predictable_components": [
+        4,
+        3,
+        1
+      ],
+      "max_test_r2": 0.08877706861259071,
+      "max_mismatched_test_r2": 0.00034823939012162963
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "run": 1,
+      "n_train_eye_frames": 42693,
+      "n_test_eye_frames": 28462,
+      "train_end_eeg_seconds": 897.1784534999999,
+      "test_start_eeg_seconds": 897.1985445,
+      "author_excluded_components": [
+        10
+      ],
+      "top_eye_predictable_components": [
+        17,
+        1,
+        9
+      ],
+      "max_test_r2": 0.00039741335681575674,
+      "max_mismatched_test_r2": 0.000756851850272966
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "run": 1,
+      "n_train_eye_frames": 43180,
+      "n_test_eye_frames": 28787,
+      "train_end_eeg_seconds": 908.5265157499999,
+      "test_start_eeg_seconds": 908.5466077500001,
+      "author_excluded_components": [
+        4,
+        7,
+        13
+      ],
+      "top_eye_predictable_components": [
+        2,
+        17,
+        12
+      ],
+      "max_test_r2": 0.0020337046044146545,
+      "max_mismatched_test_r2": 0.001435369780997342
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "run": 1,
+      "n_train_eye_frames": 42678,
+      "n_test_eye_frames": 28452,
+      "train_end_eeg_seconds": 896.95534625,
+      "test_start_eeg_seconds": 896.9753282500001,
+      "author_excluded_components": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        19
+      ],
+      "top_eye_predictable_components": [
+        3,
+        2,
+        5
+      ],
+      "max_test_r2": 0.43829677856793237,
+      "max_mismatched_test_r2": 0.002079586520064125
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "run": 1,
+      "n_train_eye_frames": 59906,
+      "n_test_eye_frames": 39938,
+      "train_end_eeg_seconds": 1247.7957215,
+      "test_start_eeg_seconds": 1247.8158134999999,
+      "author_excluded_components": [
+        2,
+        4
+      ],
+      "top_eye_predictable_components": [
+        2,
+        6,
+        7
+      ],
+      "max_test_r2": 0.027411584022979496,
+      "max_mismatched_test_r2": 0.0006869726525948749
+    }
+  ]
+}

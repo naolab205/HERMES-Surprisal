@@ -1,0 +1,174 @@
+{
+  "created_utc": "2026-09-24T13:03:06.863708+00:00",
+  "channels": [
+    "gaze_x",
+    "gaze_y",
+    "pupil",
+    "valid"
+  ],
+  "sfreq_hz": 50.0,
+  "window_ms": [
+    -100.0,
+    800.0
+  ],
+  "samples": 45,
+  "alignment": "t_eye = t_preproc + (raw_row_onset - preproc_row_onset) - EYES_onset_raw",
+  "alignment_validation": "two-parameter fit peaks at the EYES marker with drift 1.0000; r=+0.64 and +0.50 on two recordings; half-split offsets differ by <40 ms over 1800 s",
+  "leakage": "fixed-window features only; no row duration, no per-row rates",
+  "results": [
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "status": "skipped"
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.9603310131477185
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.9789523072956947
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.8965754060324826
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 14819,
+      "missing_rows": 752,
+      "valid_fraction": 0.9508468857547743
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 11964,
+      "missing_rows": 0,
+      "valid_fraction": 0.9608176380994836
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.9014095208492525
+    },
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.9176693043917475
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.9681697238663034
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.7460995101830368
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 72604,
+      "missing_rows": 0,
+      "valid_fraction": 0.9719938907559424
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.9099187384968276
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.851685485949987
+    },
+    {
+      "subject": "sub-15",
+      "book": "LittlePrince",
+      "status": "missing_row_cache"
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "status": "built",
+      "n_epochs": 21550,
+      "missing_rows": 0,
+      "valid_fraction": 0.898421242588296
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.8226663040334312
+    },
+    {
+      "subject": "sub-15",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 46214,
+      "missing_rows": 0,
+      "valid_fraction": 0.9538985300269759
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 77213,
+      "missing_rows": 0,
+      "valid_fraction": 0.8462069570898395
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 43284,
+      "missing_rows": 3785,
+      "valid_fraction": 0.9775780632309603
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "status": "built",
+      "n_epochs": 73451,
+      "missing_rows": 0,
+      "valid_fraction": 0.9409308397586298
+    }
+  ]
+}

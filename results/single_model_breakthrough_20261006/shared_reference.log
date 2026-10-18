@@ -1,0 +1,51 @@
+[arm] shared_reference csd=True ea=False pooling=mean device=cuda:2
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:2
+  fold0 ep00 loss=1.6591 val_trial=+0.1208 val_item=+0.2284 (15s)
+  fold0 ep01 loss=1.5692 val_trial=+0.1832 val_item=+0.2653 (13s)
+  fold0 ep02 loss=1.4838 val_trial=+0.2331 val_item=+0.2870 (13s)
+  fold0 ep03 loss=1.4442 val_trial=+0.2384 val_item=+0.2834 (13s)
+  fold0 ep04 loss=1.4235 val_trial=+0.2565 val_item=+0.2945 (13s)
+  fold0 ep05 loss=1.4068 val_trial=+0.2606 val_item=+0.2933 (12s)
+  fold0 ep06 loss=1.3985 val_trial=+0.2678 val_item=+0.3009 (12s)
+  fold0 ep07 loss=1.3818 val_trial=+0.2588 val_item=+0.2947 (13s)
+  fold0 ep08 loss=1.3686 val_trial=+0.2676 val_item=+0.3049 (13s)
+  fold0 ep09 loss=1.3580 val_trial=+0.2739 val_item=+0.3084 (12s)
+  fold0 ep10 loss=1.3461 val_trial=+0.2686 val_item=+0.3118 (13s)
+  fold0 ep11 loss=1.3323 val_trial=+0.2649 val_item=+0.2949 (11s)
+  fold0 ep12 loss=1.3154 val_trial=+0.2620 val_item=+0.3051 (12s)
+  fold0 ep13 loss=1.2951 val_trial=+0.2622 val_item=+0.3093 (12s)
+  fold0 ep14 loss=1.2739 val_trial=+0.2578 val_item=+0.3138 (12s)
+  fold0 ep15 loss=1.2480 val_trial=+0.2546 val_item=+0.3133 (12s)
+[fold 0] {"trial_spearman": 0.27389559901877086, "item_spearman": 0.308433234940735, "item_auc_hi_vs_lo": 0.6956204746580854, "n_items": 1382, "n_obs": 12967, "deconv_gate_magnitude": [], "fold": 0, "best_epoch": 9, "best_val_trial": 0.27389559901877086, "best_val_item": 0.308433234940735, "selection_metric": "trial_spearman", "eval_split": "val"}
+  fold3 ep00 loss=1.6627 val_trial=+0.1388 val_item=+0.2736 (12s)
+  fold3 ep01 loss=1.5689 val_trial=+0.2197 val_item=+0.3351 (13s)
+  fold3 ep02 loss=1.4907 val_trial=+0.2550 val_item=+0.3426 (12s)
+  fold3 ep03 loss=1.4380 val_trial=+0.2861 val_item=+0.3422 (13s)
+  fold3 ep04 loss=1.4188 val_trial=+0.3009 val_item=+0.3574 (13s)
+  fold3 ep05 loss=1.4053 val_trial=+0.3009 val_item=+0.3518 (13s)
+  fold3 ep06 loss=1.3929 val_trial=+0.3073 val_item=+0.3499 (14s)
+  fold3 ep07 loss=1.3812 val_trial=+0.3171 val_item=+0.3751 (13s)
+  fold3 ep08 loss=1.3704 val_trial=+0.3186 val_item=+0.3669 (13s)
+  fold3 ep09 loss=1.3574 val_trial=+0.3037 val_item=+0.3595 (13s)
+  fold3 ep10 loss=1.3457 val_trial=+0.3155 val_item=+0.3544 (12s)
+  fold3 ep11 loss=1.3304 val_trial=+0.3114 val_item=+0.3606 (14s)
+  fold3 ep12 loss=1.3177 val_trial=+0.3070 val_item=+0.3635 (13s)
+  fold3 ep13 loss=1.2953 val_trial=+0.2959 val_item=+0.3626 (12s)
+  fold3 ep14 loss=1.2711 val_trial=+0.2995 val_item=+0.3740 (13s)
+[fold 3] {"trial_spearman": 0.31859567467267663, "item_spearman": 0.3668677621798641, "item_auc_hi_vs_lo": 0.7320958234039885, "n_items": 1423, "n_obs": 13277, "deconv_gate_magnitude": [], "fold": 3, "best_epoch": 8, "best_val_trial": 0.31859567467267663, "best_val_item": 0.3668677621798641, "selection_metric": "trial_spearman", "eval_split": "val"}
+{
+  "arm": "shared_reference",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.29624563684572375,
+  "trial_spearman_std": 0.03160772661442847,
+  "item_spearman_mean": 0.33765049856029955,
+  "item_spearman_std": 0.041319450466218224,
+  "item_auc_hi_vs_lo_mean": 0.713858149031037,
+  "item_auc_hi_vs_lo_std": 0.0257919664443723
+}

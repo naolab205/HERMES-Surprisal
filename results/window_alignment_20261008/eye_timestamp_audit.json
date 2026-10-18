@@ -1,0 +1,14 @@
+{
+  "n_recordings": 19,
+  "n_runs": 221,
+  "n_windows": 875422,
+  "nominal_extension_ms": 400,
+  "run_median_extension_range_ms": [
+    400.7249999999658,
+    400.7249999999942
+  ],
+  "max_run_p99_extension_ms": 400.72699999999173,
+  "n_extension_outside_380_420_ms": 0,
+  "n_truncated_at_run_end": 1024,
+  "scope": "Raw Eye sampling intervals and window endpoints; does not validate EEG/Eye clock synchronization or character-event accuracy."
+}

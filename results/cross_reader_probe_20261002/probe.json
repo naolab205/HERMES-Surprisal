@@ -1,0 +1,83 @@
+{
+  "design": {
+    "fold": 0,
+    "partition": "train only",
+    "n_items": 1210,
+    "n_fit": 847,
+    "n_probe": 363,
+    "subjects": [
+      "sub-04",
+      "sub-05",
+      "sub-06"
+    ],
+    "slots": [
+      0,
+      3,
+      6,
+      9
+    ],
+    "negative": "same book/run, n_char=n_slots=10, 5-60 rows away where possible"
+  },
+  "pairs": {
+    "sub-04_to_sub-05": {
+      "post_raw_auc": 0.5053692446630087,
+      "post_raw_matched_win": {
+        "win_rate": 0.48484848484848486,
+        "bootstrap_95ci": [
+          0.43526170798898073,
+          0.5345041322314046
+        ]
+      },
+      "pre_raw_auc": 0.5090195721300154,
+      "post_mapped_auc": 0.479558925088602,
+      "post_mapped_matched_win": {
+        "win_rate": 0.4903581267217631,
+        "bootstrap_95ci": [
+          0.4380165289256198,
+          0.5426997245179064
+        ]
+      },
+      "shuffled_fit_auc": 0.4908817703708763
+    },
+    "sub-04_to_sub-06": {
+      "post_raw_auc": 0.5185438153131616,
+      "post_raw_matched_win": {
+        "win_rate": 0.5179063360881543,
+        "bootstrap_95ci": [
+          0.4628099173553719,
+          0.5702479338842975
+        ]
+      },
+      "pre_raw_auc": 0.5215794306703397,
+      "post_mapped_auc": 0.5273091546570134,
+      "post_mapped_matched_win": {
+        "win_rate": 0.5316804407713499,
+        "bootstrap_95ci": [
+          0.4793388429752066,
+          0.5840220385674931
+        ]
+      },
+      "shuffled_fit_auc": 0.5308418520289294
+    },
+    "sub-05_to_sub-06": {
+      "post_raw_auc": 0.4944334403387746,
+      "post_raw_matched_win": {
+        "win_rate": 0.5041322314049587,
+        "bootstrap_95ci": [
+          0.45179063360881544,
+          0.559228650137741
+        ]
+      },
+      "pre_raw_auc": 0.5089968050148366,
+      "post_mapped_auc": 0.5125105297907703,
+      "post_mapped_matched_win": {
+        "win_rate": 0.5068870523415978,
+        "bootstrap_95ci": [
+          0.45454545454545453,
+          0.559228650137741
+        ]
+      },
+      "shuffled_fit_auc": 0.5075093534898193
+    }
+  }
+}

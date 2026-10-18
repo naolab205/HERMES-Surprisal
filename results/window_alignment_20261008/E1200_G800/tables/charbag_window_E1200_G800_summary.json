@@ -1,0 +1,13 @@
+{
+  "arm": "window_E1200_G800",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.3582424510652514,
+  "trial_spearman_std": 0.021121340739708953,
+  "item_spearman_mean": 0.4011437883221595,
+  "item_spearman_std": 0.028855321055316713,
+  "item_auc_hi_vs_lo_mean": 0.7451058430848787,
+  "item_auc_hi_vs_lo_std": 0.0216262304669432
+}

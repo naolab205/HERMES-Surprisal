@@ -1,0 +1,108 @@
+{
+  "source": "results/schedule_deconv_validation_20261002/control_remaining/tables/charbag_deconv_control_remaining_predictions.csv",
+  "n_folds": 5,
+  "n_readings": 72773,
+  "n_unique_items": 7884,
+  "metrics": {
+    "trial_n": {
+      "mean": 14554.6,
+      "sd_across_folds": 475.25603625835197
+    },
+    "trial_spearman": {
+      "mean": 0.35857511532371084,
+      "sd_across_folds": 0.02049221280272516
+    },
+    "trial_pearson": {
+      "mean": 0.4068135716549973,
+      "sd_across_folds": 0.016936274107756288
+    },
+    "trial_kendall": {
+      "mean": 0.24662646696262125,
+      "sd_across_folds": 0.014837633805861882
+    },
+    "trial_mae_train_sd": {
+      "mean": 0.711637544132339,
+      "sd_across_folds": 0.023271884368245357
+    },
+    "trial_rmse_train_sd": {
+      "mean": 0.9127320383480537,
+      "sd_across_folds": 0.035301970970170314
+    },
+    "trial_r2": {
+      "mean": 0.15817079864017497,
+      "sd_across_folds": 0.016618961176721472
+    },
+    "trial_ccc": {
+      "mean": 0.2975372999543122,
+      "sd_across_folds": 0.025704938839380857
+    },
+    "item_n": {
+      "mean": 1576.8,
+      "sd_across_folds": 0.8366600265340756
+    },
+    "item_spearman": {
+      "mean": 0.410540840477002,
+      "sd_across_folds": 0.01700843606898843
+    },
+    "item_pearson": {
+      "mean": 0.4453963835598784,
+      "sd_across_folds": 0.014174089946472783
+    },
+    "item_kendall": {
+      "mean": 0.2850009382323019,
+      "sd_across_folds": 0.012603155938873657
+    },
+    "item_mae_train_sd": {
+      "mean": 0.6965980388223552,
+      "sd_across_folds": 0.022729176978999326
+    },
+    "item_rmse_train_sd": {
+      "mean": 0.893506607300222,
+      "sd_across_folds": 0.03346303373407448
+    },
+    "item_r2": {
+      "mean": 0.19063829259630455,
+      "sd_across_folds": 0.014309174054790067
+    },
+    "item_ccc": {
+      "mean": 0.3066368136404388,
+      "sd_across_folds": 0.026815239827399886
+    },
+    "item_book_count_covered": {
+      "mean": 1576.8,
+      "sd_across_folds": 0.8366600265340756
+    },
+    "item_book_count_strata": {
+      "mean": 16.0,
+      "sd_across_folds": 0.0
+    },
+    "item_within_book_rank_rho": {
+      "mean": 0.3447537489658582,
+      "sd_across_folds": 0.018091919282987298
+    },
+    "item_within_book_count_rank_rho": {
+      "mean": 0.172604905203121,
+      "sd_across_folds": 0.010554375232953207
+    },
+    "item_weighted_book_count_spearman": {
+      "mean": 0.1710758350709228,
+      "sd_across_folds": 0.010990525170059792
+    },
+    "item_count_oracle_spearman": {
+      "mean": 0.29999274882662597,
+      "sd_across_folds": 0.016457207942165805
+    },
+    "item_auc_hi_vs_lo": {
+      "mean": 0.7537650541647576,
+      "sd_across_folds": 0.006524502723951993
+    },
+    "item_average_precision_hi_vs_lo": {
+      "mean": 0.7554124737741013,
+      "sd_across_folds": 0.0110646288687201
+    },
+    "item_median_readings": {
+      "mean": 9.4,
+      "sd_across_folds": 0.5477225575051662
+    }
+  }
+}

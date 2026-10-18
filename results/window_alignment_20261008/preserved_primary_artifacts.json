@@ -1,0 +1,7 @@
+{
+  "els-cas-templates/main.tex": true,
+  "els-cas-templates/main.pdf": true,
+  "model_code/results/tables/charbag_MM_mid_summary.json": true,
+  "model_code/results/tables/charbag_MM_mid_per_fold.csv": true,
+  "model_code/results/tables/charbag_MM_mid_predictions.csv": true
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "recording": "X_sub-04_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-04_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-05_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-05_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-06_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-06_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-07_GarnettDream",
+    "n_epochs": 72604,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-07_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-08_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-08_LittlePrince",
+    "n_epochs": 14819,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-09_GarnettDream",
+    "n_epochs": 43284,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-09_LittlePrince",
+    "n_epochs": 11964,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-10_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-10_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-13_GarnettDream",
+    "n_epochs": 77213,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-13_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-14_GarnettDream",
+    "n_epochs": 73451,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-14_LittlePrince",
+    "n_epochs": 21550,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  },
+  {
+    "recording": "X_sub-15_GarnettDream",
+    "n_epochs": 46214,
+    "same_keys": true,
+    "exact_800ms_prefix": true,
+    "new_samples": 65
+  }
+]

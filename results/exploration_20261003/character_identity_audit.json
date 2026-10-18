@@ -1,0 +1,13 @@
+{
+  "n_rows": 11037,
+  "n_frozen_labels_outside_character_cache": 550,
+  "n_rows_different_denominator": 7939,
+  "slot_mean_mae_nats": 0.3665489291052167,
+  "slot_mean_max_error_nats": 13.977701918551853,
+  "token_mean_mae_nats": 0.0007618042091427968,
+  "token_mean_max_error_nats": 0.007487585147221587,
+  "char_labels_sha256": "5cb02e258c03cb84bb39d72130eb91226d3d3c019e46457847293105ad3e5160",
+  "row_labels_sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f",
+  "conclusion": "Existing load_char_targets slot-mean identity is inconsistent; repair contribution units before new character-supervised experiments",
+  "performance_claim": "none; algebraic label audit only"
+}

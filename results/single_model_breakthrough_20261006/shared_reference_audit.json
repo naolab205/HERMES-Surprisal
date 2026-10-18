@@ -1,0 +1,6 @@
+{
+  "row_average_max_difference": 2.384185791015625e-07,
+  "synthetic_same_physical_samples_local_error": 0.30445510149002075,
+  "synthetic_same_physical_samples_shared_max_error": 0.0,
+  "scope": "algebra/gradient diagnostic; no performance claim"
+}

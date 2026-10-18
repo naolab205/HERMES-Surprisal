@@ -1,0 +1,77 @@
+{
+  "folds": 7,
+  "fresh_eeg_only_matches_archived_all_folds": true,
+  "max_archive_difference": 0.0,
+  "arms": {
+    "eeg_only": {
+      "trial_spearman": {
+        "mean": 0.35442000420561726,
+        "sd_across_folds": 0.020689620804763064
+      },
+      "item_spearman": {
+        "mean": 0.3988060487016952,
+        "sd_across_folds": 0.019815444615248572
+      },
+      "item_auc_hi_vs_lo": {
+        "mean": 0.7433917521709917,
+        "sd_across_folds": 0.012718089266226033
+      }
+    },
+    "eye_clean_eeg_only": {
+      "trial_spearman": {
+        "mean": 0.35232310832622843,
+        "sd_across_folds": 0.021845224465383135
+      },
+      "item_spearman": {
+        "mean": 0.39575527217279305,
+        "sd_across_folds": 0.02007832901757631
+      },
+      "item_auc_hi_vs_lo": {
+        "mean": 0.7420318315035066,
+        "sd_across_folds": 0.014603965492792149
+      },
+      "vs_eeg_only": {
+        "trial_spearman": {
+          "mean_delta": -0.0020968958793887954,
+          "positive_folds": 2
+        },
+        "item_spearman": {
+          "mean_delta": -0.0030507765289021693,
+          "positive_folds": 3
+        },
+        "item_auc_hi_vs_lo": {
+          "mean_delta": -0.0013599206674849787,
+          "positive_folds": 4
+        }
+      }
+    },
+    "eeg_eye_fusion": {
+      "trial_spearman": {
+        "mean": 0.35101988536717155,
+        "sd_across_folds": 0.019493822238423088
+      },
+      "item_spearman": {
+        "mean": 0.3973569937180736,
+        "sd_across_folds": 0.016134893554477774
+      },
+      "item_auc_hi_vs_lo": {
+        "mean": 0.7423652608056228,
+        "sd_across_folds": 0.010728864327745167
+      },
+      "vs_eeg_only": {
+        "trial_spearman": {
+          "mean_delta": -0.0034001188384457015,
+          "positive_folds": 1
+        },
+        "item_spearman": {
+          "mean_delta": -0.0014490549836216973,
+          "positive_folds": 2
+        },
+        "item_auc_hi_vs_lo": {
+          "mean_delta": -0.0010264913653688884,
+          "positive_folds": 3
+        }
+      }
+    }
+  }
+}

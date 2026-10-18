@@ -1,0 +1,13 @@
+{
+  "arm": "llm_pretrained_matched_val_f0",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.317739833831297,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.34854161839651643,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.6992704826038159,
+  "item_auc_hi_vs_lo_std": NaN
+}

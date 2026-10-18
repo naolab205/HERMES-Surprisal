@@ -1,0 +1,2 @@
+trial_spearman,item_spearman,item_auc_hi_vs_lo,n_items,n_obs,fold,best_epoch,best_val_trial,eval_split,arm
+0.32833863418237974,0.35349270231210955,0.7017957351290685,1577,14791,0,11,0.32833863418237974,val,pair_sampler_val_f0

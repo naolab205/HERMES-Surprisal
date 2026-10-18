@@ -1,0 +1,2 @@
+trial_spearman,item_spearman,item_auc_hi_vs_lo,n_items,n_obs,deconv_gate_magnitude,fold,best_epoch,best_val_trial,best_val_item,selection_metric,eval_split,arm
+0.35199419979093854,0.38617810197317654,0.7443646185762222,1576,14935,[],3,12,0.35199419979093854,0.38617810197317654,trial_spearman,val,deconv_control_f3

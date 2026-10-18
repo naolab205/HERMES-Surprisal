@@ -1,0 +1,26 @@
+[arm] item_selected_a csd=True ea=False pooling=mean device=cuda:0
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:0
+  fold0 ep00 loss=1.6144 val_trial=+0.3151 val_item=+0.3151 (16s)
+  fold0 ep01 loss=1.4806 val_trial=+0.3414 val_item=+0.3414 (15s)
+  fold0 ep02 loss=1.4388 val_trial=+0.3340 val_item=+0.3340 (15s)
+  fold0 ep03 loss=1.4176 val_trial=+0.3088 val_item=+0.3088 (14s)
+Traceback (most recent call last):
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 666, in <module>
+    if __name__ == "__main__":
+        ^^^^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 633, in main
+    for fold in args.folds:
+                         ^^^
+  File "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py", line 449, in run_fold
+    scaler.scale(loss).backward()
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/_tensor.py", line 623, in backward
+    torch.autograd.backward(
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/autograd/__init__.py", line 395, in backward
+    _engine_run_backward(
+  File "/home/zcg/.conda/envs/cogalign/lib/python3.12/site-packages/torch/autograd/graph.py", line 979, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

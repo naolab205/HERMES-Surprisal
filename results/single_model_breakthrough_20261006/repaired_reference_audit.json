@@ -1,0 +1,16 @@
+[
+  {
+    "recording": "sub-04_LittlePrince",
+    "first_slots_examined": 2388,
+    "baseline_exactly_matches_future_13_samples": 2296,
+    "future_interval_starts_seconds_median": 0.2578125,
+    "old_vs_true_baseline_sample_rmse_uv_median": 14.824812889099121
+  },
+  {
+    "recording": "sub-04_GarnettDream",
+    "first_slots_examined": 8624,
+    "baseline_exactly_matches_future_13_samples": 8241,
+    "future_interval_starts_seconds_median": 0.25,
+    "old_vs_true_baseline_sample_rmse_uv_median": 12.843823432922363
+  }
+]

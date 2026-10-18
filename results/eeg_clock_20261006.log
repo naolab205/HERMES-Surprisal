@@ -1,0 +1,48 @@
+[clock features] 0/8067
+[clock features] 1024/8067
+[clock features] 2048/8067
+[clock features] 3072/8067
+[clock features] 4096/8067
+[clock features] 5120/8067
+[clock features] 6144/8067
+[clock features] 7168/8067
+[clock] fold0 heldblock2 complete
+[clock] fold0 heldblock3 complete
+[clock] fold0 heldblock4 complete
+[clock] fold0 heldblock5 complete
+[clock] fold0 heldblock6 complete
+[clock] fold3 heldblock0 complete
+[clock] fold3 heldblock1 complete
+[clock] fold3 heldblock2 complete
+[clock] fold3 heldblock5 complete
+[clock] fold3 heldblock6 complete
+[
+  {
+    "fold": 0,
+    "arm": "all",
+    "passing_blocks": 3,
+    "frequency_sd_hz": 0.012247448713915848,
+    "passed": false
+  },
+  {
+    "fold": 0,
+    "arm": "posterior",
+    "passing_blocks": 3,
+    "frequency_sd_hz": 0.012247448713915848,
+    "passed": false
+  },
+  {
+    "fold": 3,
+    "arm": "all",
+    "passing_blocks": 1,
+    "frequency_sd_hz": 0.012247448713915848,
+    "passed": false
+  },
+  {
+    "fold": 3,
+    "arm": "posterior",
+    "passing_blocks": 1,
+    "frequency_sd_hz": 0.012247448713915848,
+    "passed": false
+  }
+]

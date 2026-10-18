@@ -1,0 +1,555 @@
+{
+  "results": [
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.05546830967068672,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.980151891708374,
+      "channels": [
+        95,
+        75,
+        82,
+        83,
+        74,
+        69,
+        89,
+        90
+      ],
+      "null_95pct": [
+        -0.04232747257602451,
+        0.025608443567392163
+      ],
+      "fold": 0,
+      "held_block": 2,
+      "arm": "all",
+      "n_readings": 611,
+      "n_items": 70,
+      "diagnostic_frequency_rho": 0.0025070429844548017
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.05546830967068672,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.980151891708374,
+      "channels": [
+        95,
+        75,
+        82,
+        83,
+        74,
+        69,
+        89,
+        90
+      ],
+      "null_95pct": [
+        -0.04232747257602451,
+        0.025608443567392163
+      ],
+      "fold": 0,
+      "held_block": 2,
+      "arm": "posterior",
+      "n_readings": 611,
+      "n_items": 70,
+      "diagnostic_frequency_rho": 0.0025070429844548017
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.04016762599349022,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9733160734176636,
+      "channels": [
+        19,
+        75,
+        82,
+        89,
+        83,
+        69,
+        74,
+        90
+      ],
+      "null_95pct": [
+        -0.030920952850247943,
+        0.015029876020262345
+      ],
+      "fold": 0,
+      "held_block": 3,
+      "arm": "all",
+      "n_readings": 1008,
+      "n_items": 110,
+      "diagnostic_frequency_rho": 0.04468778839922641
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.04374593496322632,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.966366708278656,
+      "channels": [
+        70,
+        75,
+        82,
+        89,
+        83,
+        69,
+        74,
+        90
+      ],
+      "null_95pct": [
+        -0.030151549299849305,
+        0.016036562453372417
+      ],
+      "fold": 0,
+      "held_block": 3,
+      "arm": "posterior",
+      "n_readings": 1008,
+      "n_items": 110,
+      "diagnostic_frequency_rho": 0.04226391315591934
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.05361556261777878,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9660823941230774,
+      "channels": [
+        74,
+        95,
+        29,
+        64,
+        89,
+        83,
+        69,
+        90
+      ],
+      "null_95pct": [
+        -0.03911348865425948,
+        0.02986817383604334
+      ],
+      "fold": 0,
+      "held_block": 4,
+      "arm": "all",
+      "n_readings": 877,
+      "n_items": 94,
+      "diagnostic_frequency_rho": 0.01180414125941375
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.05585510656237602,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9704079627990723,
+      "channels": [
+        82,
+        74,
+        95,
+        64,
+        89,
+        83,
+        69,
+        90
+      ],
+      "null_95pct": [
+        -0.04389217756131854,
+        0.030283388813628107
+      ],
+      "fold": 0,
+      "held_block": 4,
+      "arm": "posterior",
+      "n_readings": 877,
+      "n_items": 94,
+      "diagnostic_frequency_rho": 0.0031946303096516498
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.04383045434951782,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9845212697982788,
+      "channels": [
+        75,
+        95,
+        82,
+        74,
+        83,
+        89,
+        90,
+        69
+      ],
+      "null_95pct": [
+        -0.031692087575278735,
+        0.0185578587127836
+      ],
+      "fold": 0,
+      "held_block": 5,
+      "arm": "all",
+      "n_readings": 955,
+      "n_items": 104,
+      "diagnostic_frequency_rho": 0.03624670430177334
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.04383045434951782,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9845212697982788,
+      "channels": [
+        75,
+        95,
+        82,
+        74,
+        83,
+        89,
+        90,
+        69
+      ],
+      "null_95pct": [
+        -0.031692087575278735,
+        0.0185578587127836
+      ],
+      "fold": 0,
+      "held_block": 5,
+      "arm": "posterior",
+      "n_readings": 955,
+      "n_items": 104,
+      "diagnostic_frequency_rho": 0.03624670430177334
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.06040827929973602,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9868944883346558,
+      "channels": [
+        65,
+        70,
+        89,
+        64,
+        83,
+        90,
+        74,
+        69
+      ],
+      "null_95pct": [
+        -0.04254131030416643,
+        0.02274153969001749
+      ],
+      "fold": 0,
+      "held_block": 6,
+      "arm": "all",
+      "n_readings": 687,
+      "n_items": 73,
+      "diagnostic_frequency_rho": -0.06700865767764955
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.06040827929973602,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9868944883346558,
+      "channels": [
+        65,
+        70,
+        89,
+        64,
+        83,
+        90,
+        74,
+        69
+      ],
+      "null_95pct": [
+        -0.04254131030416643,
+        0.02274153969001749
+      ],
+      "fold": 0,
+      "held_block": 6,
+      "arm": "posterior",
+      "n_readings": 687,
+      "n_items": 73,
+      "diagnostic_frequency_rho": -0.06700865767764955
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.024547254666686058,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9699478149414062,
+      "channels": [
+        123,
+        108,
+        65,
+        90,
+        4,
+        53,
+        89,
+        69
+      ],
+      "null_95pct": [
+        -0.02853677300656727,
+        0.013714954477962825
+      ],
+      "fold": 3,
+      "held_block": 0,
+      "arm": "all",
+      "n_readings": 949,
+      "n_items": 102,
+      "diagnostic_frequency_rho": 0.02102505877337615
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.01563509926199913,
+      "phase_randomization_p": 0.05,
+      "early_late_phase_agreement": 0.9566763043403625,
+      "channels": [
+        36,
+        64,
+        83,
+        65,
+        90,
+        53,
+        89,
+        69
+      ],
+      "null_95pct": [
+        -0.03315842746053569,
+        0.019556003397800056
+      ],
+      "fold": 3,
+      "held_block": 0,
+      "arm": "posterior",
+      "n_readings": 949,
+      "n_items": 102,
+      "diagnostic_frequency_rho": -0.023300816435998326
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": -0.00046792026842013,
+      "phase_randomization_p": 0.315,
+      "early_late_phase_agreement": 0.9838197231292725,
+      "channels": [
+        5,
+        11,
+        95,
+        69,
+        90,
+        4,
+        89,
+        83
+      ],
+      "null_95pct": [
+        -0.044909736240331594,
+        0.02260959538273065
+      ],
+      "fold": 3,
+      "held_block": 1,
+      "arm": "all",
+      "n_readings": 815,
+      "n_items": 88,
+      "diagnostic_frequency_rho": -0.03915892799059327
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": -0.0035957912914454937,
+      "phase_randomization_p": 0.35,
+      "early_late_phase_agreement": 0.9684010148048401,
+      "channels": [
+        100,
+        64,
+        82,
+        95,
+        69,
+        90,
+        89,
+        83
+      ],
+      "null_95pct": [
+        -0.048272187590501066,
+        0.025612256123818688
+      ],
+      "fold": 3,
+      "held_block": 1,
+      "arm": "posterior",
+      "n_readings": 815,
+      "n_items": 88,
+      "diagnostic_frequency_rho": -0.009661400913618744
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.06177382916212082,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9788999557495117,
+      "channels": [
+        82,
+        74,
+        108,
+        123,
+        83,
+        117,
+        4,
+        69
+      ],
+      "null_95pct": [
+        -0.04037458602607698,
+        0.02495319295105813
+      ],
+      "fold": 3,
+      "held_block": 2,
+      "arm": "all",
+      "n_readings": 516,
+      "n_items": 57,
+      "diagnostic_frequency_rho": 0.02015667187842213
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.05857878550887108,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9922585487365723,
+      "channels": [
+        64,
+        89,
+        70,
+        82,
+        65,
+        74,
+        83,
+        69
+      ],
+      "null_95pct": [
+        -0.0481829145714113,
+        0.03193219645615616
+      ],
+      "fold": 3,
+      "held_block": 2,
+      "arm": "posterior",
+      "n_readings": 516,
+      "n_items": 57,
+      "diagnostic_frequency_rho": 0.027632083742012776
+    },
+    {
+      "frequency_hz": 2.325,
+      "held_min_projection": 0.033547595143318176,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9195111989974976,
+      "channels": [
+        69,
+        90,
+        11,
+        12,
+        108,
+        116,
+        83,
+        117
+      ],
+      "null_95pct": [
+        -0.021278326129720814,
+        0.012744797116970281
+      ],
+      "fold": 3,
+      "held_block": 5,
+      "arm": "all",
+      "n_readings": 1142,
+      "n_items": 126,
+      "diagnostic_frequency_rho": 0.03438286863461929
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.04310274124145508,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.981177568435669,
+      "channels": [
+        75,
+        74,
+        95,
+        82,
+        69,
+        89,
+        83,
+        90
+      ],
+      "null_95pct": [
+        -0.028670367423595803,
+        0.0183537278972355
+      ],
+      "fold": 3,
+      "held_block": 5,
+      "arm": "posterior",
+      "n_readings": 1142,
+      "n_items": 126,
+      "diagnostic_frequency_rho": 0.03265965644786172
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.036052804440259933,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.978019118309021,
+      "channels": [
+        11,
+        4,
+        117,
+        69,
+        89,
+        123,
+        82,
+        83
+      ],
+      "null_95pct": [
+        -0.03884667055841855,
+        0.022536748605355095
+      ],
+      "fold": 3,
+      "held_block": 6,
+      "arm": "all",
+      "n_readings": 720,
+      "n_items": 79,
+      "diagnostic_frequency_rho": -0.0058937263760236065
+    },
+    {
+      "frequency_hz": 2.35,
+      "held_min_projection": 0.043055396527051926,
+      "phase_randomization_p": 0.005,
+      "early_late_phase_agreement": 0.9742081165313721,
+      "channels": [
+        64,
+        74,
+        90,
+        53,
+        69,
+        89,
+        82,
+        83
+      ],
+      "null_95pct": [
+        -0.03648701608970329,
+        0.02559744960222372
+      ],
+      "fold": 3,
+      "held_block": 6,
+      "arm": "posterior",
+      "n_readings": 720,
+      "n_items": 79,
+      "diagnostic_frequency_rho": -0.0008530141666374834
+    }
+  ],
+  "gates": [
+    {
+      "fold": 0,
+      "arm": "all",
+      "passing_blocks": 3,
+      "frequency_sd_hz": 0.012247448713915848,
+      "passed": false
+    },
+    {
+      "fold": 0,
+      "arm": "posterior",
+      "passing_blocks": 3,
+      "frequency_sd_hz": 0.012247448713915848,
+      "passed": false
+    },
+    {
+      "fold": 3,
+      "arm": "all",
+      "passing_blocks": 1,
+      "frequency_sd_hz": 0.012247448713915848,
+      "passed": false
+    },
+    {
+      "fold": 3,
+      "arm": "posterior",
+      "passing_blocks": 1,
+      "frequency_sd_hz": 0.012247448713915848,
+      "passed": false
+    }
+  ],
+  "clock_gate_passed": false
+}

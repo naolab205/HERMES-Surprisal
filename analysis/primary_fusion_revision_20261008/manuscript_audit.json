@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-08",
+  "pages": 12,
+  "abstract_words": 184,
+  "figures": 7,
+  "tables": 6,
+  "cited_references": 27,
+  "figure_prose_references": {
+    "fig:workflow": 1,
+    "fig:architecture": 1,
+    "fig:bookstrat": 1,
+    "fig:heatmap": 1,
+    "fig:topos": 2,
+    "fig:pred_dists": 1,
+    "fig:reader_variability": 1
+  },
+  "original_template_matches": {
+    "cas-dc.cls": true,
+    "cas-common.sty": true,
+    "cas-model2-names.bst": true
+  },
+  "archive_sha256": "6bcf9f165d60204e31989e03aa57a949ae2a6f52d0718ed3331f2914b9a219c1",
+  "main_pdf_sha256": "96b0089274ff93993b31b7502189dd16a97aa06399aca9c3aca7dd9fb742e0de",
+  "archive_entries": 21,
+  "source_age": "Published ChineseEEG: 18\u201329, mean22.7; local README18\u201324/20.68 differs",
+  "evidence": "Primary archived MM_mid seven-block EEG\u2013Eye results: item rho0.405\u00b10.015, item AUC0.748\u00b10.010; strict two-setting candidates remain secondary and unpromoted",
+  "pending_metadata": [
+    "Individual factual CRediT roles"
+  ],
+  "journal_guide": "Direct KBS guide currently returns403; supplied<=250words/<=20pages checked",
+  "ai_policy": "Current Elsevier explanatory-image policy checked; captions/general declaration disclose imagegen",
+  "layout": "Rendered PDF inspected; no premature forced breaks. CAS frontmatter retains one empty-box overfull warning; no visible clipping.",
+  "independent_archive_build": "Verify separately after packaging; see package_build_verification.json"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "registered before training",
+  "folds": [
+    0,
+    3
+  ],
+  "seed": 2026,
+  "epochs": 25,
+  "patience": 6,
+  "batch_size": 64,
+  "architecture": "deconv with no-deconv and optional local head",
+  "primary_readout": "row",
+  "selection_metric": "trial_spearman",
+  "arms": [
+    "row",
+    "real",
+    "within-row-shuffle"
+  ],
+  "char_scale": "real training contribution std in all arms",
+  "incomplete_or_ambiguous": "row loss retained; both local terms masked",
+  "gate": "real exceeds row control and archived matched row baseline on item/conditional rho in both folds, no trial decrease; real exceeds shuffle on item/conditional rho in both folds for localization attribution",
+  "source_sha256": {
+    "scripts/run_charbag_cv.py": "e64872506719169d0d50480f824a25dce756003e4093719298764114ba7cbb8b",
+    "src/foundation/data.py": "4a79e67eadcf102661ed645434f4b7442c6fe940e8336d3e7caacabcb4537e88",
+    "src/foundation/model.py": "b4db382906f044b21f89b3049f60a40670b04803c4f8086d0451638daf2bca30",
+    "src/foundation/deconvnet.py": "2f5a2c77411f0357815a063a87d765a1d3bd6f472a5018b230b8ef2e2ca2e98a",
+    "src/foundation/gpu_store.py": "06f0d671d7530eff2e847557c80dff2d9b9df3c228b3c6d934680d5f009b8d0d"
+  },
+  "split_sha256": "7cb6c95f3aef8cb7e82ba92f2c87027abba9c5d25e3d701ff41c3b76c0a54fe8"
+}

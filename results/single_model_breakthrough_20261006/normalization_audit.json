@@ -1,0 +1,11 @@
+{
+  "False": {
+    "valid_feature_max_padding_difference": 1.3270108699798584,
+    "running_var_max_padding_difference": 0.001383662223815918
+  },
+  "True": {
+    "valid_feature_max_padding_difference": 0.0,
+    "running_var_max_padding_difference": 0.0
+  },
+  "default_baseline_max_difference": 0.0
+}

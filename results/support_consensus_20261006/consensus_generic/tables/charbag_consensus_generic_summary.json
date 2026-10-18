@@ -1,0 +1,13 @@
+{
+  "arm": "consensus_generic",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.13369409789134312,
+  "trial_spearman_std": 0.06715796074526938,
+  "item_spearman_mean": 0.2120265798182736,
+  "item_spearman_std": 0.05403765722052184,
+  "item_auc_hi_vs_lo_mean": 0.6406691545576622,
+  "item_auc_hi_vs_lo_std": 0.025838785682783777
+}

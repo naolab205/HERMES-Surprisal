@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "sampling_convention": "ROWS + char_slot * .35s; not verified character triggers",
+  "period_s": 0.35,
+  "sfreq_hz": 128,
+  "window_samples": [
+    -13,
+    154
+  ],
+  "n_epochs": 917096,
+  "preserved_metadata": true,
+  "duration_independent_geometry": true
+}

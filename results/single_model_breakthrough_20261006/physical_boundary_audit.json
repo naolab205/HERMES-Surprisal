@@ -1,0 +1,142 @@
+{
+  "recordings": [
+    {
+      "recording": "sub-04_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9245,
+      "either_crosses_splice": 17886
+    },
+    {
+      "recording": "sub-04_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2589,
+      "either_crosses_splice": 4983
+    },
+    {
+      "recording": "sub-05_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9619,
+      "either_crosses_splice": 18260
+    },
+    {
+      "recording": "sub-05_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2603,
+      "either_crosses_splice": 4997
+    },
+    {
+      "recording": "sub-06_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9174,
+      "either_crosses_splice": 17815
+    },
+    {
+      "recording": "sub-06_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2492,
+      "either_crosses_splice": 4886
+    },
+    {
+      "recording": "sub-07_GarnettDream",
+      "epochs": 72603,
+      "pre_crosses_splice": 8129,
+      "post_crosses_splice": 8530,
+      "either_crosses_splice": 16659
+    },
+    {
+      "recording": "sub-07_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2532,
+      "either_crosses_splice": 4926
+    },
+    {
+      "recording": "sub-08_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9422,
+      "either_crosses_splice": 18063
+    },
+    {
+      "recording": "sub-08_LittlePrince",
+      "epochs": 21540,
+      "pre_crosses_splice": 2393,
+      "post_crosses_splice": 2482,
+      "either_crosses_splice": 4875
+    },
+    {
+      "recording": "sub-09_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9441,
+      "either_crosses_splice": 18082
+    },
+    {
+      "recording": "sub-09_LittlePrince",
+      "epochs": 11963,
+      "pre_crosses_splice": 1326,
+      "post_crosses_splice": 1380,
+      "either_crosses_splice": 2706
+    },
+    {
+      "recording": "sub-10_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9357,
+      "either_crosses_splice": 17998
+    },
+    {
+      "recording": "sub-10_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2510,
+      "either_crosses_splice": 4904
+    },
+    {
+      "recording": "sub-13_GarnettDream",
+      "epochs": 77212,
+      "pre_crosses_splice": 8641,
+      "post_crosses_splice": 9672,
+      "either_crosses_splice": 18313
+    },
+    {
+      "recording": "sub-13_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2525,
+      "either_crosses_splice": 4919
+    },
+    {
+      "recording": "sub-14_GarnettDream",
+      "epochs": 73450,
+      "pre_crosses_splice": 8221,
+      "post_crosses_splice": 9187,
+      "either_crosses_splice": 17408
+    },
+    {
+      "recording": "sub-14_LittlePrince",
+      "epochs": 21549,
+      "pre_crosses_splice": 2394,
+      "post_crosses_splice": 2559,
+      "either_crosses_splice": 4953
+    },
+    {
+      "recording": "sub-15_GarnettDream",
+      "epochs": 46213,
+      "pre_crosses_splice": 5166,
+      "post_crosses_splice": 5771,
+      "either_crosses_splice": 10937
+    }
+  ],
+  "epochs": 917096,
+  "pre_crosses_splice": 102480,
+  "post_crosses_splice": 111090,
+  "either_crosses_splice": 213570,
+  "finding": "Old long-window builder checks concatenated recording limits but ignores row block_start/block_end. Source timeline may jump or repeat across those splices. This is not a measured performance explanation."
+}

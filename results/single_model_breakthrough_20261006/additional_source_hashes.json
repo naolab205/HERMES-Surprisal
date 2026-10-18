@@ -1,0 +1,5 @@
+{
+  "scripts/run_shared_reference_cv.py": "7dedf81016cd239946dd87bf50072b0a1bd4157abe3279f6fa9b6f24a328402f",
+  "scripts/verify_shared_reference.py": "fe03e70d3faceb8e299180e3b5b3b01b4d8bc7f399f8c5d273f669b07a77b54b",
+  "scripts/probe_signed_latency.py": "880f9cc58d4271f7a2e3e9759a355fe0154e64f6ed2f87eaa15893a85418a7e9"
+}

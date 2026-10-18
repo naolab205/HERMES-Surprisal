@@ -1,0 +1,21 @@
+[done] {'subject': 'sub-04', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.9481042298768516}
+[done] {'subject': 'sub-05', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.8966882027485276}
+[done] {'subject': 'sub-06', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.9789819739425308}
+[done] {'subject': 'sub-07', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.9600542566482241}
+[done] {'subject': 'sub-05', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.9013169364664579}
+[done] {'subject': 'sub-04', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.9178151546820036}
+[done] {'subject': 'sub-08', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 14819, 'missing_rows': 751, 'valid_fraction': 0.9507025803672001}
+[done] {'subject': 'sub-06', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.9682982837684766}
+[done] {'subject': 'sub-09', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 11964, 'missing_rows': 0, 'valid_fraction': 0.9606781884113881}
+[done] {'subject': 'sub-10', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.7465443512404069}
+[done] {'subject': 'sub-07', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 72604, 'missing_rows': 0, 'valid_fraction': 0.9717279827769608}
+[done] {'subject': 'sub-08', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.9095263950171802}
+[done] {'subject': 'sub-13', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.8516801713367839}
+[done] {'subject': 'sub-14', 'book': 'LittlePrince', 'status': 'built', 'n_epochs': 21550, 'missing_rows': 0, 'valid_fraction': 0.8980246296626807}
+[done] {'subject': 'sub-10', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.8227968785646897}
+[done] {'subject': 'sub-15', 'book': 'LittlePrince', 'status': "error: [Errno 2] No such file or directory: '/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-15_LittlePrince.csv'"}
+[done] {'subject': 'sub-09', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 43284, 'missing_rows': 3785, 'valid_fraction': 0.9775856063352598}
+[done] {'subject': 'sub-13', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 77213, 'missing_rows': 0, 'valid_fraction': 0.8461564363912414}
+[done] {'subject': 'sub-15', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 46214, 'missing_rows': 0, 'valid_fraction': 0.9538817740877723}
+[done] {'subject': 'sub-14', 'book': 'GarnettDream', 'status': 'built', 'n_epochs': 73451, 'missing_rows': 0, 'valid_fraction': 0.9407929723949927}
+[cache] /data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008

@@ -1,0 +1,33 @@
+{
+  "input_arrays": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/analysis/real_topomap_arrays.npz",
+  "input_arrays_sha256": "bb5d4298467b2544a7b67656a1be97fe03558fc773d4c4971b48b4286fdcad52",
+  "electrodes": "/data/my/ds004952/sub-04/ses-LittlePrince/eeg/sub-04_ses-LittlePrince_space-CapTrak_electrodes.tsv",
+  "electrodes_sha256": "7e0d24c40e8e35145b22e4b9aabed7745e97c64d3412721c16d1365ce87349d9",
+  "statistic": "sample SD across nine reader-level signed high-minus-low contrasts, ddof=1",
+  "windows_ms": [
+    [
+      0,
+      100
+    ],
+    [
+      100,
+      200
+    ],
+    [
+      200,
+      300
+    ],
+    [
+      300,
+      400
+    ]
+  ],
+  "sensor_mean_sd_uv": [
+    0.113246,
+    0.131918,
+    0.141236,
+    0.09637
+  ],
+  "shared_color_limit_uv": 0.4,
+  "interpretation": "descriptive reader variability; not a significance or attribution map"
+}

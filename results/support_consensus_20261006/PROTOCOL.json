@@ -1,0 +1,22 @@
+{
+  "hypothesis": "context-dependent stem features of duplicate physical EEG become inconsistent; reconcile them on the shared source grid before temporal integration",
+  "input": "fixed350ms cache; only full ten-slot rows; all primary shapes and masks identical; common first-slot pre-row reference",
+  "comparison": "baseline; three-step physical-support consensus; three-step independent-window generic smoothing with equal288parameters; no ensemble",
+  "module": "P=W diag(W.T1)^-1 W.T; Hnext=H+tanh(gamma)*(PH-H), three learned per-feature signed residual steps; feature-sum preservation",
+  "boundary": "no recording identity, duration, SOA, text or target at inference; all constants fixed before scores",
+  "protocol_change": "equal-ten cohort and shared physical baseline; BF16 and float32 correlation in ALL arms; compare only within this protocol, never as gains over historical scores",
+  "folds": [
+    0,
+    3
+  ],
+  "seed": 2026,
+  "epochs": 25,
+  "patience": 6,
+  "batch_size": 64,
+  "selection": "validation single-reading Spearman; same frozen sentence manifest and LM labels",
+  "gate": "candidate item and conditional rho improve in both folds vs baseline and generic; no single-reading decline; require paired CI support and same-support noise control before expansion",
+  "stop": "if two-fold signature fails, retain negative result and do not tune steps, period, gates, epochs or seeds",
+  "novelty": "task-specific native prototype, not a validated linguistic response mechanism or established novel contribution",
+  "clock_decision": "EEG clock probe failed strength/replication gate; adaptive clock/dictionary route not implemented",
+  "conditional_followup": "Only if 3-arm screen passes, add within-slot time-permuted support P with frozen seed20261006 (Q P Q.T); same matrix spectrum, parameter count, initial output and budget. Require real support beats this topology control before expansion. Add same-cohort synthetic-noise arm before neural claims."
+}

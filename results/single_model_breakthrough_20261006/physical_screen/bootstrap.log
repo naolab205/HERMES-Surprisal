@@ -1,0 +1,86 @@
+[
+  {
+    "candidate": "phys_control",
+    "control": "norm_control",
+    "fold": 0,
+    "observed_delta_item_rho": -0.0428738903259428,
+    "reader_textblock_bootstrap_95pct": [
+      -0.08389602476590713,
+      -0.017411086017759682
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "phys_control",
+    "control": "norm_control",
+    "fold": 3,
+    "observed_delta_item_rho": -0.03314294567854126,
+    "reader_textblock_bootstrap_95pct": [
+      -0.057074606034851205,
+      -0.0067095055692131585
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "phys_valid",
+    "control": "phys_control",
+    "fold": 0,
+    "observed_delta_item_rho": 0.0164278222434579,
+    "reader_textblock_bootstrap_95pct": [
+      -0.012612001941176136,
+      0.048776559669107614
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "phys_valid",
+    "control": "phys_control",
+    "fold": 3,
+    "observed_delta_item_rho": 0.006391402909025956,
+    "reader_textblock_bootstrap_95pct": [
+      -0.01990066816098796,
+      0.02999976439789309
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "phys_shared",
+    "control": "phys_control",
+    "fold": 0,
+    "observed_delta_item_rho": 0.0035539729932649866,
+    "reader_textblock_bootstrap_95pct": [
+      -0.015192871700670522,
+      0.02795542352631502
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "phys_shared",
+    "control": "phys_control",
+    "fold": 3,
+    "observed_delta_item_rho": 0.0072164685529622075,
+    "reader_textblock_bootstrap_95pct": [
+      -0.02813676382979848,
+      0.031883882051091855
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  }
+]

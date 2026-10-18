@@ -1,0 +1,26 @@
+{
+  "scope": "only training texts in each fixed development fold; teacher excludes student reader",
+  "ridge_alpha": 1000.0,
+  "physical_slots_per_reading": 3,
+  "student_readers": [
+    "sub-04",
+    "sub-05",
+    "sub-06"
+  ],
+  "teacher_gate_passed": false,
+  "mean_conditional_rho": [
+    {
+      "outer_development_fold": 0,
+      "mismatched_teacher": -0.003811434269632353,
+      "other_reader_teacher": -0.008408144932400058,
+      "single_reader_baseline": 0.01059736177314564
+    },
+    {
+      "outer_development_fold": 3,
+      "mismatched_teacher": 0.022507350824544456,
+      "other_reader_teacher": 0.022243486233869503,
+      "single_reader_baseline": -0.007501790858007269
+    }
+  ],
+  "limitation": "Fixed raw-window Ridge probe; not a test of every possible trained neural teacher"
+}

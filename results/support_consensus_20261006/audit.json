@@ -1,0 +1,11 @@
+{
+  "symmetry_error": 2.9802322387695312e-08,
+  "row_sum_error": 1.1920928955078125e-07,
+  "column_sum_error": 1.1920928955078125e-07,
+  "initial_identity_exact": true,
+  "matched_extra_parameters": 288,
+  "nonzero_gate_gradients": true,
+  "shared_initial_weights_exact": true,
+  "full_model_initial_output_absdiff": 5.960464477539063e-08,
+  "full_model_initial_output_tolerance": 1e-06
+}

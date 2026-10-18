@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-09-24T01:03:27.580281+00:00",
+  "window_ms": [
+    -100.0,
+    1200.0
+  ],
+  "samples": 166,
+  "source": "data_cache/continuous (pure re-indexing)",
+  "rationale": "surprisal TRF carries a sustained component to ~790 ms",
+  "tail_policy": "zero padded past the block end, never dropped",
+  "results": [
+    {
+      "recording": "sub-04_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-04_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-05_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-05_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-06_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-06_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-07_GarnettDream",
+      "status": "built",
+      "n_epochs": 72603
+    },
+    {
+      "recording": "sub-07_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-08_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-08_LittlePrince",
+      "status": "built",
+      "n_epochs": 21540
+    },
+    {
+      "recording": "sub-09_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-09_LittlePrince",
+      "status": "built",
+      "n_epochs": 11963
+    },
+    {
+      "recording": "sub-10_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-10_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-13_GarnettDream",
+      "status": "built",
+      "n_epochs": 77212
+    },
+    {
+      "recording": "sub-13_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-14_GarnettDream",
+      "status": "built",
+      "n_epochs": 73450
+    },
+    {
+      "recording": "sub-14_LittlePrince",
+      "status": "built",
+      "n_epochs": 21549
+    },
+    {
+      "recording": "sub-15_GarnettDream",
+      "status": "built",
+      "n_epochs": 46213
+    }
+  ]
+}

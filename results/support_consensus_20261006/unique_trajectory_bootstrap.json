@@ -1,0 +1,30 @@
+[
+  {
+    "candidate": "unique_trajectory",
+    "control": "consensus_base",
+    "fold": 0,
+    "observed_delta_item_rho": 0.018271796337924584,
+    "reader_textblock_bootstrap_95pct": [
+      -0.0562737547560391,
+      0.07159888983022468
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "unique_trajectory",
+    "control": "consensus_base",
+    "fold": 3,
+    "observed_delta_item_rho": -0.023007402186472264,
+    "reader_textblock_bootstrap_95pct": [
+      -0.060808567717008516,
+      0.019199643647186317
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "differences": [
+    {
+      "arm": "fixed_aligned",
+      "fold": 0,
+      "delta_trial_rho": 0.005423867326032061,
+      "delta_item_rho": 0.011335343056650626,
+      "delta_conditional_rho": 0.012169456134703521
+    },
+    {
+      "arm": "fixed_aligned",
+      "fold": 3,
+      "delta_trial_rho": -0.0019975211693673,
+      "delta_item_rho": -0.012434642167459764,
+      "delta_conditional_rho": -0.028121820276196065
+    },
+    {
+      "arm": "fixed_noise",
+      "fold": 0,
+      "delta_trial_rho": -0.030913681094678236,
+      "delta_item_rho": -0.05493239844229392,
+      "delta_conditional_rho": -0.043193799794971025
+    },
+    {
+      "arm": "fixed_noise",
+      "fold": 3,
+      "delta_trial_rho": -0.09378020190261319,
+      "delta_item_rho": -0.12434366475087949,
+      "delta_conditional_rho": -0.06692342869842312
+    }
+  ],
+  "development_gate": {
+    "fixed_aligned": false,
+    "fixed_noise": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "outcome": "completed negative development exploration; no promoted candidate",
+  "supervision_repair_verified": true,
+  "fine_grained_screen_completed": "3 arms x folds 0/3 x seed2026; failed gate",
+  "response_dictionary": "previous controlled encoding gate failed; not trained",
+  "temporal_module": "conditional localization prerequisite failed; not trained",
+  "teacher_probe": "3 readers x 5 inner blocks x 2 outer development settings x 3 arms; failed gate",
+  "expanded_validation": "not activated because no candidate qualified",
+  "external_validation": "not activated; local ZuCo natural reading files incomplete",
+  "manuscript_edits": false,
+  "rho_point5_achieved": false,
+  "scientific_gain_claimed": false
+}

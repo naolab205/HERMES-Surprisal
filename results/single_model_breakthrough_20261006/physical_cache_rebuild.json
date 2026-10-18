@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "window_samples": [
+    -13,
+    154
+  ],
+  "sfreq_hz": 128,
+  "preserved_metadata": true,
+  "old_cache": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms",
+  "source": "actual .5\u201330Hz recording time, same per-run resampling",
+  "n_epochs": 917096,
+  "changed_epochs": 213556
+}

@@ -1,0 +1,2 @@
+trial_spearman,item_spearman,item_auc_hi_vs_lo,n_items,n_obs,fold,best_epoch,best_val_trial,arm
+0.3272504560898602,0.38845604255390404,0.7439432502871446,1578,13859,0,10,0.33415405504211204,paired_eeg_only

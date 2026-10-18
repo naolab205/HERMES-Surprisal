@@ -1,0 +1,12 @@
+{
+  "definition": "Stored train-derived tercile0 vs tercile2; middle excluded; continuous prediction as score",
+  "item_aggregation": "stable mean over readers, one item once",
+  "threshold_selection": "No threshold search or validation-derived class boundaries",
+  "scope": "pooled auxiliary separation, book differences remain; retrospective validation only",
+  "prediction_sha256": {
+    "model_code/results/support_consensus_20261006/consensus_base/tables/charbag_consensus_base_predictions.csv": "7a8a967dd71571454b929276063b5b00436645a144e6ea986edd8dd15fc3dd47",
+    "model_code/results/support_consensus_20261006/consensus_source/tables/charbag_consensus_source_predictions.csv": "9d5b11eddb75b549c446d73219d6ebee9165ee0f635e985965ca468a07197cf8",
+    "model_code/results/support_consensus_20261006/consensus_generic/tables/charbag_consensus_generic_predictions.csv": "8cb0a3c8ae6a290af142a465879845b2b5c8b34ed6db96e4c9f88442ee5e24d4",
+    "model_code/results/support_consensus_20261006/unique_trajectory/tables/charbag_unique_trajectory_predictions.csv": "3100572b21541eef35d79edd5f55beaddef0379ffab1d9ef38b7ce51c8b99df8"
+  }
+}

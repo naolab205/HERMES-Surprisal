@@ -1,0 +1,21 @@
+{
+  "control": {
+    "trial_rho": 0.3533766516975318,
+    "item_rho": 0.3994903351389515,
+    "book_count_rho": 0.1574692712892913,
+    "item_auc": 0.7456392803359642
+  },
+  "deconvolution": {
+    "trial_rho": 0.36321783122394724,
+    "item_rho": 0.4010981815206504,
+    "book_count_rho": 0.16663895479610016,
+    "item_auc": 0.745361834135952
+  },
+  "equal_blend": {
+    "trial_rho": 0.3693915420549332,
+    "item_rho": 0.407317184401182,
+    "book_count_rho": 0.18028753120890392,
+    "item_auc": 0.749451048501386
+  },
+  "scope": "post hoc equal blend on seven development validation blocks"
+}

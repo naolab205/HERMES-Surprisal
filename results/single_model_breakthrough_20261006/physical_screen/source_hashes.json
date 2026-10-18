@@ -1,0 +1,8 @@
+{
+  "scripts/run_after_physical_cache.sh": "bad434d36b817baab438318465dd312746ce9e7849b53aba1f29763f13de2c01",
+  "src/foundation/deconvnet.py": "4ea21a27f7a12bb2e035c5671aab79e6963a30571604feda8adcadb78d9802a1",
+  "scripts/run_charbag_cv.py": "986702cd604aa133c44d3afbb0b4416521bcb35c19cf9199e76c8cb9b0d44576",
+  "scripts/run_shared_reference_cv.py": "7dedf81016cd239946dd87bf50072b0a1bd4157abe3279f6fa9b6f24a328402f",
+  "scripts/rebuild_physical_char_cache.py": "d7ca28c364ad97f6ff6b727b0f6e2c54f3988961323bb46fb8edc312faa55820",
+  "results/single_model_breakthrough_20261006/physical_screen/PROTOCOL.md": "b0f3e0a2fbdd52756251fbe8ca7743365446ab0c9d13a16e5c452a87f634b316"
+}

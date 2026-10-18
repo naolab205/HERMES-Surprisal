@@ -1,0 +1,13 @@
+{
+  "arm": "ABL_nocsd",
+  "csd": false,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.35159690255975135,
+  "trial_spearman_std": 0.013568685056281438,
+  "item_spearman_mean": 0.39980802728404763,
+  "item_spearman_std": 0.0183280731427521,
+  "item_auc_hi_vs_lo_mean": 0.7442897363718763,
+  "item_auc_hi_vs_lo_std": 0.012426418245430412
+}

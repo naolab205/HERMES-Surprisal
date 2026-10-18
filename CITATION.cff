@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use the code or archived evidence."
+type: software
+title: "HERMES-Surprisal: Hierarchical EEG and Eye Modeling of Row-Level Surprisal"
+version: 0.1.0
+date-released: 2026-10-19
+url: "https://github.com/naolab205/HERMES-Surprisal"
+repository-code: "https://github.com/naolab205/HERMES-Surprisal"
+authors:
+  - family-names: Zhong
+    given-names: Chenggong
+  - family-names: Li
+    given-names: Shiqi
+  - family-names: Luo
+    given-names: Weijie
+  - family-names: Luo
+    given-names: Jinke
+  - family-names: Miao
+    given-names: Yao
+    email: miaoyao@sztu.edu.cn
+keywords:
+  - EEG
+  - eye tracking
+  - surprisal
+  - Chinese reading
+  - multimodal regression

@@ -1,0 +1,592 @@
+[
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/CACHE_AUDIT.json",
+    "bytes": 2309,
+    "sha256": "8f3af40daade86ca8d296a3d9f9542e42de6a9967ea740104198023aa437512d"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-04_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "6b19c4fc558dcafb66c2122a4470cc99f114b98c6a5e79082feec15fe0a48fdc"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-04_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "19bb49c19bd1edf9745065577f3ec313ac44318c92ab06aa4114cd2cf7eb21a8"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-05_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "c9d8b6b0ebf658f4d511bb2be12acc50b0da9ed4dc2bcddce71b2d2873c1b503"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-05_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "834d717ee1ff5690a498b898d1c06e6b5b06f636c081fd4598acdb752384bfd0"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-06_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "86be532e6694082bebebfe5a6f84cf02753dab64d2ecd74e6b82241194773494"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-06_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "352a8e5b140abc3f987b9867422a073a13bc7184d080a728d167cb4c4c355e6c"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-07_GarnettDream.npy",
+    "bytes": 3103923584,
+    "sha256": "fafd377a0491d664b91fa7baf786581698daa9c68c67ff2798caa0f0eaf88e99"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-07_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "33f0b1c0cbca69a404296d2a2412dabc5a373c616ee1f709b17cb033163b779a"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-08_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "e4c9cb232393209a5f00bcb1ed0b1a740d1754fee91df661832778ff9ac0395b"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-08_LittlePrince.npy",
+    "bytes": 920878208,
+    "sha256": "2e2e919d477b4a337cbf69d0d8da1b387d9082c054e9ad07764fe1862f8ba1c2"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-09_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "5629f165f2a7b34aff68be269404897660de85b87b54a2752d75d516baaef8f2"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-09_LittlePrince.npy",
+    "bytes": 511442304,
+    "sha256": "15b962d38bde87399486a31651a6793f632e3be8e083c683e2fb69b68ef5976e"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-10_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "dce9c4bf529d991e7b72c1675ad9c5cffa120360f392496eeda6673b3112233d"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-10_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "df424a6579e7770640ea84c14bab464a51b25be7a1cfaca2c0ddca18e55ddcfd"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-13_GarnettDream.npy",
+    "bytes": 3300967552,
+    "sha256": "4d5a45ed30b329117f0b769b5e5ea1e2c4e6d67b903f16f387e0f8ae57e576bf"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-13_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "9449cdbf7b8095646ca8232a816654dc27c47597b3835c7a3323dc056865ec4f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-14_GarnettDream.npy",
+    "bytes": 3140134528,
+    "sha256": "48d5a90e616859bcfc922011a3ff85e541498c8bfb0c6031c26a502d800dc530"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-14_LittlePrince.npy",
+    "bytes": 921262976,
+    "sha256": "b0945861e2acacfdf3eebaa774eaadbcce4f613f2b5c3bd9617449c805c5fe94"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/X_sub-15_GarnettDream.npy",
+    "bytes": 1975698304,
+    "sha256": "4ac8ddc01060ad81fee42fa116ab994905042df018879c9479925e87a2b67339"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/csd_matrix.npy",
+    "bytes": 65664,
+    "sha256": "c7ab38dd3a029cf550a83607ca2509411aa0da02e5d290c91c9611c350e50161"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-04_GarnettDream.csv",
+    "bytes": 7045308,
+    "sha256": "e926f6e9fd2906fb4a79db8e25d16c0b0c67243d893e907a0167334475a024b5"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-04_LittlePrince.csv",
+    "bytes": 2020190,
+    "sha256": "0227d7ec1fd8e494ef7e14e8b031a37e08c7331aa9a96daec21d36edcb88095e"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-05_GarnettDream.csv",
+    "bytes": 7061038,
+    "sha256": "662be53d4520ab613620a14ac431cab57ec81545b549cfdfb4bea616fc2414fb"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-05_LittlePrince.csv",
+    "bytes": 2021397,
+    "sha256": "bf3e31dfd61b449a7e1b5c8d95696b79aeb836b77373a8e4aa466b890230c3f9"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-06_GarnettDream.csv",
+    "bytes": 7045936,
+    "sha256": "c2800c416d68602ff64acafc044c4cabebca9cf74fdff541e37606d3bd134f7f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-06_LittlePrince.csv",
+    "bytes": 2015512,
+    "sha256": "67243cdecd10e8b6e5515628df9a58c8a476952ab520cbdd85885431d26ca886"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-07_GarnettDream.csv",
+    "bytes": 6619800,
+    "sha256": "ef5338d838ca2f6ca015a4ea82bd84069536a2cf0a74fdfe9c5b969a8ca3da11"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-07_LittlePrince.csv",
+    "bytes": 2020467,
+    "sha256": "4ed3df1b46b3949ca4ceb6bf6e3728d505b8cc36e22be75fcb6b908d06b90cd0"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-08_GarnettDream.csv",
+    "bytes": 7054336,
+    "sha256": "1125bb727fb1cac8f41e6c95dc733b8cd76d8e02293889f4b73073c622aed835"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-08_LittlePrince.csv",
+    "bytes": 2013685,
+    "sha256": "784a2d8d936e5ef364de0c257d0364da8d3d1535da2bbd76d48dd00eed610e43"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-09_GarnettDream.csv",
+    "bytes": 7052579,
+    "sha256": "0e01d58750d62cbecee8c69090536ff560522cdb637bb59e1a7a775f2fa7465e"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-09_LittlePrince.csv",
+    "bytes": 1125592,
+    "sha256": "7df325892c89e3759b770a431527af70f15abe5dddb7a7b420840461343cd778"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-10_GarnettDream.csv",
+    "bytes": 7054157,
+    "sha256": "83300653a5281060779b639ad56f9ce04c47f4d045d16e6dc184fbe8e1a5d3b2"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-10_LittlePrince.csv",
+    "bytes": 2020476,
+    "sha256": "e29b210925a3a3a5126bcfa18e9dbbaa636cffc4daca0c22449a1e94f9a610f6"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-13_GarnettDream.csv",
+    "bytes": 7066439,
+    "sha256": "5d6405d70206b9dd11b6d25cdf558e37171944f2fc6e8db7a75620a74917e32f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-13_LittlePrince.csv",
+    "bytes": 2015397,
+    "sha256": "71fb77ab87a1ed06a9562efb4c1506f0ec0003da3f5ad3a6b1deb67589f3b3de"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-14_GarnettDream.csv",
+    "bytes": 6720391,
+    "sha256": "1bfc378678474909ae3481e66adc78f2687f803580a4e3298fc13cf2d937277f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-14_LittlePrince.csv",
+    "bytes": 2021461,
+    "sha256": "abf36dc88dc916f6c30c881fd27fc8286501d2a61e7b32692d2a6d7407fbfd8f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/char_epochs_1200ms/meta_sub-15_GarnettDream.csv",
+    "bytes": 4228526,
+    "sha256": "6af9bbcf09c07912ceb58e7df3388fe48667e3f473d71abe6e3ad1cc8d2677b1"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/CACHE_AUDIT.json",
+    "bytes": 4164,
+    "sha256": "6c42953aae4f6ad33371af79a1ca857fc5dd59e3d8aaa870b3bb6dfc81ad7180"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-04_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "570fabaded423ada48329b01c129ca0f6ab1c3e15faf2755bba4b9073fd332e9"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-04_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "5ac6c96b94ea959028bbd1cff00bac314eb0ec364db66b8d2c73822fad418d3f"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-05_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "267bc58c7aac1f711491e321f5ae3c864ef75dc00d8ec0b53c5eb7df3deef664"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-05_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "2c8da5d574d17de730b5e11be08dd8088ff6ce5f03b746470056f379c81b7fe5"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-06_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "c1946ffc78646fdfe72d3753b503a4ec1b8d2420b2d9863db0ebdda962ace53b"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-06_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "cde5feac0b677c20a7b4dad02f8d8dc1d5fd6bf1ebd6d682994bda04522220e5"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-07_GarnettDream.npy",
+    "bytes": 26137568,
+    "sha256": "daeeae1edc8750b78d4cdc9ae2c1eb933a9178d05fc28bb3c132c2fb56b27771"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-07_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "af95008093464533b32efeb6f00e6db3694d5e3dda0df08fb40c8ded743bf40c"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-08_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "77c60d8abb6c837026741133bd14812f04874533c4696d0c83f65311cc9b2a48"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-08_LittlePrince.npy",
+    "bytes": 5334968,
+    "sha256": "b6f16ea2d27756bcdecbfd8f288bbcf7d829fa7da42491fb4eddab960accb4be"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-09_GarnettDream.npy",
+    "bytes": 15582368,
+    "sha256": "ee37fae3e0c427a0c511e72b7175b11cea4145165fed678a6da141b9c6759065"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-09_LittlePrince.npy",
+    "bytes": 4307168,
+    "sha256": "43a157330ab0c8b8a3ed35752a649cf7cb08059be29d17669b3390e99521e1cb"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-10_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "071d11c5fed0252c8490afa74af07cf4b6b63409d4f51e6f82fa07e5f8260b48"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-10_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "84fcc4df699c0ceed84f6c3c323f676a4ba9bdaae67a6740ce2e7c964499f1db"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-13_GarnettDream.npy",
+    "bytes": 27796808,
+    "sha256": "9babe3460f4116ed38a91d3edcc7f7789dd6632101402b770b87c67860437ca9"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-13_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "3cc3686aa4b0f71f9024e3d4ef76042c02bcf30618d23160e12abb6c5972d948"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-14_GarnettDream.npy",
+    "bytes": 26442488,
+    "sha256": "da7b8051d61b5998352fa7edf713a8332c50ac7eb26b9ab7e00d4968c02a7034"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-14_LittlePrince.npy",
+    "bytes": 7758128,
+    "sha256": "3325621cab27ada43886f025fbd44cda1d1e02a00231ddc797144cc65b05bf9d"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/X_sub-15_GarnettDream.npy",
+    "bytes": 16637168,
+    "sha256": "d524db97b1c78abcb3a68ae57b119a89afe42a720d72644d85060615dac6791e"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-04_GarnettDream.csv",
+    "bytes": 2632140,
+    "sha256": "56125c811d50273ddddc5a7b713a9a5de5ff9633b5c8df7241b56e92c96f62b0"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-04_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "75aaa73c39e93ac0473bbf5d5619684723bfc0a00de20332be93c40cb004ae47"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-05_GarnettDream.csv",
+    "bytes": 2627361,
+    "sha256": "09c5ea9ae21d94b1695044d11947cf6aae2b92bbaf55058e4e27ec9488007b40"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-05_LittlePrince.csv",
+    "bytes": 720230,
+    "sha256": "2688d3441a70254cb226fd31489078025bc3f1c5767c1c9b115e7143d599313d"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-06_GarnettDream.csv",
+    "bytes": 2631982,
+    "sha256": "aed03624668bfab7949d1608e52854a40c6db9d8eada037017a68ec10d2a13fd"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-06_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "c49547b1873a4206c70278f58e083d02ed473705b4912c1340355aae6bb064eb"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-07_GarnettDream.csv",
+    "bytes": 2472741,
+    "sha256": "3ed4f98a0d9a3d82f4e9648267b4843533a29b83f4d7b6b7c31c2dde9ebc2ffd"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-07_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "f7df03e504b064151385132202c0046c8d0baef0b71bc6af08094cc75586fec0"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-08_GarnettDream.csv",
+    "bytes": 2631070,
+    "sha256": "97e8d71c4a9e793a46bfd1e555dcbc4d045e4d2e75b0ffa0b9564b81c19d4e36"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-08_LittlePrince.csv",
+    "bytes": 496279,
+    "sha256": "05e2fc1e9b528a1e108f37c2fe4629da22940e1e9de1cb5999da704bcabcf440"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-09_GarnettDream.csv",
+    "bytes": 1462824,
+    "sha256": "93476bd575927153cb933cd7aff9f810a8eb6b03921d4928b10dccd0bc3c1f0b"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-09_LittlePrince.csv",
+    "bytes": 400576,
+    "sha256": "842bf20cba278da11dc6d03ef4282be829cf6b21d7d196c71164974388cb098c"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-10_GarnettDream.csv",
+    "bytes": 2630562,
+    "sha256": "a941cdef757b265e6817951256ba342edf5b30c8f0ba5111c8ed651dc5daf301"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-10_LittlePrince.csv",
+    "bytes": 721206,
+    "sha256": "a4f1673a3dfc4794e591c0575c5009edebb3917daed32475f844771a804ee347"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-13_GarnettDream.csv",
+    "bytes": 2622846,
+    "sha256": "bba738626742795b9e2afc4de075f51e2851eab077a15235ace4902205958c2c"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-13_LittlePrince.csv",
+    "bytes": 719248,
+    "sha256": "eb9eec30655cdd7c06636b7406643bb3fcfb489a2e54f40604e30862061e4a92"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-14_GarnettDream.csv",
+    "bytes": 2505892,
+    "sha256": "7f990b09e4d74c146f2a962c938c82bda5fd36afdfccb33563d760ff20d95ca8"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-14_LittlePrince.csv",
+    "bytes": 721773,
+    "sha256": "8fc6415e164ee7efb5d9bde22f3a8082f6c52f61ad8755ae1b05ee2d480f68aa"
+  },
+  {
+    "path": "/data/2_readEEG/superisal_code/data_cache/eye_char/meta_sub-15_GarnettDream.csv",
+    "bytes": 1575429,
+    "sha256": "d0d7e75ea156dd78e1ad53c84feb6c2c12edd8b959379127771600d7886f3952"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/CACHE_AUDIT.json",
+    "bytes": 4710,
+    "sha256": "133bfca65dba7c933b93572e1e11b6698e975f9461b3a9863a79b2f07e715493"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-04_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "271775205573def8053887267141a6fc9880bdc881357433e500ecbfde176ddb"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-04_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "2c577bc1d753d983c113edb3a6fe0fea6ed85c02a51abf9185485514140138a5"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-05_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "76e5c82d9a2559a38a67c6ab97ebe112315ead729d0c88554aa3e5002fc5c6c2"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-05_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "a28eb8f69c5af4c2f0b0665f2fd5a5d0589c797d913bb36308db5af3214833ff"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-06_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "d162ca25504ec06bafcb96dee4f46f5ae776a736b59d6406a2f3a150b432f659"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-06_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "467d25b6c9a853c0dafc71da092933c80e804ab6ab114be8b1c80af0dbed553a"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-07_GarnettDream.npy",
+    "bytes": 37754208,
+    "sha256": "0afcba0ff6aa10fc99514a77bfcbb0d13394eb51c4dd809dc972f78bc9a78911"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-07_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "bad4605ccfaa497749b78d45478fa684ddb658bd4226cbe169c197f2f15ce9cb"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-08_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "abe2f15e2896076ffa405799634dcf0972e76f5e98ca7d1481aaa298a45c1f6c"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-08_LittlePrince.npy",
+    "bytes": 7706008,
+    "sha256": "7e3b6318a81543a6519650c32933cc8290c3649ed8a20e247552ed94912d3fd2"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-09_GarnettDream.npy",
+    "bytes": 22507808,
+    "sha256": "0e91364c2f8014641746bc5b8dd3e892348dfe82ac7ba9d3461ed1ff668790e2"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-09_LittlePrince.npy",
+    "bytes": 6221408,
+    "sha256": "d54b3c6a5d8161c229feb2f6b99b2ced03d7a1bff3fc50b41ce39bada4d0e922"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-10_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "778b5f5f65714961ea63ab2e24b2e49fd8c43bf1e3ae3e95dc8e8b46dfad8e11"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-10_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "d7fcd9a260dd4aa7bc851c03612ed2644037d0828a5cffee1e6ab3645b03cfb1"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-13_GarnettDream.npy",
+    "bytes": 40150888,
+    "sha256": "2cc18e06714a8edc36170e6852f6142b43aa6881a412694470220aa8972f8c98"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-13_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "ee3e9bac3e6c0fa39413110c17aca195e012a9e2d0e489d775936441247451fd"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-14_GarnettDream.npy",
+    "bytes": 38194648,
+    "sha256": "73e2f2183dc09b571f7c3da32c7f87979532c4c8630d6c5a774fe09442381f98"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-14_LittlePrince.npy",
+    "bytes": 11206128,
+    "sha256": "4debbf1b44d01582a19b6477f51e8dea488389e902c85e632f52f68a88dd6885"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/X_sub-15_GarnettDream.npy",
+    "bytes": 24031408,
+    "sha256": "ba4f549eacf6a5ca6a4d432c58d694a9630a841faed4a05a3faa8b36bf9ba723"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-04_GarnettDream.csv",
+    "bytes": 2632159,
+    "sha256": "438c92788c6ab97c232a5660009a5ec506bb69ffb60161effff303c2077f207a"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-04_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "dafbb07cc04531e05606456e6d6050d34e19b09775d98248ea1638cb7a757a0b"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-05_GarnettDream.csv",
+    "bytes": 2627907,
+    "sha256": "c72095b508edc64edf9758277f70670ccc8d0d6f094c48d4a192a23fb736a4aa"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-05_LittlePrince.csv",
+    "bytes": 720270,
+    "sha256": "bce8180e4548ecf268407c694b755c274dcb81b319bec2d1e91cad3c74b04204"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-06_GarnettDream.csv",
+    "bytes": 2632030,
+    "sha256": "6690e6cf12827ad4ffcbbc6705b3cdf4f553eae12c1598a1850c9a977e575993"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-06_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "c67665d85915a2e8c44d41fcecfba9bf6b9b2f495f17934587cb916ff091bc68"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-07_GarnettDream.csv",
+    "bytes": 2472751,
+    "sha256": "988cd21044d7e4002b8d11ef1b0e24f8387440726690420812ef60b94e28b968"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-07_LittlePrince.csv",
+    "bytes": 721845,
+    "sha256": "14ee5f01f1470f2497846ecc42a9936961cd912b610809e4243dc34a76e3d978"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-08_GarnettDream.csv",
+    "bytes": 2631117,
+    "sha256": "53fc0d737911ee2f0d4eebf7037e1a5fa8f8164faf6e8f4630e4c279548f2c69"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-08_LittlePrince.csv",
+    "bytes": 496287,
+    "sha256": "a7ee200a92775cad7fc6f0d6f5fda82b60c35625ee5bb205fc522fd54cdaafae"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-09_GarnettDream.csv",
+    "bytes": 1462828,
+    "sha256": "6bd6d21c7541f02f8ee16af1c55ab4f3ed544e7c8e1a99f2c1f387c687f67179"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-09_LittlePrince.csv",
+    "bytes": 400583,
+    "sha256": "7bfcfc1f3fc0c194410ffe5c4b0e2fd42cfbb43a7f6fe00c5b86b754266e693a"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-10_GarnettDream.csv",
+    "bytes": 2631761,
+    "sha256": "adfaf7376e84c5b94fab1a86d23800feba1c32dbcb329410289a32d5796a446c"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-10_LittlePrince.csv",
+    "bytes": 721676,
+    "sha256": "789c9b23d02b7a1f38a316bb13a8465ef33da4bfa972e1c9e2639d38ca20e341"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-13_GarnettDream.csv",
+    "bytes": 2623083,
+    "sha256": "37b54ca544242a5ed18d52068b916932c47d4af8e5cde2e0710694225c610dbf"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-13_LittlePrince.csv",
+    "bytes": 719320,
+    "sha256": "eb24d8ac7da8eeedd8e17d170d3808c3306efa027b9be5c4b38f5fc1fad7589f"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-14_GarnettDream.csv",
+    "bytes": 2505935,
+    "sha256": "41e289bcf7806dc047c3941b4fe90c4193103cf53ef80f629f17a612040c9711"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-14_LittlePrince.csv",
+    "bytes": 721819,
+    "sha256": "920d448fcc1ef175aba5dd89c39800c9fbb3cf7731fb8eb75b22ae4a2e6a305b"
+  },
+  {
+    "path": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/data_cache/eye_char_1200ms_20261008/meta_sub-15_GarnettDream.csv",
+    "bytes": 1575527,
+    "sha256": "a65476385a3e28fb86fcca0e394ee7f2016f57a1d9955d9d4fb0b158427e4b30"
+  }
+]

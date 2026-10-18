@@ -1,0 +1,13 @@
+{
+  "arm": "deconv_candidate_remaining",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 5,
+  "trial_spearman_mean": 0.36848324872631555,
+  "trial_spearman_std": 0.02006575749905017,
+  "item_spearman_mean": 0.40730224372658,
+  "item_spearman_std": 0.022491498704129337,
+  "item_auc_hi_vs_lo_mean": 0.7501643309443065,
+  "item_auc_hi_vs_lo_std": 0.013402636824292234
+}

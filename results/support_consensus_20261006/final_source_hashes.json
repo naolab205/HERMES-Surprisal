@@ -1,0 +1,8 @@
+{
+  "scripts/probe_eeg_clock.py": "0a6cbad504d88355c068b14f32fbc52221768c8680829885ef49bd5fe6ac8168",
+  "src/foundation/support_consensus.py": "8b63a461ba2ab67eedc69def3b93bb6c28ec14352cfd8a53ae5e4ed7f4faf3f2",
+  "src/foundation/unique_trajectory.py": "f2f7c6d8b0d3fe4feb6b316e17e808ff71f1b4f2bd9f7dcee748ffbd90c1562e",
+  "scripts/run_support_consensus_cv.py": "b49bc11a438fa373c86ab6c217a0013b655444274d64dc271d977e65fb3ab33f",
+  "scripts/run_unique_trajectory_cv.py": "c51fbec01e0b30570e2ad14f919dc867cc5093314b2f2467556e8fdb5a7f6873",
+  "scripts/audit_consensus_gate_sign.py": "2264bbfc1b7e6a0db8d9e68c46ce77460c08a1bdb4b7ceffcc51a354940f5fbd"
+}

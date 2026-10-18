@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "purpose": "Window-length comparison for the archived EEG\u2013Eye hierarchy",
+  "arms": [
+    [
+      800,
+      800
+    ],
+    [
+      1200,
+      800
+    ],
+    [
+      1200,
+      1200
+    ]
+  ],
+  "pre_ms": 100,
+  "sampling_hz": {
+    "EEG": 128,
+    "Eye": 50
+  },
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "seed": 2026,
+  "epochs_max": 25,
+  "patience": 6,
+  "batch_size": 64,
+  "selection_metric": "trial_spearman",
+  "evaluation": "validation-only retrospective screen; designated test blocks remain unscored",
+  "split": "original seven item blocks; same readers/rows/masks/labels in every arm",
+  "normalization": "train-only Eye stats per arm; identical training-only EEG spatial operators/scales fitted on full1200ms EEG for every arm",
+  "model": "mmhier, modern sequence blocks, CSD; no ensemble",
+  "label": "original frozen Chinese GPT-2 ctx192",
+  "metrics": [
+    "item_spearman",
+    "trial_spearman",
+    "item_auc_hi_vs_lo"
+  ],
+  "comparison_boundary": "Scores are newly rerun validation endpoints, not the original seven held-out development scores0.405/.748. Do not relabel validation as test. Archived cache geometry limitations persist.",
+  "hypothesis": "Matching window endpoints may improve fusion; longer Eye may add useful or interfering observations",
+  "no_promotion": "One seed and reused development cohort; differences remain exploratory",
+  "source_sha256": {
+    "scripts/run_window_alignment_cv.py": "81fd3e4d0e68e100ab12ce33397df75a1f18e2d2255c55422893ea9d6b451b0d",
+    "scripts/build_eye_1200_window_probe.py": "15aec498804de7fff876aca87f56abda73dad53034919f00528c2fc1e9c4a15d",
+    "scripts/run_charbag_cv.py": "986702cd604aa133c44d3afbb0b4416521bcb35c19cf9199e76c8cb9b0d44576",
+    "scripts/build_eye_char_cache.py": "1bc6c3e5a42a5eb5381fe7661800e263a56af732cd74f41afe25704c7c866d6d",
+    "src/foundation/data.py": "4a79e67eadcf102661ed645434f4b7442c6fe940e8336d3e7caacabcb4537e88",
+    "src/foundation/hiernet.py": "8e4188ea6b3d7f1c1655b56d162e95751552a9e238f5b0ba5deddff7e53bd28f",
+    "src/foundation/gpu_store.py": "06f0d671d7530eff2e847557c80dff2d9b9df3c228b3c6d934680d5f009b8d0d",
+    "scripts/summarize_window_alignment.py": "96d8da4ab8d1019105e92717aaa1639e773d0eb8a62dda5c4de124a2ae32d3b9",
+    "scripts/plot_window_alignment.py": "95a28f8b64098ebd85275298e521d9afb73d9aa4425062f6dc9bc748783c9e5b",
+    "scripts/monitor_window_alignment.py": "ff88b7ed82834f6a39b73a9d0b55242d30cd294465a574e686150d8c928e9e8d",
+    "scripts/audit_eye_window_timestamps.py": "2ff8f91df9689c184de5288c0e8da12249b87171a58442564e881158823ef392"
+  },
+  "documentation_correction": {
+    "change": "Corrected Eye encoder window documentation; no executable AST changes",
+    "training_source_sha256": "8e4188ea6b3d7f1c1655b56d162e95751552a9e238f5b0ba5deddff7e53bd28f",
+    "current_source_sha256": "54ee166f5523f769e3a35174591a16a6f3fc1e97e8df190dfb8173573c1a0124",
+    "executable_AST_equal": true
+  }
+}

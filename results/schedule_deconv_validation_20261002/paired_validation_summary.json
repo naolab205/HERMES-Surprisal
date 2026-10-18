@@ -1,0 +1,19 @@
+{
+  "n_folds": 7,
+  "n_eval_readings": 102499,
+  "n_eval_items": 11037,
+  "mean_paired_differences": {
+    "delta_trial_rho": 0.009841179526415469,
+    "delta_item_rho": 0.0016078463816989344,
+    "delta_book_count_rho": 0.009169683506808819,
+    "delta_item_auc": -0.0002774462000122118
+  },
+  "positive_folds": {
+    "delta_trial_rho": 7,
+    "delta_item_rho": 5,
+    "delta_book_count_rho": 4,
+    "delta_item_auc": 4
+  },
+  "predeclared_exploratory_gate_passed": false,
+  "scope": "seven development validation blocks; not a sealed outer test"
+}

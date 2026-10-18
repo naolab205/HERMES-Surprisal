@@ -1,0 +1,54 @@
+{
+  "source": "/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/results/overlap_demix_validation_20260930/tables/charbag_baseline_val_predictions.csv",
+  "rule": "nonnegative other-fold reader within-book/count rho, no tuning",
+  "folds": {
+    "0": {
+      "source_fold": 3,
+      "weights": {
+        "sub-04": 0.07377719654346207,
+        "sub-05": 0.07851446242722582,
+        "sub-06": 0.07045636032611227,
+        "sub-07": 0.0969767923673139,
+        "sub-08": 0.13496620375109356,
+        "sub-09": 0.11949597309207687,
+        "sub-10": 0.0900191549795089,
+        "sub-13": 0.10275200162992444,
+        "sub-14": 0.16682682441999988,
+        "sub-15": 0.11640612286652051
+      },
+      "equal": {
+        "item_rho": 0.3483566410410738,
+        "book_count_rho": 0.0967726011821226
+      },
+      "reader_weighted": {
+        "item_rho": 0.34691108224961886,
+        "book_count_rho": 0.08735551311353698
+      }
+    },
+    "3": {
+      "source_fold": 0,
+      "weights": {
+        "sub-04": 0.104630544512959,
+        "sub-05": 0.11268614614633866,
+        "sub-06": 0.09455830057177655,
+        "sub-07": 0.07983622064051932,
+        "sub-08": 0.07168484502133854,
+        "sub-09": 0.105068571949389,
+        "sub-10": 0.11733012257376474,
+        "sub-13": 0.06831356092504061,
+        "sub-14": 0.0797583132529133,
+        "sub-15": 0.02222067101831194
+      },
+      "equal": {
+        "item_rho": 0.3972472217789904,
+        "book_count_rho": 0.15028986946737874
+      },
+      "reader_weighted": {
+        "item_rho": 0.3940017127400484,
+        "book_count_rho": 0.1401294647948943
+      }
+    }
+  },
+  "mean_delta_item_rho": -0.0023455339151984556,
+  "mean_delta_book_count_rho": -0.009788746370535027
+}

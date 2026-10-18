@@ -1,0 +1,158 @@
+{
+  "windows_ms": [
+    [
+      0,
+      200
+    ],
+    [
+      200,
+      400
+    ],
+    [
+      400,
+      600
+    ],
+    [
+      600,
+      800
+    ]
+  ],
+  "subjects": [
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-13",
+    "sub-14"
+  ],
+  "thresholds": {
+    "GarnettDream": [
+      2.905264177105644,
+      3.701070266267793
+    ],
+    "LittlePrince": [
+      2.409686825285205,
+      3.0753023387332044
+    ]
+  },
+  "records": [
+    {
+      "subject": "sub-04",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-04",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-05",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-05",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-06",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-06",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-07",
+      "book": "GarnettDream",
+      "n_low": 1206,
+      "n_high": 1199
+    },
+    {
+      "subject": "sub-07",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-08",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-08",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-09",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-09",
+      "book": "LittlePrince",
+      "n_low": 228,
+      "n_high": 212
+    },
+    {
+      "subject": "sub-10",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-10",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-13",
+      "book": "GarnettDream",
+      "n_low": 1255,
+      "n_high": 1255
+    },
+    {
+      "subject": "sub-13",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    },
+    {
+      "subject": "sub-14",
+      "book": "GarnettDream",
+      "n_low": 1175,
+      "n_high": 1162
+    },
+    {
+      "subject": "sub-14",
+      "book": "LittlePrince",
+      "n_low": 362,
+      "n_high": 362
+    }
+  ],
+  "group_rms_uv": [
+    0.21121172606945038,
+    0.3574407696723938,
+    0.402506560087204,
+    0.40449652075767517
+  ],
+  "color_limit_uv": 2.0299999713897705
+}

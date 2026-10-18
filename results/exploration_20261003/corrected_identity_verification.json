@@ -1,0 +1,8 @@
+{
+  "fold": 0,
+  "n_readings": 75787,
+  "valid_local_readings": 73198,
+  "masked_incomplete_or_ambiguous_readings": 2589,
+  "maximum_standardized_row_identity_error_complete": 3.6751891752118127e-07,
+  "status": "passed"
+}

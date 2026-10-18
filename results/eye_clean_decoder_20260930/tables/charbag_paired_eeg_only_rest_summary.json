@@ -1,0 +1,13 @@
+{
+  "arm": "paired_eeg_only_rest",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 6,
+  "trial_spearman_mean": 0.35894826222491005,
+  "trial_spearman_std": 0.018477810396901117,
+  "item_spearman_mean": 0.4005310497263272,
+  "item_spearman_std": 0.02112313742477997,
+  "item_auc_hi_vs_lo_mean": 0.7432998358182995,
+  "item_auc_hi_vs_lo_std": 0.013929421564693125
+}

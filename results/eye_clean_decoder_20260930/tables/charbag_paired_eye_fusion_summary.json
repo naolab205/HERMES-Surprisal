@@ -1,0 +1,13 @@
+{
+  "arm": "paired_eye_fusion",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.35101988536717155,
+  "trial_spearman_std": 0.019493822238423084,
+  "item_spearman_mean": 0.3973569937180736,
+  "item_spearman_std": 0.016134893554477777,
+  "item_auc_hi_vs_lo_mean": 0.7423652608056228,
+  "item_auc_hi_vs_lo_std": 0.010728864327745167
+}

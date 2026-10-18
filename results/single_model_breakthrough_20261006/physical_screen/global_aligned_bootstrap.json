@@ -1,0 +1,58 @@
+[
+  {
+    "candidate": "global_aligned",
+    "control": "global_base",
+    "fold": 0,
+    "observed_delta_item_rho": 0.04544611879864752,
+    "reader_textblock_bootstrap_95pct": [
+      0.018644533872223756,
+      0.08778368504918088
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "global_aligned",
+    "control": "global_base",
+    "fold": 3,
+    "observed_delta_item_rho": 0.03301626878177194,
+    "reader_textblock_bootstrap_95pct": [
+      0.007310166811429684,
+      0.05901590985477327
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "global_aligned",
+    "control": "global_unshifted",
+    "fold": 0,
+    "observed_delta_item_rho": 0.037613321078014794,
+    "reader_textblock_bootstrap_95pct": [
+      0.011752683044576388,
+      0.07517822537302617
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  },
+  {
+    "candidate": "global_aligned",
+    "control": "global_unshifted",
+    "fold": 3,
+    "observed_delta_item_rho": 0.003435131117459689,
+    "reader_textblock_bootstrap_95pct": [
+      -0.013282162037652165,
+      0.03122316459554733
+    ],
+    "bootstrap_repetitions": 500,
+    "n_reader_clusters": 10,
+    "n_contiguous_text_clusters": 7,
+    "interval_scope": "development variability; not new independent evidence"
+  }
+]

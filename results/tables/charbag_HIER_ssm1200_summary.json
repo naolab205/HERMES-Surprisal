@@ -1,0 +1,13 @@
+{
+  "arm": "HIER_ssm1200",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 7,
+  "trial_spearman_mean": 0.3483225263292925,
+  "trial_spearman_std": 0.021703955478138148,
+  "item_spearman_mean": 0.394730384293638,
+  "item_spearman_std": 0.022926196544334296,
+  "item_auc_hi_vs_lo_mean": 0.7408994421172214,
+  "item_auc_hi_vs_lo_std": 0.014179003404111651
+}

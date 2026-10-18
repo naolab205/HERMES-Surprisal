@@ -1,0 +1,63 @@
+{
+  "epochs": 917096,
+  "pre_crosses_splice": 102480,
+  "post_crosses_splice": 111090,
+  "either_crosses_splice": 213570,
+  "finding": "Old long-window builder checks concatenated recording limits but ignores row block_start/block_end. Source timeline may jump or repeat across those splices. This is not a measured performance explanation."
+}
+[cache] sub-04_LittlePrince run1 done
+[cache] sub-04_GarnettDream run1 done
+[cache] sub-04_LittlePrince run2 done
+[cache] sub-04_GarnettDream run2 done
+[cache] sub-04_LittlePrince run3 done
+[cache] sub-04_LittlePrince run4 done
+[cache] sub-04_GarnettDream run3 done
+[cache] sub-04_LittlePrince run5 done
+[cache] sub-04_GarnettDream run4 done
+[cache] sub-04_LittlePrince run6 done
+[cache] sub-04_LittlePrince run7 done
+[cache] sub-04_GarnettDream run5 done
+[complete] sub-04_LittlePrince 21549 epochs
+[cache] sub-04_GarnettDream run6 done
+[cache] sub-05_GarnettDream run1 done
+[cache] sub-04_GarnettDream run7 done
+[cache] sub-05_GarnettDream run2 done
+[cache] sub-04_GarnettDream run8 done
+[cache] sub-05_GarnettDream run3 done
+[cache] sub-04_GarnettDream run9 done
+[cache] sub-05_GarnettDream run4 done
+[cache] sub-04_GarnettDream run10 done
+[cache] sub-05_GarnettDream run5 done
+[cache] sub-04_GarnettDream run11 done
+[cache] sub-05_GarnettDream run6 done
+[cache] sub-04_GarnettDream run12 done
+[cache] sub-05_GarnettDream run7 done
+[cache] sub-04_GarnettDream run13 done
+[cache] sub-05_GarnettDream run8 done
+[cache] sub-04_GarnettDream run14 done
+[cache] sub-05_GarnettDream run9 done
+[cache] sub-04_GarnettDream run15 done
+[cache] sub-05_GarnettDream run10 done
+[cache] sub-04_GarnettDream run16 done
+[cache] sub-05_GarnettDream run11 done
+[cache] sub-04_GarnettDream run17 done
+[cache] sub-05_GarnettDream run12 done
+[cache] sub-04_GarnettDream run18 done
+[cache] sub-05_GarnettDream run13 done
+[complete] sub-04_GarnettDream 77212 epochs
+[cache] sub-05_GarnettDream run14 done
+[cache] sub-05_LittlePrince run1 done
+[cache] sub-05_GarnettDream run15 done
+[cache] sub-05_LittlePrince run2 done
+[cache] sub-05_GarnettDream run16 done
+[cache] sub-05_LittlePrince run3 done
+[cache] sub-05_LittlePrince run4 done
+[cache] sub-05_GarnettDream run17 done
+[cache] sub-05_LittlePrince run5 done
+[cache] sub-05_LittlePrince run6 done
+[cache] sub-05_GarnettDream run18 done
+[cache] sub-05_LittlePrince run7 done
+[complete] sub-05_GarnettDream 77212 epochs
+[complete] sub-05_LittlePrince 21549 epochs
+[cache] sub-06_GarnettDream run1 done
+[cache] sub-06_LittlePrince run1 done

@@ -1,0 +1,57 @@
+[arm] phys_unshifted csd=True ea=False pooling=mean device=cuda:2
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:2
+  fold0 ep00 loss=1.6102 val_trial=+0.1731 val_item=+0.2412 (15s)
+  fold0 ep01 loss=1.5227 val_trial=+0.2242 val_item=+0.2683 (15s)
+  fold0 ep02 loss=1.4733 val_trial=+0.2552 val_item=+0.2955 (15s)
+  fold0 ep03 loss=1.4490 val_trial=+0.2498 val_item=+0.2826 (14s)
+  fold0 ep04 loss=1.4317 val_trial=+0.2518 val_item=+0.2836 (13s)
+  fold0 ep05 loss=1.4117 val_trial=+0.2633 val_item=+0.2896 (13s)
+  fold0 ep06 loss=1.4015 val_trial=+0.2666 val_item=+0.2899 (13s)
+  fold0 ep07 loss=1.3912 val_trial=+0.2584 val_item=+0.2733 (14s)
+  fold0 ep08 loss=1.3796 val_trial=+0.2691 val_item=+0.2991 (13s)
+  fold0 ep09 loss=1.3688 val_trial=+0.2698 val_item=+0.2977 (13s)
+  fold0 ep10 loss=1.3588 val_trial=+0.2713 val_item=+0.3111 (13s)
+  fold0 ep11 loss=1.3515 val_trial=+0.2743 val_item=+0.3069 (14s)
+  fold0 ep12 loss=1.3400 val_trial=+0.2704 val_item=+0.3161 (14s)
+  fold0 ep13 loss=1.3256 val_trial=+0.2710 val_item=+0.3174 (13s)
+  fold0 ep14 loss=1.3106 val_trial=+0.2720 val_item=+0.3192 (13s)
+  fold0 ep15 loss=1.2949 val_trial=+0.2657 val_item=+0.3110 (13s)
+  fold0 ep16 loss=1.2788 val_trial=+0.2639 val_item=+0.3192 (13s)
+  fold0 ep17 loss=1.2565 val_trial=+0.2581 val_item=+0.3184 (13s)
+[fold 0] {"trial_spearman": 0.2742851880920571, "item_spearman": 0.30689776112408307, "item_auc_hi_vs_lo": 0.689491150442478, "n_items": 1382, "n_obs": 12967, "deconv_gate_magnitude": [5.306948184967041, 5.044544219970703], "fold": 0, "best_epoch": 11, "best_val_trial": 0.2742851880920571, "best_val_item": 0.30689776112408307, "selection_metric": "trial_spearman", "eval_split": "val"}
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py:483: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  schedule.step()
+  fold3 ep00 loss=1.6141 val_trial=+0.1956 val_item=+0.3093 (15s)
+  fold3 ep01 loss=1.5281 val_trial=+0.2537 val_item=+0.3483 (17s)
+  fold3 ep02 loss=1.4661 val_trial=+0.2800 val_item=+0.3547 (15s)
+  fold3 ep03 loss=1.4441 val_trial=+0.2836 val_item=+0.3669 (14s)
+  fold3 ep04 loss=1.4280 val_trial=+0.3020 val_item=+0.3744 (15s)
+  fold3 ep05 loss=1.4121 val_trial=+0.3160 val_item=+0.3545 (14s)
+  fold3 ep06 loss=1.4047 val_trial=+0.3110 val_item=+0.3475 (14s)
+  fold3 ep07 loss=1.3967 val_trial=+0.3272 val_item=+0.3714 (14s)
+  fold3 ep08 loss=1.3884 val_trial=+0.3252 val_item=+0.3644 (14s)
+  fold3 ep09 loss=1.3776 val_trial=+0.3208 val_item=+0.3582 (14s)
+  fold3 ep10 loss=1.3690 val_trial=+0.3313 val_item=+0.3588 (14s)
+  fold3 ep11 loss=1.3574 val_trial=+0.3296 val_item=+0.3591 (14s)
+  fold3 ep12 loss=1.3475 val_trial=+0.3272 val_item=+0.3669 (14s)
+  fold3 ep13 loss=1.3371 val_trial=+0.3235 val_item=+0.3698 (14s)
+  fold3 ep14 loss=1.3230 val_trial=+0.3225 val_item=+0.3688 (14s)
+  fold3 ep15 loss=1.3076 val_trial=+0.3204 val_item=+0.3651 (14s)
+  fold3 ep16 loss=1.2917 val_trial=+0.3217 val_item=+0.3750 (14s)
+[fold 3] {"trial_spearman": 0.33129590371196427, "item_spearman": 0.3587509081606574, "item_auc_hi_vs_lo": 0.7256342006122515, "n_items": 1423, "n_obs": 13277, "deconv_gate_magnitude": [5.069474220275879, 4.831796646118164], "fold": 3, "best_epoch": 10, "best_val_trial": 0.33129590371196427, "best_val_item": 0.3587509081606574, "selection_metric": "trial_spearman", "eval_split": "val"}
+{
+  "arm": "phys_unshifted",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 2,
+  "trial_spearman_mean": 0.3027905459020107,
+  "trial_spearman_std": 0.040312663615134185,
+  "item_spearman_mean": 0.33282433464237027,
+  "item_spearman_std": 0.03666571189542485,
+  "item_auc_hi_vs_lo_mean": 0.7075626755273647,
+  "item_auc_hi_vs_lo_std": 0.02555699586781243
+}

@@ -1,0 +1,41 @@
+[arm] llm_random_matched_val_f3 csd=True ea=False pooling=mean device=cuda:0
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:0
+  fold3 ep00 loss=1.5805 val_trial=+0.1745 val_item=+0.3000 (19s)
+  fold3 ep01 loss=1.4807 val_trial=+0.2549 val_item=+0.3447 (18s)
+  fold3 ep02 loss=1.4386 val_trial=+0.2780 val_item=+0.3480 (17s)
+  fold3 ep03 loss=1.4263 val_trial=+0.2955 val_item=+0.3625 (18s)
+  fold3 ep04 loss=1.4120 val_trial=+0.3009 val_item=+0.3534 (17s)
+  fold3 ep05 loss=1.3804 val_trial=+0.3089 val_item=+0.3659 (17s)
+  fold3 ep06 loss=1.3461 val_trial=+0.3207 val_item=+0.3665 (18s)
+  fold3 ep07 loss=1.3313 val_trial=+0.3263 val_item=+0.3775 (17s)
+  fold3 ep08 loss=1.3255 val_trial=+0.3350 val_item=+0.3745 (18s)
+  fold3 ep09 loss=1.3212 val_trial=+0.3321 val_item=+0.3754 (18s)
+  fold3 ep10 loss=1.3146 val_trial=+0.3344 val_item=+0.3760 (18s)
+  fold3 ep11 loss=1.3124 val_trial=+0.3394 val_item=+0.3862 (18s)
+  fold3 ep12 loss=1.3017 val_trial=+0.3395 val_item=+0.3859 (17s)
+  fold3 ep13 loss=1.2924 val_trial=+0.3307 val_item=+0.3696 (17s)
+  fold3 ep14 loss=1.2865 val_trial=+0.3366 val_item=+0.3842 (18s)
+  fold3 ep15 loss=1.2809 val_trial=+0.3413 val_item=+0.3867 (18s)
+  fold3 ep16 loss=1.2727 val_trial=+0.3380 val_item=+0.3770 (18s)
+  fold3 ep17 loss=1.2651 val_trial=+0.3380 val_item=+0.3873 (18s)
+  fold3 ep18 loss=1.2538 val_trial=+0.3391 val_item=+0.3872 (17s)
+  fold3 ep19 loss=1.2456 val_trial=+0.3351 val_item=+0.3894 (18s)
+  fold3 ep20 loss=1.2380 val_trial=+0.3337 val_item=+0.3849 (18s)
+  fold3 ep21 loss=1.2321 val_trial=+0.3340 val_item=+0.3852 (18s)
+[fold 3] {"trial_spearman": 0.34126429583610884, "item_spearman": 0.3866589965832569, "item_auc_hi_vs_lo": 0.7454715063419796, "n_items": 1576, "n_obs": 14935, "fold": 3, "best_epoch": 15, "best_val_trial": 0.34126429583610884, "eval_split": "val"}
+{
+  "arm": "llm_random_matched_val_f3",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.34126429583610884,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.3866589965832569,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.7454715063419796,
+  "item_auc_hi_vs_lo_std": NaN
+}

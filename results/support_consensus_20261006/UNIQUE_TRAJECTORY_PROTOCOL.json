@@ -1,0 +1,10 @@
+{
+  "hypothesis": "learned negative consensus weights amplify view/boundary discrepancies; eliminate duplicate nonlinear processing by encoding a unique physical trajectory",
+  "change": "unique570sample waveform -> same stem/time encoder -> ten equal chronological bins -> same second encoder/head; no extra learned parameters",
+  "cohort": "identical equal-ten cohort and frozen splits/targets as consensus_base; common real pre-row reference; BF16 and float32 correlation",
+  "budget": "folds0/3 seed2026 batch64 25epochs patience6; choose by val trialrho",
+  "baseline": "already complete consensus_base, same source/normalization/precision/weights and parameter count",
+  "gate": "item and conditional rho improve in both folds; no trial decline; pairedCI supports improvement; same-cohort noise before expansion",
+  "stop": "one bounded reconciliation; if failed, no tweaks to bin count, period, depth, loss, epochs or seeds",
+  "claim": "source-support invariance prototype; no claims of actual character timing, target-specific dictionary or proven novelty"
+}

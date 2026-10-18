@@ -1,0 +1,27 @@
+{
+  "trial_spearman": {
+    "trial_selected_mean": 0.35442000420561726,
+    "item_selected_mean": 0.3468160827240662,
+    "paired_delta_mean": -0.007603921481550947,
+    "positive_folds": 1
+  },
+  "item_spearman": {
+    "trial_selected_mean": 0.3988059332640427,
+    "item_selected_mean": 0.3985256041513198,
+    "paired_delta_mean": -0.0002803291127229657,
+    "positive_folds": 3
+  },
+  "item_weighted_book_count_spearman": {
+    "trial_selected_mean": 0.15569030961598493,
+    "item_selected_mean": 0.15078359720637047,
+    "paired_delta_mean": -0.004906712409614445,
+    "positive_folds": 3
+  },
+  "item_auc_hi_vs_lo": {
+    "trial_selected_mean": 0.7433917521709917,
+    "item_selected_mean": 0.743672494416316,
+    "paired_delta_mean": 0.0002807422453242931,
+    "positive_folds": 4
+  },
+  "n_folds": 7
+}

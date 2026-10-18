@@ -1,0 +1,8 @@
+{
+  "raw_reconstruction_exact": true,
+  "retiling_invariance_exact": true,
+  "learned_representation_retiling_invariance_exact": true,
+  "matched_parameters": 319681,
+  "initial_shared_weights_exact": true,
+  "finite_gradients": true
+}

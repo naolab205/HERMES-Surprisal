@@ -1,0 +1,12 @@
+# Runtime used to verify this code/evidence release
+Python: 3.12.13
+numpy==2.4.4
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+torch==2.13.0+cu130
+matplotlib==3.11.1
+mne==1.12.1
+openpyxl==3.1.5
+jieba==0.42.1
+transformers==4.46.3

@@ -1,0 +1,36 @@
+{
+  "differences": [
+    {
+      "arm": "consensus_source",
+      "fold": 0,
+      "delta_trial_rho": 0.004093002551204872,
+      "delta_item_rho": 0.035903171312124726,
+      "delta_conditional_rho": 0.04584200738862576
+    },
+    {
+      "arm": "consensus_source",
+      "fold": 3,
+      "delta_trial_rho": 0.00207572300889719,
+      "delta_item_rho": 0.007800735443182327,
+      "delta_conditional_rho": -0.0005390949078323826
+    },
+    {
+      "arm": "consensus_generic",
+      "fold": 0,
+      "delta_trial_rho": 0.0007358816205624147,
+      "delta_item_rho": 0.021253463665445782,
+      "delta_conditional_rho": 0.02060688331059468
+    },
+    {
+      "arm": "consensus_generic",
+      "fold": 3,
+      "delta_trial_rho": 0.0010519747200161134,
+      "delta_item_rho": -0.006265809284550616,
+      "delta_conditional_rho": -0.01210879254133762
+    }
+  ],
+  "development_gate": {
+    "consensus_source": false,
+    "consensus_generic": false
+  }
+}

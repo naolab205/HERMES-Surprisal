@@ -1,0 +1,30 @@
+[arm] llm_pretrained_matched_val_f0 csd=True ea=False pooling=mean device=cuda:0
+[data] 917096 character epochs, 102499 row observations, 19 recordings
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/src/foundation/gpu_store.py:46: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  block = torch.from_numpy(np.ascontiguousarray(shard[lo:hi]))
+[store] 36.5 GiB resident on cuda:0
+/data/2_readEEG/KBS_Surprisal_CAS_Submission_20260929/model_code/scripts/run_charbag_cv.py:440: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  schedule.step()
+  fold0 ep00 loss=1.5579 val_trial=+0.2241 val_item=+0.3118 (17s)
+  fold0 ep01 loss=1.4676 val_trial=+0.2661 val_item=+0.3548 (16s)
+  fold0 ep02 loss=1.4218 val_trial=+0.3177 val_item=+0.3485 (17s)
+  fold0 ep03 loss=1.3636 val_trial=+0.3164 val_item=+0.3389 (15s)
+  fold0 ep04 loss=1.3403 val_trial=+0.2952 val_item=+0.3473 (15s)
+  fold0 ep05 loss=1.3358 val_trial=+0.3146 val_item=+0.3417 (16s)
+  fold0 ep06 loss=1.3286 val_trial=+0.3098 val_item=+0.3418 (16s)
+  fold0 ep07 loss=1.3229 val_trial=+0.3096 val_item=+0.3270 (16s)
+  fold0 ep08 loss=1.3211 val_trial=+0.3162 val_item=+0.3474 (17s)
+[fold 0] {"trial_spearman": 0.317739833831297, "item_spearman": 0.34854161839651643, "item_auc_hi_vs_lo": 0.6992704826038159, "n_items": 1577, "n_obs": 14791, "fold": 0, "best_epoch": 2, "best_val_trial": 0.317739833831297, "eval_split": "val"}
+{
+  "arm": "llm_pretrained_matched_val_f0",
+  "csd": true,
+  "ea": false,
+  "pooling": "mean",
+  "n_folds": 1,
+  "trial_spearman_mean": 0.317739833831297,
+  "trial_spearman_std": NaN,
+  "item_spearman_mean": 0.34854161839651643,
+  "item_spearman_std": NaN,
+  "item_auc_hi_vs_lo_mean": 0.6992704826038159,
+  "item_auc_hi_vs_lo_std": NaN
+}

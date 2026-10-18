@@ -1,0 +1,7 @@
+{
+  "scripts/run_global_spatial_cv.py": "c4c029818be2f38a143f61ab2b94edf2d5608a59c307460c8e4fe2e2c61744af",
+  "src/foundation/model.py": "b4db382906f044b21f89b3049f60a40670b04803c4f8086d0451638daf2bca30",
+  "src/foundation/deconvnet.py": "4ea21a27f7a12bb2e035c5671aab79e6963a30571604feda8adcadb78d9802a1",
+  "src/foundation/data.py": "4a79e67eadcf102661ed645434f4b7442c6fe940e8336d3e7caacabcb4537e88",
+  "scripts/run_charbag_cv.py": "986702cd604aa133c44d3afbb0b4416521bcb35c19cf9199e76c8cb9b0d44576"
+}
