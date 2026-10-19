@@ -4,7 +4,7 @@
 No temporal morphing or fabricated participant is used.
 """
 from pathlib import Path
-import json,hashlib
+import argparse,json,hashlib
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -14,7 +14,9 @@ import numpy as np
 import pandas as pd
 import mne
 from PIL import Image
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'docs/appendix/extended'
+ROOT=Path(__file__).resolve().parents[1]
+SOURCE=ROOT/'docs/appendix/extended/extended_source_arrays.npz'
+OUT=SOURCE.parent
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,'axes.titleweight':'bold','text.color':'#1B324D','pdf.fonttype':42})
 
 def make_info():
@@ -30,7 +32,6 @@ def capture(fig):
  fig.canvas.draw();return Image.fromarray(np.asarray(fig.canvas.buffer_rgba())[:,:,:3].copy())
 def gif(frames,name):
  frames[0].save(OUT/(name+'.gif'),save_all=True,append_images=frames[1:],duration=100,loop=0,optimize=True)
- frames[0].save(OUT/(name+'_poster.png'))
  im=Image.open(OUT/(name+'.gif'));assert im.n_frames==39 and im.info['loop']==0
  durations=[]
  for i in range(im.n_frames):im.seek(i);durations.append(im.info['duration'])
@@ -55,7 +56,6 @@ def group_movie(group,windows,info,limit):
   ax.clear();topo(ax,group[i],info,limit);stamp.set_text(f'{lo}–{hi} ms after row start')
   dot.set_data([centers[i]],[rms[i]]);line.set_text(f'Scalp RMS: {rms[i]:.3f} µV')
   frames.append(capture(fig))
-  if i in [0,19,38]:frames[-1].save(OUT/f'group_extended_frame_{i:02d}.png')
  plt.close(fig);gif(frames,'group_extended')
 
 def reader_movie(reader,subjects,windows,info,limit):
@@ -74,27 +74,24 @@ def reader_movie(reader,subjects,windows,info,limit):
    ax.clear();topo(ax,reader[i,j],info,limit)
    ax.set_title(f'{subject}\nRMS {rms[i,j]:.2f} µV',fontsize=10,pad=7)
   frames.append(capture(fig))
-  if j in [0,19,38]:frames[-1].save(OUT/f'readers_extended_frame_{j:02d}.png')
  plt.close(fig);gif(frames,'readers_extended')
 
-def keyframes(group,reader,windows,info,glim,rlim):
- indices=[0,10,20,30,38]
- fig,axes=plt.subplots(1,5,figsize=(11,2.6),layout='constrained')
- for ax,j in zip(axes,indices):
-  im=topo(ax,group[j],info,glim);lo,hi=windows[j];ax.set_title(f'{lo}–{hi} ms',fontsize=10)
- fig.colorbar(im,ax=axes,shrink=.7,pad=.01,label='High − low (µV)')
- fig.savefig(OUT/'extended_group_keyframes.pdf',bbox_inches='tight');plt.close(fig)
-
 def main():
- a=np.load(OUT/'extended_source_arrays.npz',allow_pickle=False)
+ global OUT
+ parser=argparse.ArgumentParser(description='Render manuscript supplementary animations S1 and S2.')
+ parser.add_argument('--source',type=Path,default=SOURCE)
+ parser.add_argument('--output-dir',type=Path,default=OUT)
+ args=parser.parse_args()
+ OUT=args.output_dir
+ OUT.mkdir(parents=True,exist_ok=True)
+ a=np.load(args.source,allow_pickle=False)
  group=a['group_uv'];reader=a['reader_uv'];windows=a['windows_ms'];subjects=a['subjects']
  assert group.shape==(39,128) and reader.shape==(10,39,128)
  assert np.allclose(group,reader.mean(0)) and np.isfinite(reader).all()
  info=make_info();glim=float(np.ceil(abs(group).max()*100)/100);rlim=float(np.ceil(abs(reader).max()*100)/100)
  print('Shared display limits:',glim,rlim,'µV',flush=True)
  group_movie(group,windows,info,glim);reader_movie(reader,subjects,windows,info,rlim)
- keyframes(group,reader,windows,info,glim,rlim)
- p={'source_sha256':hashlib.sha256((OUT/'extended_source_arrays.npz').read_bytes()).hexdigest(),
+ p={'source_sha256':hashlib.sha256(args.source.read_bytes()).hexdigest(),
     'subjects':subjects.tolist(),'n_readers':10,'n_frames':39,'window_width_ms':100,'window_step_ms':50,'display_frame_ms':100,
     'animation_duration_ms':3900,'time_extent_ms':[0,2000],'temporal_interpolation':False,
     'group_color_limits_uv':[-glim,glim],'reader_color_limits_uv':[-rlim,rlim],

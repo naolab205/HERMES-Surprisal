@@ -1,36 +1,76 @@
-# Extended scalp animations: 2 seconds and ten readers
+# Supplementary animations: row-level surprisal
 
-This extension re-extracts actual continuous EEG around observed row starts. It covers **0–2000 ms**, using **100-ms window means advanced by 50 ms**, for **39 measured frames**. Playback holds each frame for **100 ms**. Adjacent windows overlap; they are not independent samples or additional hypothesis tests.
+The two animations below accompany manuscript Appendix A. They use recorded
+continuous EEG from ten healthy readers and the same frozen row-surprisal
+labels as the decoding task. They describe the temporal and reader-level
+context of the prediction results.
 
-## S3 · Group contrast over a longer interval
+## S1 · Time course of the row-level EEG contrast
 
-![Extended group high-minus-low scalp contrast](group_extended.gif)
+![Supplementary Animation S1: group row-surprisal contrast](group_extended.gif)
 
-The signed high-minus-low contrast is averaged within each book and reader, then across the ten available healthy readers. The video uses one fixed symmetric voltage scale for all frames. The RMS trace consists of actual window summaries. No temporal morphing or intermediate EEG sample generation is used.
+S1 follows the high-minus-low row-surprisal voltage over 0–2000 ms after an
+observed row start. Group scalp RMS is 0.186 µV at 0–100 ms, 0.434 µV at
+700–800 ms, 0.473 µV at 1100–1200 ms, and 0.557 µV at 1900–2000 ms.
+The sequence places the main 0–800-ms summary in the context of continued
+reading. Later activity can include responses to subsequent highlighted
+characters. Its larger contrast does not by itself establish a better decoder
+window.
 
-## S4 · All ten readers shown together
+## S2 · Between-reader variation
 
-![Ten-reader row-onset scalp contrast mosaic](readers_extended.gif)
+![Supplementary Animation S2: individual reader contrasts](readers_extended.gif)
 
-Each head shows one reader's signed high-minus-low voltage in the same time window. Every reader and frame shares one fixed voltage scale, so differences are not hidden by independent color rescaling. RMS labels summarize the 128 sensor values for that reader and interval. A pale map can reflect smaller amplitude under the shared scale, rather than missing data.
+S2 follows all ten signed reader contrasts using one voltage scale across
+readers and time. At 700–800 ms, reader-level scalp RMS ranges from 0.441 to
+2.559 µV, with median 1.091 µV; the group RMS is 0.434 µV. Differences in
+voltage sign and spatial pattern can cancel in the group average.
 
-The participants are **healthy readers, not patients**. ChineseEEG has ten participants in this analysis. Nine have both books; `sub-15` contributes the available GarnettDream recording only. The tenth participant is real and is not a duplicated or generated case. The ten-reader available-book mean differs from the balanced nine-reader mean in manuscript Figures 5 and 7. The original nine-reader results and S1/S2 remain unchanged.
+This display adds spatial and temporal context to the main reader clustering,
+which summarizes each reader with four RMS magnitudes. A shared text-row
+label can coexist with different recorded responses. Single-reading results
+therefore remain needed alongside predictions averaged across readers.
 
-## Data and controls
+### Analysis scope
 
-The source is the dataset authors' `filtered_0.5_30` continuous EEG derivative. Rows belong to the same setting-0 training blocks 2–6 and the same ten-complete-slot eligibility rule. Thresholds are frozen training-derived within-book surprisal terciles. The script applies the existing 256-to-128 Hz resampling, amplitude clipping, original cache precision, and 13-sample pre-row reference. It retains only complete windows that stay within the target row and the continuous recording.
+The analysis uses setting-0 training blocks 2–6 and complete-ten-slot readings.
+Within-book training terciles define the high and low surprisal groups.
+Nine readers contribute both books; sub-15 contributes GarnettDream only.
+Each reader averages the available books before readers receive equal weight.
+This cohort differs from the balanced nine-reader analysis in the main text.
 
-The extraction checks source prefixes against the existing physical first-slot cache and compares the original nine-reader 0–800-ms contrasts with the manuscript arrays. Exact checks, source hashes, condition counts, exclusions, and book availability are saved in [extraction provenance](extended_extraction_provenance.json). Display scales, playback timings, and source-array hash are in [rendering provenance](rendering_provenance.json).
+Each animation contains 39 measured 100-ms means advanced by 50 ms. Playback
+holds each interval for 100 ms. Overlapping windows are not independent
+observations. The maps retain fixed voltage scales without temporal morphing.
+These unadjusted voltage contrasts provide descriptive context; they do not
+identify the model's predictive sensors or supply another generalization test.
 
-These are descriptive scalp-voltage displays. They are not cortical localization, model attribution, or a validated diagnosis. Adding a reader or refining the windows does not supply a new independent model evaluation.
+<details>
+<summary><strong>Data and reproduction</strong></summary>
 
-## Reproduce the graphics
+The directory retains the files needed to reproduce and check these two materials:
+
+- [Numerical source arrays](extended_source_arrays.npz)
+- [Continuous-source extraction checks](extended_extraction_provenance.json)
+- [Rendering settings and input hash](rendering_provenance.json)
+- [Numerical precision check](numerical_precision_check.json)
+
+Rebuild the two GIFs from the saved arrays:
 
 ```bash
 python scripts/build_extended_scalp_animations.py
 ```
 
-This command uses the included `extended_source_arrays.npz` and sensor coordinates, so it does not need a new EEG download. Re-extracting the source waveforms requires the dataset, eligibility cache, and frozen split manifest:
+The script produces `group_extended.gif` (S1), `readers_extended.gif` (S2), and
+`rendering_provenance.json`. It does not generate static preview files.
+To render into a separate directory:
+
+```bash
+python scripts/build_extended_scalp_animations.py --output-dir /path/to/output
+```
+
+Re-extracting the underlying EEG summaries requires the public ChineseEEG
+recordings, the eligibility cache, and the frozen split manifest:
 
 ```bash
 python scripts/extract_extended_scalp.py \
@@ -40,4 +80,8 @@ python scripts/extract_extended_scalp.py \
   --workers 6
 ```
 
-The cache supplies original observation order, metadata, and prefix validation. Its large EEG arrays are not distributed in this repository. Do not use raw data or caches from a different split while calling the resulting animation an exact reproduction.
+The extraction checks physical-cache prefixes, row coverage, label thresholds,
+condition counts, and numerical agreement with the main nine-reader summaries.
+The large signal caches are obtained locally and are not distributed here.
+
+</details>

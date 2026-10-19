@@ -62,13 +62,13 @@ See the [reproducibility guide](docs/REPRODUCIBILITY.md) and [research history](
 The extended animations cover **0–2000 ms**, with **100-ms means advanced by 50 ms**, shown at **100 ms per frame**. They use actual continuous-recording EEG summaries from **ten healthy readers**.
 
 <p align="center">
-<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/group_extended.gif" width="58%" alt="S3: extended 0–2000-ms group scalp contrast" /></a>
+<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/group_extended.gif" width="58%" alt="S1: 0–2000-ms group row-surprisal contrast" /></a>
 </p>
 <p align="center">
-<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/readers_extended.gif" width="100%" alt="S4: ten healthy readers shown together with a shared voltage scale" /></a>
+<a href="docs/appendix/extended/README.md"><img src="docs/appendix/extended/readers_extended.gif" width="100%" alt="S2: ten reader contrasts with a shared voltage scale" /></a>
 </p>
 
-[Extended animation definitions and provenance](docs/appendix/extended/README.md). Nine readers contribute both books; sub-15 contributes one available book. This extension is separate from the balanced nine-reader main analysis. The [original four-window animations S1/S2](docs/appendix/README.md) remain available and match the main manuscript figures.
+[Supplementary Animations S1 and S2](docs/appendix/extended/README.md) correspond to Appendix A.1 (temporal contrast) and A.2 (reader variation). Nine readers contribute both books; sub-15 contributes one available book. This ten-reader extension differs from the balanced nine-reader main analysis.
 
 ## Quick start
 

@@ -22,5 +22,38 @@
   },
   "training_cli_help": "passed",
   "release_figure_generation": "passed",
-  "new_training_experiment": false
+  "new_training_experiment": false,
+  "supplement_cleanup": {
+    "date": "2026-10-19",
+    "unused_files_removed": 29,
+    "manuscript_numbering": [
+      "S1",
+      "S2"
+    ],
+    "generation_outputs": [
+      "group_extended.gif",
+      "readers_extended.gif",
+      "rendering_provenance.json"
+    ],
+    "animations": {
+      "group_extended.gif": {
+        "frames": 39,
+        "duration_ms": 3900,
+        "sha256": "8cc515ded6eb71e8e67bed8de307c0cb47bdddfc0dc2ca685e27ab1c4b593d1b",
+        "byte_identical_reproduction": true
+      },
+      "readers_extended.gif": {
+        "frames": 39,
+        "duration_ms": 3900,
+        "sha256": "279625b10bd9fc19a7e3f5f71f43f3adc3dabff790f1cc849724bbc9b2b21e4e",
+        "byte_identical_reproduction": true
+      }
+    },
+    "readme_local_links_and_section_anchors": "passed",
+    "retained_frozen_source_arrays": true,
+    "model_code_changed": false,
+    "model_tests_rerun": false,
+    "model_metrics_recomputed": false,
+    "new_training_experiment": false
+  }
 }
