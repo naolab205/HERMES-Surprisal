@@ -8,8 +8,8 @@
     "sha256": "7b377a65c00548a6a1a8f9d6575db6b9555eaaae99a55cf2644ae3ebd1f24076"
   },
   "README.md": {
-    "bytes": 11342,
-    "sha256": "89bd0ce5d0746151330e0ca8cb91e5ff192ae87fdd8912fc5a3ea564b78eb89c"
+    "bytes": 11466,
+    "sha256": "1516c15da66d40e134020e09ed2fbfca5fef4f235c37c818cb7fd5e6e3a131b8"
   },
   "analysis/book_stratified_item_correlations.csv": {
     "bytes": 809,
@@ -224,8 +224,8 @@
     "sha256": "78ca4d89d1dd29145f014e0f742acc8ee0b08c450c81f9cbdc2b0be39a8afc3f"
   },
   "docs/PROVENANCE.md": {
-    "bytes": 4889,
-    "sha256": "4d105595a3ae86d657749637afd8a748cc63e4041c28e7d05ef77e9356affd63"
+    "bytes": 5074,
+    "sha256": "196ac387ad4b691e46478e20f87063ae49939a9df1e5f87bc78682be9824dbd7"
   },
   "docs/REPRODUCIBILITY.md": {
     "bytes": 5002,
@@ -266,6 +266,10 @@
   "docs/assets/architecture.png": {
     "bytes": 57647,
     "sha256": "15b30a02a9864d4983ad6142d0c1113fd848c5b9c3840a259cc9ff171dd60768"
+  },
+  "docs/assets/architecture_animated.gif": {
+    "bytes": 128264,
+    "sha256": "5b2fc84c15642f4b4bbf0ebd1147d1d0bd61eeb221fda7b002fc6406e176941d"
   },
   "docs/assets/archived_results.png": {
     "bytes": 66909,
@@ -320,8 +324,8 @@
     "sha256": "58f533ac324feb54243d36f6252ff2d6db0d2fca41d95e32c0e677739d615b51"
   },
   "docs/release_checks.json": {
-    "bytes": 8153,
-    "sha256": "befda346fdc2b4b924b66228fbad404d1b7e2061d2e5e4b9603e6fdb8eb8e119"
+    "bytes": 8518,
+    "sha256": "af6ff677c868cb221ab5365c49b8b90a523fdde266a1af06768bbb243dfb49b6"
   },
   "docs/research_history.md": {
     "bytes": 6031,
@@ -2368,8 +2372,8 @@
     "sha256": "dfe528ed8d2b7d3582808017ec12f8211759181dd9aa618be71ed6b92511d25a"
   },
   "scripts/README.md": {
-    "bytes": 2648,
-    "sha256": "958c23af699b234c48c85e98fb1d9e1320d28d908e7d9f20e29b57378dc97dfe"
+    "bytes": 2674,
+    "sha256": "acf93b069b40963443dbbbd264f1aa0aa4730ddaf051102c9d1ee2bdc22e17fe"
   },
   "scripts/aggregate_foundation_table.py": {
     "bytes": 4285,
@@ -2456,8 +2460,8 @@
     "sha256": "19dfe2209fcf83fff4a3ef58740e2a19ed05db32a82ba9216181efe159e1268d"
   },
   "scripts/build_readme_artwork.py": {
-    "bytes": 5478,
-    "sha256": "de7cec73e98fad2e82a5e977961ac266d3b7ffafdd09dd78fed004e84c805d75"
+    "bytes": 6451,
+    "sha256": "2322bb8827222e4e9d36d0a7c6d8dacb2569f6f6f6ac06d5649e2dc030c8d5c3"
   },
   "scripts/build_retrospective_manifest.py": {
     "bytes": 3003,

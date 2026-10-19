@@ -209,5 +209,16 @@
     "model_source_changed": false,
     "new_model_training": false,
     "new_independent_evaluation": false
+  },
+  "model_animation_restore": {
+    "date": "2026-10-19",
+    "model_section": "docs/assets/architecture_animated.gif",
+    "n_frames": 60,
+    "frame_ms": 100,
+    "loop_duration_ms": 6000,
+    "frames_differ": true,
+    "animated_header_restored": false,
+    "protected_scientific_and_measured_demo_files_unchanged": 547,
+    "new_training_experiment": false
   }
 }

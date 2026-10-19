@@ -1,10 +1,11 @@
-"""Build static README artwork; recorded-data animations use a separate script.
+"""Build a static README header and one animated architecture diagram.
 
 Uses Pillow drawing primitives and type, not a generative image model.
 The diagram shows the actual ordering of the primary architecture at a high level.
-This entry does not generate decorative GIFs.
+Recorded-data animations use a separate script.
 """
 from pathlib import Path
+import argparse
 import math
 from PIL import Image, ImageDraw, ImageFont
 ROOT=Path(__file__).resolve().parents[1]
@@ -107,10 +108,30 @@ def render(frame,hero):
   text(32,H-16,'Schematic architecture; the diagram does not show measured activations.',9,c=muted)
  return im.resize((W,H),Image.Resampling.LANCZOS)
 
+def build_architecture_animation():
+ frames=[render(i,False) for i in range(FRAMES)]
+ samples=Image.new('RGB',(W,frames[0].height*4))
+ for j,k in enumerate([0,15,30,45]):samples.paste(frames[k],(0,j*frames[0].height))
+ palette=samples.quantize(colors=128,method=Image.Quantize.MEDIANCUT)
+ quant=[f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
+ path=OUT/'architecture_animated.gif'
+ quant[0].save(path,save_all=True,append_images=quant[1:],duration=DURATION,loop=0,optimize=True,disposal=1)
+ with Image.open(path) as image:
+  assert image.n_frames==FRAMES and image.info['loop']==0
+  for i in range(FRAMES):
+   image.seek(i)
+   assert image.info['duration']==DURATION
+ print(f'Architecture animation: {FRAMES} frames, {FRAMES*DURATION} ms.')
+
 def main():
+ global OUT
+ parser=argparse.ArgumentParser(description=__doc__)
+ parser.add_argument('--output-dir',type=Path,default=OUT)
+ OUT=parser.parse_args().output_dir
  OUT.mkdir(parents=True,exist_ok=True)
  render(0,True).crop((0,0,W,204)).save(OUT/'overview.png')
  render(0,False).save(OUT/'architecture.png')
- print('Static overview and architecture written.')
+ build_architecture_animation()
+ print('Static header and architecture fallback written.')
 
 if __name__=='__main__':main()

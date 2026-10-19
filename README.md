@@ -27,7 +27,7 @@ The headline values summarize **seven retrospective item-block rotations**. Read
 
 ## Model
 
-<img src="docs/assets/architecture.png" width="100%" alt="Separate window encoders, residual fusion, cross-slot integration, and row regression" />
+<img src="docs/assets/architecture_animated.gif" width="100%" alt="Animated flow through separate window encoders, residual fusion, cross-slot integration, and row regression" />
 
 | Within each slot | Across the row |
 | :-- | :-- |
@@ -37,7 +37,7 @@ The headline values summarize **seven retrospective item-block rotations**. Read
 
 [Architecture source](src/foundation/hiernet.py) · [Training entry](scripts/run_charbag_cv.py) · [Data and protocol guide](docs/REPRODUCIBILITY.md)
 
-The static diagram describes the implementation. The animations below show recorded EEG and archived model predictions.
+The architecture animation illustrates computation flow; its moving markers are schematic, not measured activations. The animations below show recorded EEG and archived model predictions.
 
 ## Measured-data animations
 
@@ -175,7 +175,7 @@ python scripts/build_measured_data_animations.py
 python scripts/build_extended_scalp_animations.py
 ```
 
-These commands reproduce the static artwork, the EEG/ROC displays, and supplementary S1/S2, respectively. Their roles and sources are documented in [PROVENANCE.md](docs/PROVENANCE.md).
+These commands reproduce the static header and animated architecture, the EEG/ROC displays, and supplementary S1/S2, respectively. Their roles and sources are documented in [PROVENANCE.md](docs/PROVENANCE.md).
 
 </details>
 

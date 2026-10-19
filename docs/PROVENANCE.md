@@ -10,7 +10,7 @@ Large raw or processed signal caches, trained checkpoints, manuscript source, pr
 
 README graphics were prepared with code. The architecture illustration contains author-arranged explanatory components prepared with AI assistance, as disclosed in the manuscript; data plots use saved numerical results. The release does not claim publication acceptance.
 
-The header and architecture are static explanatory artwork generated with Pillow by `scripts/build_readme_artwork.py`. The two former conceptual-flow GIFs were retired to avoid repeating the same architecture animation.
+The header is static explanatory artwork, while the Model section retains one animated architecture diagram, generated with Pillow by `scripts/build_readme_artwork.py`. A static architecture fallback is included. The redundant animated header remains retired. The architecture's moving markers illustrate computation flow; they are not recorded waveforms, learned activations, or numerical model outputs.
 
 The scalp supplement contains two recorded-data animations: S1 follows the group row-surprisal contrast, and S2 follows ten individual readers. Both cover 0–2000 ms after observed row starts using 39 measured 100-ms means advanced by 50 ms and displayed at 100 ms per frame. Nine readers contribute both books; sub-15 contributes GarnettDream only. They use training readings and frozen labels. Their ten-reader available-book average differs from the balanced nine-reader analysis in the main figures.
 

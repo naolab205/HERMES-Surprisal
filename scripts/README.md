@@ -9,7 +9,7 @@ Run commands from the repository root. The active model and reproduction entries
 | [`evaluate_surprisal_predictions.py`](evaluate_surprisal_predictions.py) | Recompute metrics from archived predictions | No; conditional book/count metrics additionally need metadata |
 | [`plot_release_overview.py`](plot_release_overview.py) | Regenerate the README result figure | No |
 | [`run_charbag_cv.py`](run_charbag_cv.py) | Train the hierarchical model or its matched controls | Yes |
-| [`build_readme_artwork.py`](build_readme_artwork.py) | Render the static header and architecture | No |
+| [`build_readme_artwork.py`](build_readme_artwork.py) | Render the static header, animated architecture and static fallback | No |
 | [`build_measured_data_animations.py`](build_measured_data_animations.py) | Render the recorded EEG replay and archived prediction threshold sweep | No; saved excerpt included |
 | [`build_extended_scalp_animations.py`](build_extended_scalp_animations.py) | Reproduce supplementary S1/S2 from saved arrays | No |
 
