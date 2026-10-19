@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/hero_animated.gif" width="100%" alt="HERMES — hierarchical EEG and eye modeling of row-level surprisal" />
+<img src="docs/assets/overview.png" width="100%" alt="HERMES — hierarchical EEG and eye modeling of row-level surprisal" />
 
 <p><strong>Hierarchical EEG and Eye Modeling of Row-Level Surprisal in Chinese Reading</strong></p>
 
@@ -9,7 +9,7 @@
 <a href="https://openneuro.org/datasets/ds004952"><img alt="ChineseEEG" src="https://img.shields.io/badge/Data-ChineseEEG-168B88" /></a>
 <a href="CITATION.cff"><img alt="Software citation" src="https://img.shields.io/badge/Cite-HERMES-8064CD" /></a>
 
-<p><a href="#model">Model</a> · <a href="#results">Results</a> · <a href="#quick-start">Quick start</a> · <a href="#supplementary-materials">EEG animations</a> · <a href="docs/REPRODUCIBILITY.md">Reproducibility</a></p>
+<p><a href="#model">Model</a> · <a href="#results">Results</a> · <a href="#quick-start">Quick start</a> · <a href="#measured-data-animations">Real-data animations</a> · <a href="docs/REPRODUCIBILITY.md">Reproducibility</a></p>
 
 </div>
 
@@ -27,7 +27,7 @@ The headline values summarize **seven retrospective item-block rotations**. Read
 
 ## Model
 
-<img src="docs/assets/architecture_animated.gif" width="100%" alt="Separate window encoders, residual fusion, cross-slot integration, and row regression" />
+<img src="docs/assets/architecture.png" width="100%" alt="Separate window encoders, residual fusion, cross-slot integration, and row regression" />
 
 | Within each slot | Across the row |
 | :-- | :-- |
@@ -37,7 +37,23 @@ The headline values summarize **seven retrospective item-block rotations**. Read
 
 [Architecture source](src/foundation/hiernet.py) · [Training entry](scripts/run_charbag_cv.py) · [Data and protocol guide](docs/REPRODUCIBILITY.md)
 
-The motion graphics illustrate computation flow. Their moving elements are schematic, rather than recorded waveforms or measured activations.
+The static diagram describes the implementation. The animations below show recorded EEG and archived model predictions.
+
+## Measured-data animations
+
+### Recorded EEG · signals and time–frequency structure
+
+<img src="docs/measured_demos/continuous_eeg.gif" width="100%" alt="Ten seconds of actual ChineseEEG: eight voltage traces, observed row starts and an E62 spectrogram" />
+
+This **10-second continuous recording** comes from sub-04, GarnettDream, run 02, starting at the first audited training-row example. The replay retains measured channel amplitudes on one scale. Orange markers show observed row starts; the lower panel shows E62 spectral power. The excerpt spans several rows. It is an offline signal example, not a character-alignment check or a decoding demonstration.
+
+### Archived predictions · how the ROC trade-off changes
+
+<img src="docs/measured_demos/prediction_threshold.gif" width="100%" alt="Real saved model predictions: thresholds move along seven empirical ROC curves, with block-0 score distributions and confusion counts" />
+
+This animation uses the **saved out-of-fold item predictions**. Moving thresholds trace sensitivity and false positive rate across seven blocks. The adjacent distributions and counts show block 0. The mean fold AUC remains **0.748**. Animation steps represent score thresholds, not recording time, training epochs or new experiments.
+
+[Sources, interpretation and reproduction](docs/measured_demos/README.md) · [Static EEG](docs/measured_demos/continuous_eeg_still.png) · [Static ROC](docs/measured_demos/prediction_threshold_still.png)
 
 ## Results
 
@@ -149,16 +165,17 @@ Nine readers contribute both books; sub-15 contributes GarnettDream only. This t
 | [`docs/research_history.md`](docs/research_history.md) | Experiment history and links to frozen reports |
 
 <details>
-<summary><strong>Static graphics and animation sources</strong></summary>
+<summary><strong>Graphics and animation sources</strong></summary>
 
-[Static header](docs/assets/hero_animated_still.png) · [Static architecture](docs/assets/architecture_animated_still.png) · [Vector result figure](docs/assets/archived_results.svg)
+[Static header](docs/assets/overview.png) · [Static architecture](docs/assets/architecture.png) · [Vector result figure](docs/assets/archived_results.svg)
 
 ```bash
-python scripts/build_readme_animations.py
+python scripts/build_readme_artwork.py
+python scripts/build_measured_data_animations.py
 python scripts/build_extended_scalp_animations.py
 ```
 
-The first command renders the conceptual header and architecture. The second reproduces the measured supplementary animations. Their roles and sources are documented in [PROVENANCE.md](docs/PROVENANCE.md).
+These commands reproduce the static artwork, the EEG/ROC displays, and supplementary S1/S2, respectively. Their roles and sources are documented in [PROVENANCE.md](docs/PROVENANCE.md).
 
 </details>
 

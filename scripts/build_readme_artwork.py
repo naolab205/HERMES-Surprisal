@@ -1,7 +1,8 @@
-"""Build conceptual README motion graphics; no measurements or results are animated.
+"""Build static README artwork; recorded-data animations use a separate script.
 
 Uses Pillow drawing primitives and type, not a generative image model.
 The diagram shows the actual ordering of the primary architecture at a high level.
+This entry does not generate decorative GIFs.
 """
 from pathlib import Path
 import math
@@ -103,23 +104,13 @@ def render(frame,hero):
   dot(x,basey+6,2.5,teal if int(phase)%4==i else border)
   text(x+12,basey,label,9,c=fg if int(phase)%4==i else muted,bold=True)
  if not hero:
-  text(32,H-16,'Conceptual flow only; animated elements are not measured activations.',9,c=muted)
+  text(32,H-16,'Schematic architecture; the diagram does not show measured activations.',9,c=muted)
  return im.resize((W,H),Image.Resampling.LANCZOS)
-
-def build(hero):
- name='hero_animated' if hero else 'architecture_animated'
- frames=[render(i,hero) for i in range(FRAMES)]
- # Fixed palette keeps type and panel edges stable between frames.
- samples=Image.new('RGB',(W,frames[0].height*4))
- for j,k in enumerate([0,15,30,45]):samples.paste(frames[k],(0,j*frames[0].height))
- palette=samples.quantize(colors=128,method=Image.Quantize.MEDIANCUT)
- quant=[f.quantize(palette=palette,dither=Image.Dither.NONE) for f in frames]
- quant[0].save(OUT/(name+'.gif'),save_all=True,append_images=quant[1:],duration=DURATION,loop=0,optimize=True,disposal=1)
- frames[0].save(OUT/(name+'_still.png'))
- frames[25].save('/tmp/'+name+'_preview.png')
- print(name,'frames',len(frames),'bytes',(OUT/(name+'.gif')).stat().st_size)
 
 def main():
  OUT.mkdir(parents=True,exist_ok=True)
- build(True);build(False)
+ render(0,True).crop((0,0,W,204)).save(OUT/'overview.png')
+ render(0,False).save(OUT/'architecture.png')
+ print('Static overview and architecture written.')
+
 if __name__=='__main__':main()

@@ -1,0 +1,53 @@
+{
+  "continuous_eeg": {
+    "n_frames": 128,
+    "frame_ms": 80,
+    "final_frame_ms": 800,
+    "loop_duration_ms": 10960,
+    "sha256": "0ebb25f37f21a84e96f863914f6e1811f608d16ae3e5a600657614617e60b7ba",
+    "source_sha256": "5711f17b1ea43001fbc26c1f7d6e42c3c0b7263dcbcc40e71d0e209764498729",
+    "sample_rate_hz": 256.0,
+    "signal_duration_s": 10,
+    "signal_resampling": false,
+    "per_channel_normalization": false,
+    "shared_channel_spacing_uv": 75.91641845703124,
+    "spectrogram": {
+      "channel": "E62",
+      "nperseg": 128,
+      "noverlap": 112,
+      "color_limits_db": [
+        -21.0870947759501,
+        6.679582342586824
+      ],
+      "note": "Offline whole-excerpt spectrum; color limits are display-only percentiles."
+    }
+  },
+  "prediction_threshold": {
+    "n_frames": 100,
+    "frame_ms": 100,
+    "final_frame_ms": 800,
+    "loop_duration_ms": 10700,
+    "sha256": "278ce2c02dfc8172698aebe9a60a43e5da52b0c9cca83c275de596f8467b8441",
+    "source_sha256": "569672caa450f582412f434c5c4a7cff293a4841a2311227be0c15aaad628695",
+    "source": "results/tables/charbag_MM_mid_predictions.csv",
+    "n_unique_items_all_terciles": 11037,
+    "n_items_outer_terciles": 7362,
+    "fold_auc": [
+      0.7474843835260987,
+      0.7280657694523645,
+      0.7472988681990316,
+      0.7529642703400775,
+      0.7488202262924999,
+      0.7618033677349267,
+      0.7467680608365018
+    ],
+    "mean_fold_auc": 0.7476007066259286,
+    "frame_metrics_sha256": "58f533ac324feb54243d36f6252ff2d6db0d2fca41d95e32c0e677739d615b51",
+    "auc_matches_original_fold_table": true,
+    "threshold_selection": "Display-only score quantiles computed separately within each fold; no operating threshold selected.",
+    "time_axis": false,
+    "new_model_fitting": false
+  },
+  "synthetic_signals": false,
+  "model_activation_visualization": false
+}

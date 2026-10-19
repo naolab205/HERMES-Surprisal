@@ -1,0 +1,32 @@
+{
+  "dataset": "ChineseEEG / OpenNeuro ds004952",
+  "source_relative_to_dataset": "derivatives/preproc/filtered_0.5_30/sub-04/ses-GarnettDream/eeg/sub-04_ses-GarnettDream_task-reading_run-02_eeg.vhdr",
+  "subject": "sub-04",
+  "book": "GarnettDream",
+  "run": 2,
+  "start_sample": 3822,
+  "stop_sample_exclusive": 6382,
+  "source_rate_hz": 256.0,
+  "source_start_seconds": 14.9296875,
+  "duration_seconds": 10,
+  "first_row_index": 1,
+  "selection": "First audited training recording and first prefix-checked row; no signal- or score-based selection.",
+  "scope": "Continuous excerpt spans several displayed rows, not one character or one target row.",
+  "source_processing": "Dataset-author filtered_0.5_30 derivative; no additional filtering, clipping or resampling.",
+  "display_processing": "Subtract each channel median over this excerpt; use a shared microvolt scale and vertical offsets.",
+  "spectral_channel": "E62",
+  "channels": [
+    "E11",
+    "E24",
+    "E36",
+    "E52",
+    "E62",
+    "E75",
+    "E92",
+    "E124"
+  ],
+  "source_vhdr_sha256": "81446ef82e8f767d4711681ad1f8f2bccab5cb9651e060be8d771689028cd0fc",
+  "source_eeg_sha256": "b2558f5d1622c0d5c5c38c6c9212a4bd4201042693a8f4f81dd1c39d1a2a4770",
+  "source_events_sha256": "b7f628e80404171adddfeb4ef04cb41e54b65b64f8d4ebf2e6ac4a3c230e6e39",
+  "excerpt_sha256": "5711f17b1ea43001fbc26c1f7d6e42c3c0b7263dcbcc40e71d0e209764498729"
+}
