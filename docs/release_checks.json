@@ -55,5 +55,66 @@
     "model_tests_rerun": false,
     "model_metrics_recomputed": false,
     "new_training_experiment": false
+  },
+  "repository_polish": {
+    "date": "2026-10-19",
+    "removed_redundant_files": [
+      {
+        "path": "results/single_model_breakthrough_20261006/clock_controls/robust_audit.log",
+        "reason": "Byte-identical console copy of retained JSON",
+        "retained": "results/single_model_breakthrough_20261006/clock_controls/summary.json"
+      },
+      {
+        "path": "results/single_model_breakthrough_20261006/physical_screen/bootstrap.log",
+        "reason": "Byte-identical console copy of retained JSON",
+        "retained": "results/single_model_breakthrough_20261006/physical_screen/cluster_bootstrap.json"
+      },
+      {
+        "path": "results/single_model_breakthrough_20261006/physical_screen/temporal_bootstrap.log",
+        "reason": "Byte-identical console copy of retained JSON",
+        "retained": "results/single_model_breakthrough_20261006/physical_screen/phys_deconv_bootstrap.json"
+      },
+      {
+        "path": "results/single_model_breakthrough_20261006/physical_screen/temporal_valid_bootstrap.log",
+        "reason": "Byte-identical console copy of retained JSON",
+        "retained": "results/single_model_breakthrough_20261006/physical_screen/phys_deconv_valid_bootstrap.json"
+      },
+      {
+        "path": "docs/assets/banner.svg",
+        "reason": "Unreferenced superseded visual or obsolete analysis narrative"
+      },
+      {
+        "path": "docs/assets/architecture.svg",
+        "reason": "Unreferenced superseded visual or obsolete analysis narrative"
+      },
+      {
+        "path": "docs/original_analysis.md",
+        "reason": "Unreferenced superseded visual or obsolete analysis narrative"
+      }
+    ],
+    "new_directory_guides": [
+      "results/README.md",
+      "scripts/README.md"
+    ],
+    "protected_evidence_files_verified_unchanged": 583,
+    "model_source_changed": false,
+    "local_document_links_and_section_anchors": "passed",
+    "markdown_tables_and_details_render": "passed",
+    "legacy_cache_builder_cli_and_api_fail_closed": "passed",
+    "training_cli_help": "passed",
+    "primary_metrics_recomputed": {
+      "n_folds": 7,
+      "n_unique_items": 11037,
+      "item_spearman": {
+        "mean": 0.40485000518728514,
+        "sd_across_folds": 0.014805070340872098
+      },
+      "item_auc": {
+        "mean": 0.7476007066259286,
+        "sd_across_folds": 0.01011914302526974
+      }
+    },
+    "model_tests_rerun": false,
+    "new_training_experiment": false
   }
 }
